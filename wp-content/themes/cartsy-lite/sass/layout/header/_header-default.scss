@@ -1,0 +1,36 @@
+.cartsylite-header-default {
+  position: relative;
+  background-color: var(--cartsyliteLocalDefaultHeaderColor, var(--defaultHeaderColor, #fff));
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.08);
+  transition: 0.25s ease-in-out;
+  width: 100%;
+  z-index: 100;
+}
+
+.cartsylite-menu-area {
+  @media screen and (max-width: 1279px) {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  @media (min-width: 578px) {
+    max-width: 540px;
+  }
+
+  @media (min-width: 768px) {
+    max-width: 720px;
+  }
+
+  @media (min-width: 992px) {
+    max-width: 960px;
+  }
+
+  @media (min-width: 1280px) {
+    max-width: none;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+}

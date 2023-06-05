@@ -1,0 +1,59 @@
+/**
+ * 7.3.6 - Hero Content
+ */
+
+#hero-section {
+    border: none;
+}
+
+#hero-section .hentry {
+    position: static;
+
+    .hentry-inner {
+        position: relative;
+    }
+
+    .entry-container blockquote {
+        border-left: 5px solid;
+        font-style: normal;
+        margin-top: 28px;
+        padding: 21px;
+
+        &:before {
+            content: "\201C";
+            font-family: "georgia";
+            display: block;
+            float: left;
+            font-size: 64px;
+            font-size: 4rem;
+            height: 0;
+            left: 20px;
+            line-height: 0;
+            position: absolute;
+            top: 18px;
+        }
+    }
+}
+
+.hero-content-wrapper .post-thumbnail-background {
+    background-position: center center;
+    background-size: cover;
+    content: "";
+    padding-bottom: 100%;
+    position: relative;
+    margin: 0;
+    margin-bottom: 14px;
+    width: 100%;
+}
+
+.hero-content-wrapper .entry-container {
+    width: 100%;
+}
+
+.hero-content-wrapper .entry-container .section-heading-wrapper {
+    padding: 0;
+}
+
+#hero-section .more-link {
+    text-align: center;
+}

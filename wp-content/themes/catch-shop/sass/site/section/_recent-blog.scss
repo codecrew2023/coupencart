@@ -1,0 +1,29 @@
+/**
+ * 7.3.8.1 - Recent Blog
+ */
+ .recent-blog-section .archive-posts-wrapper .entry-container {
+     text-align: center;
+ }
+
+ .recent-blog-section {
+    .archive-posts-wrapper .entry-container {
+        .entry-meta,
+        .entry-meta a {
+            font-size: 13px;
+            font-size: 0.8125rem;
+        }
+
+        .entry-title {
+            text-transform: capitalize;
+            line-height: 1.46;
+        }
+
+        .more-button {
+            margin-top: 14px;
+        }
+        .more-link,
+        .entry-title {
+            font-weight: 600;
+        }
+    }
+ }

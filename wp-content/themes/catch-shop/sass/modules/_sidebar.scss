@@ -1,0 +1,112 @@
+/**
+ * 6.9 - Sidebar
+ */
+
+.sidebar .widget .hentry {
+  float: none;
+  overflow: hidden;
+}
+
+.sidebar .section-heading-wrapper {
+  padding-bottom: 0;
+  padding-top: 0;
+}
+
+.sidebar ul {
+  margin-bottom: 0;
+}
+
+.widget_categories li:before,
+.widget_archive li:before,
+.widget_meta li:before,
+.authors li:before,
+.ewposts ul li:before,
+#recentcomments li:before,
+.ewmenus li:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 10px;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+}
+
+.essential-widgets .entry-title {
+  margin-bottom: 3px;
+  margin-top: 0;
+}
+
+.ewfeaturedpostpageimage .hentry,
+.ew-tabbed-recent-popular .article-wrap .hentry {
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  margin: 0 0 23px;
+  padding: 0 0 20px;
+}
+
+.ewfeaturedpostpageimage .left .entry-container {
+  padding-left: 12px;
+}
+
+.widget-area .essential-widgets .tagcloud a,
+.widget-area .essential-widgets .tagcloud.rounded-corners a {
+  border: 0;
+}
+
+.sidebar .widget .social-links-menu li,
+.sidebar .widget_recent_entries .widget-wrap li,
+.sidebar .ew-tabbed-recent-popular .ui-tabs-nav > li {
+  padding-left: 0;
+  &:before {
+    content: none;
+  }
+}
+
+.sidebar .section-heading-wrapper {
+  text-align: left;
+  padding: 0;
+}
+.sidebar .wp-block-latest-comments article {
+  background: transparent;
+  padding: 0;
+  border: none;
+  margin-bottom: 14px;
+}
+.sidebar .wp-block-latest-comments article:before,
+.sidebar .wp-block-latest-comments article:after {
+  display: none;
+}
+
+.sidebar .widget li::marker {
+  display: none;
+}
+
+.sidebar .widget li:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 10px;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+}
+
+.sidebar .widget .has-avatars li {
+  padding-left: 0;
+}
+
+.sidebar .wp-block-search .wp-block-search__label,
+.sidebar .widget .has-avatars li:before {
+  display: none;
+}
+
+.widget .wp-block-latest-comments .avatar {
+  width: 55px;
+  height: 55px;
+  margin: 0 1em 1.5em 0;
+}
+
+.widget .has-avatars.wp-block-latest-comments article {
+  width: calc(100% - 70px);
+}

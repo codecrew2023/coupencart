@@ -1,0 +1,201 @@
+.single-product {
+  .product-type-redq_rental {
+    .rnb-pricing-plan-link {
+      color: $color__primary;
+      text-indent: -9px;
+    }
+    .chosen-container,
+    .chosen-container-single {
+      border-radius: $radius__main;
+      border: none !important;
+
+      .chosen-search {
+        input[type="text"] {
+          border-color: $color__primary;
+          border-radius: $radius__main;
+          padding: 10px;
+        }
+      }
+
+      .chosen-single {
+        border-color: $color__primary;
+        border-radius: $radius__main;
+        box-shadow: none !important;
+        height: auto;
+        padding: 15px 20px;
+
+        span {
+          line-height: 1.3;
+        }
+
+        div {
+          b {
+            background-position-y: 14px;
+          }
+        }
+      }
+      .chosen-results {
+        li {
+          transition: $transition__main;
+          &:not(:last-child) {
+            border-bottom: 1px solid $color__border-lighter;
+          }
+          &:hover {
+            background-color: $color__primary__hover;
+            color: $color__white;
+          }
+          &.result-selected,
+          &.highlighted {
+            color: $color__white;
+            background-color: $color__primary;
+          }
+        }
+      }
+    }
+    .rnb-cart {
+      &:not(.variations_form):not(.grouped_form) {
+        display: inline-block;
+      }
+      button {
+        &.btn-book-now[disabled] {
+          &:hover {
+            padding: 18px 40px !important;
+          }
+        }
+      }
+    }
+    .pick-up-time-picker,
+    .drop-off-time-picker {
+      width: 42%;
+    }
+    .redq-quantity,
+    .date-time-picker {
+      input {
+        height: auto;
+        border-color: $color__primary;
+      }
+    }
+    .booking-pricing-info {
+      ul {
+        margin: {
+          top: 0;
+          bottom: 0;
+        }
+        li {
+          margin: {
+            top: 0;
+            bottom: 0;
+          }
+          span {
+            margin: 0;
+          }
+        }
+      }
+    }
+    .pick-up-date-picker,
+    .pick-up-time-picker,
+    .drop-off-date-picker,
+    .drop-off-time-picker {
+      i {
+        height: 100%;
+        top: 0;
+        display: flex;
+
+        &::before {
+          margin: auto;
+        }
+      }
+    }
+    .custom-block input[type="checkbox"]:checked + span:after {
+      background: $color__primary;
+      border-color: $color__primary;
+    }
+
+    .booking-pricing-info ul li {
+      .price {
+        font-size: 14px;
+      }
+    }
+
+    .item-arrtributes ul,
+    .item-extras ul {
+      padding-left: 0;
+    }
+
+    #quote-content-confirm {
+      height: auto;
+    }
+  }
+}
+
+// .xdsoft_datetimepicker .xdsoft_calendar td.xdsoft_current {
+//   background: #000 !important;
+// }
+
+//Mini cart
+// .widget ul.product_list_widget li {
+//   padding-left: 0;
+
+//   img:not(.woocommerce-placeholder) {
+//     left: 5%;
+//     top: 45%;
+//   }
+
+//   dl.variation {
+//     display: grid;
+//     grid-template-columns: 1fr 1fr;
+//     align-items: baseline;
+//   }
+// }
+
+//Cart Page
+// .cartsylite-cart-contents-wrapper {
+//   table.shop_table tbody tr td {
+//     padding: 16px 0;
+//     &.actions {
+//       padding: 16px 0;
+//       @media (min-width: 768px) {
+//         padding: 16px 64px;
+//       }
+//       @media (min-width: 992px) {
+//         padding: 16px 180px;
+//       }
+//       @media (min-width: 1025px) {
+//         padding: 16px 58px;
+//       }
+//       @media (min-width: 1300px) {
+//         padding: 16px 0;
+//       }
+//     }
+
+//     button,
+//     input[type="button"],
+//     input[type="reset"],
+//     input[type="submit"],
+//     .checkout-button,
+//     .button:not(.wc-forward) {
+//       // @media (min-width: 767px) {
+//       //   padding: 18px 18px;
+//       // }
+//       @media (min-width: 1300px) {
+//         padding: 18px 18px;
+//       }
+//       @media (min-width: 1500px) {
+//         padding: 18px 36px;
+//       }
+//     }
+//   }
+
+//   .cart-collaterals {
+//     @media (min-width: 1300px) {
+//       width: 85%;
+//     }
+//     @media (min-width: 1500px) {
+//       width: 100%;
+//     }
+//   }
+
+//   .woocommerce-Price-amount {
+//     padding-right: 20px;
+//   }
+// }

@@ -1,0 +1,48 @@
+/**
+ * 6.2 - Alignments
+ */
+
+.alignleft {
+    float: left;
+    margin: 0.6em 2.1em 0.9em 0;
+}
+
+.alignright {
+    float: right;
+    margin: 0.6em 0 0.9em 2.1em;
+}
+
+.aligncenter {
+    clear: both;
+    display: block;
+    text-align: center;
+    margin: 0 auto 1.75em;
+}
+
+blockquote.alignleft {
+    margin: 0.6363636363636364em 1.272727272727273em 2.545454545454545em 0;
+}
+
+blockquote.alignright {
+    margin: 0.6363636363636364em 0 2.545454545454545em 1.272727272727273em;
+}
+
+blockquote.aligncenter {
+    margin-bottom: 1.590909090909091em;
+}
+
+.promotion-section.text-align-center {
+    text-align: center;
+}
+
+.text-align-center,
+.text-align-right,
+.text-align-left {
+    text-align: center;
+}
+
+.text-align-left .post-thumbnail img,
+.text-align-right .post-thumbnail img {
+    margin-left: auto;
+    margin-right: auto;
+}

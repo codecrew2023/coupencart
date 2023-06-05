@@ -1,0 +1,307 @@
+/**
+ * 2.3 - Font-size
+ */
+
+body,
+pre {
+	font-size: 18px;
+	font-size: 1.125rem;
+	font-weight: 400;
+	line-height: 1.75;
+}
+
+.page .site-main .entry-footer .entry-meta,
+.entry-footer .entry-meta,
+.sidebar .entry-meta,
+.site-description,
+.site-header-top-main .header-clock .countdown-label {
+	font-size: 12px;
+	font-size: 0.75rem;
+}
+
+#testimonial-content-section .entry-meta,
+.entry-meta,
+.breadcrumb-area,
+.woocommerce .woocommerce-breadcrumb,
+.post-navigation .meta-nav,
+.woocommerce-review__published-date,
+.wpcf7 label,
+.author-link,
+.header-top-button .button,
+#countdown-section .clock > .count-down > span > span.countdown-label,
+.special-right .subtitle {
+	font-size: 13px;
+	font-size: 0.8125rem;
+}
+
+.site-info,
+.comment-notes,
+.comment-awaiting-moderation,
+.logged-in-as,
+.form-allowed-tags,
+.comment-subscription-form,
+.post-navigation .nav-subtitle,
+.menu-label {
+	font-size: 14px;
+	font-size: 0.875rem;
+}
+
+.sidebar .widget-wrap .more-link .more-button,
+.comment-meta a,
+aside.footer-widget-area .widget .widget-title,
+.site-footer .widget .wp-block-group h2,
+.collection-wrapper .entry-container .view-more {
+	font-size: 15px;
+	font-size: 0.9375rem;
+}
+
+input,
+select,
+textarea,
+.widget .hentry .entry-title,
+.search-submit,
+.pagination,
+.woocommerce-pagination,
+aside.footer-widget-area .widge,
+.author-description .author-title,
+.dropdown-toggle,
+.search-submit:before,
+.cart-contents:before,
+.navigation.pagination a,
+.main-navigation a,
+.sidebar .team-content-wrapper .entry-container >  *,
+.skillbar-header .entry-title,
+.skillbar-header .skill-bar-percent,
+.more-link,
+.author-bio,
+.sidebar .widget-wrap li,
+.posts-navigation,
+#content #infinite-handle span button,
+.navigation.pagination .prev,
+.navigation.pagination .next,
+.site-header-top-main ul li,
+aside.footer-widget-area .widget,
+#service-section .entry-container .entry-summary,
+button,
+.button,
+input[type="button"],
+input[type="reset"],
+input[type="submit"],
+.site-header-top-main .header-clock .countdown-number,
+.header-top-text,
+.site-header-top-main div.countdown-label,
+.sidebar .widget.ew-featured-post .hentry .entry-title,
+.team-content-wrapper .entry-meta {
+	font-size: 16px;
+	font-size: 1rem;
+}
+
+input,
+select,
+textarea,
+.widget,
+.widget .hentry .entry-title,
+.site-header .icon,
+.search-submit,
+.pagination,
+.woocommerce-pagination,
+aside.footer-widget-area .widge,
+.sidebar .widget,
+.author-description .author-title,
+.menu-toggle-close,
+.dropdown-toggle,
+.search-submit:before,
+.cart-contents:before,
+.navigation.pagination a,
+.menu-label,
+.menu-toggle,
+.main-navigation a,
+.sidebar .team-content-wrapper .entry-container >  *,
+.menu-toggle,
+.featured-video-content-wrapper .entry-title,
+.skillbar-header .entry-title,
+.skillbar-header .skill-bar-percent,
+.sidebar .entry-meta a,
+.navigation.pagination .prev,
+.navigation.pagination .next {
+	line-height: 1.75;
+}
+
+#countdown-section .clock > .count-down > span > span.countdown-label,
+.special-right .subtitle,
+.breadcrumb-area {
+	line-height: 1.62;
+}
+
+#countdown-section .clock > .count-down > span > span.countdown-number {
+    line-height: 1.37;
+}
+
+.archive-post-wrap .hentry .entry-header .entry-title {
+	line-height: 1.36;
+}
+
+body:not(.home) .header-media .section-title {
+	line-height: 1.33;
+}
+
+table thead th,
+caption,
+.post-navigation .nav-title,
+.widget,
+.sidebar .widget .wp-block-group h2,
+.widget .wp-block-group h2,
+.sidebar .widget-title,
+.sidebar .widget .hentry .entry-title,
+.ew-featured-image .entry-container .entry-content,
+.comment-meta .author-name,
+.comment-content,
+.section-subtitle,
+#feature-slider-section .entry-subtitle,
+.special-section .price {
+	font-size: 18px;
+	font-size: 1.125rem;
+}
+
+blockquote {
+    font-size: 20px;
+    font-size: 1.25rem;
+}
+
+.site-title,
+#stats-section .entry-summary,
+#stats-section .entry-content,
+.site-header .icon,
+#search-toggle-main,
+.menu-toggle,
+.menu-toggle-close {
+	font-size: 21px;
+	font-size: 1.3125rem;
+}
+
+.entry-title,
+.archive-posts-wrapper .entry-title,
+.comment-reply-title,
+ul.products li.product .woocommerce-loop-product__title,
+.featured-category-wrapper .woocommerce-loop-product__title {
+	font-size: 24px;
+	font-size: 1.5rem;
+}
+
+.woocommerce-posts-wrapper .entry-titlel,
+#countdown-section .clock > .count-down > span > span.countdown-number {
+	font-size: 26px;
+	font-size: 1.625rem;
+}
+
+#feature-slider-section .entry-meta {
+	font-size: 14px;
+	font-size: 0.857rem;
+}
+
+.entry-content h1,
+.entry-summary h1,
+.comment-content h1,
+.textwidget h1,
+.home .header-media .entry-title,
+.promotion-section .entry-title,
+#stats-section .entry-title,
+#footer-instagram .widget-title,
+.singular-content-wrap .entry-title,
+.page-title,
+.section-title,
+.header-media .section-title,
+#feature-slider-section .entry-title,
+.collection-wrapper .entry-container .entry-title,
+.special-right .entry-title {
+    font-size: 32px;
+    font-size: 2rem;
+}
+
+.post-password-form label,
+.entry-title,
+.woocommerce form label,
+.woocommerce-tabs ul.tabs li a,
+.single-product div.product .entry-summary .entry-title,
+.woocommerce .product-container .wc-forward,
+.contact-details li .contact-details-label,
+.contact-content-wrapper form p > label,
+#testimonial-content-section .entry-title,
+.posts-navigation a,
+.comment-form label,
+#hero-section .hentry .entry-container blockquote,
+.archive-post-wrap .entry-footer .entry-meta,
+.post-navigation .post-title,
+#content #infinite-handle span button,
+.navigation.pagination .prev,
+.navigation.pagination .next,
+body:not(.home) .header-media .section-title,
+#countdown-section .more-link .more-button,
+#countdown-section .clock > .count-down > span > span.countdown-number,
+.promotion-section .entry-title,
+#stats-section .entry-title,
+.site-title,
+.collection-wrapper .entry-container .view-more {
+	font-weight: 700;
+}
+
+.site-navigation.top-navigation a,
+.site-navigation.top-navigation .menu-item-has-children > .sub-menu li a,
+.site-navigation.top-navigation .page_item_has_children > .sub-menu li a {
+	font-weight: 400;
+}
+
+.section-title,
+#footer-instagram .widget-title,
+#feature-slider-section .entry-subtitle,
+.home .header-media-section .section-subtitle,
+.home .header-media-section .section-subtitle span,
+#feature-slider-section .entry-title,
+.collection-wrapper .entry-container .entry-title {
+	font-weight: 500;
+}
+
+.widget .hentry .entry-title,
+.site-navigation a,
+.header-top-text {
+	font-weight: 600;
+}
+
+.footer-navigation.site-navigation a {
+	font-weight: 400;
+}
+
+big {
+	font-size: 125%;
+}
+
+table thead th,
+caption,
+.post-navigation .nav-title,
+.widget,
+.sidebar .widget-title,
+.sidebar .widget .hentry .entry-title,
+.ew-featured-image .entry-container .entry-content,
+.comment-meta .author-name,
+.comment-content,
+.section-subtitle,
+.sidebar .widget,
+.widget .widget-title {
+	line-height: 1.56;
+}
+
+.sidebar .widget .hentry .entry-title,
+#feature-slider-section .entry-subtitle,
+.collection-wrapper .entry-container .entry-title {
+	line-height: 1.5;
+}
+
+.site-header-top-main ul li,
+.section-subtitle,
+.header-top-text,
+.header-clock,
+.site-header-top-main .countdown-label,
+.promotion-section .section-title,
+#footer-instagram .widget-title {
+	line-height: 1.2;
+}

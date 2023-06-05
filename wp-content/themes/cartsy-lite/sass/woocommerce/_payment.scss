@@ -1,0 +1,12 @@
+.wc_payment_method {
+  fieldset {
+    border: none;
+    padding: 0;
+  }
+}
+.woocommerce-page {
+  .wc-stripe-elements-field,
+  .wc-stripe-iban-element-field {
+    @extend %_input_filed;
+  }
+}

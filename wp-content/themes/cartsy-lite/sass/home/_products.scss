@@ -1,0 +1,12 @@
+.cartsylite-layout-main {
+    padding-top: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+    @include for-phone {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+}
+ul.cartsylite-archive-products {
+    margin: 0;
+}

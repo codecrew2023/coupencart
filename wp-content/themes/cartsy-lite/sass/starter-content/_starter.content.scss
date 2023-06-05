@@ -1,0 +1,26 @@
+/*--------------------------------------------------------------
+# Starter Content Styles
+--------------------------------------------------------------*/
+.max--w--none {
+  max-width: none !important;
+}
+.rq-wrist-watch-block .wp-block-columns {
+  gap: 8rem;
+  display: grid;
+  grid-template-columns: 40% 1fr;
+}
+.rq-wrist-watch-block h4 {
+  font-family: Open Sans, sans-serif;
+  font-weight: 400;
+}
+.rq-wrist-watch-block h2 {
+  font-family: Open Sans, sans-serif;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 1.36;
+}
+.rq-wrist-watch-block .wp-block-button__link {
+  background-color: #000;
+  border-radius: 6px;
+  padding: 15px 40px;
+}

@@ -1,0 +1,200 @@
+/*
+Theme Name: Shopkeeper Ecommerce
+Theme URI: https://www.ovationthemes.com/wordpress/free-shopkeeper-wordpress-theme/
+Author: pewilliams
+Author URI: https://www.ovationthemes.com/
+Description: If you are looking for a stunning WordPress theme to create an online store then Shopkeeper Ecommerce is absolutely for you. You can create an online store for almost everything like fashion, food, shoes, accessories, electronics, furniture, toys, etc. This is a multipurpose and responsive theme ready to fit in any device screen size. Its design is professional and eye-catchy that will hook your visitors to the site. It comes with bootstrap framework which makes it handy to use and execute perfectly. It is cross-browser compatible and translation-ready with RTL support. It is SEO-friendly that will take care of your website’s ranking on major search engines like Google. You can add the available shortcodes if you like. It has full support for WooCommerce plugin to setup your online store easily. It provides a super-fast interface for the ultimate user experience. It is optimized for Google page speed.
+Version: 0.1
+Requires PHP: 7.2
+Tested up to: 5.8
+License: GNU General Public License v3 or later
+License URI: http://www.gnu.org/licenses/gpl-3.0.html
+Text Domain: shopkeeper-ecommerce
+Template: modern-ecommerce
+Tags: one-column, two-columns, left-sidebar, right-sidebar, grid-layout, custom-colors, custom-background, custom-header, custom-menu, custom-logo, editor-style, sticky-post, featured-images, footer-widgets, full-width-template, threaded-comments, theme-options, wide-blocks, block-styles, blog, food-and-drink, e-commerce
+
+Shopkeeper Ecommerce WordPress Theme, Copyright 2021 pewilliams
+Shopkeeper Ecommerce is distributed under the terms of the GNU GPL
+
+Shopkeeper Ecommerce WordPress Theme is child theme of Modern Ecommerce WordPress Theme, Copyright 2021 pewilliams
+Modern Ecommerce WordPress Theme is distributed under the terms of the GNU GPL
+*/
+
+span.entry-author a,.comment-author a,.product_meta a,.widget_text a,.comment-content p a {
+    text-decoration: underline;
+}
+
+body,.gb_nav_menu li a,a.header-cart,#slider .carousel-caption p{
+    color: #646464;
+}
+a,.logo h1, .site-title, .site-title a,.home-btn a:hover,.gb_nav_menu ul li a:active, .gb_nav_menu ul li a:hover,.site-footer .widget-area a:hover,#Category-section .postbox.smallpostimage:hover h3 a,#sidebar caption,#sidebar th,#sidebar td,#sidebar select,.logo h1 a{
+    color: #ffbd27;
+}
+a.header-cart span,.home-btn a, .box-button a,#slider .carousel-control-next-icon, #slider .carousel-control-prev-icon,.gb_nav_menu ul ul,.woocommerce #respond input#submit, .woocommerce a.button, .woocommerce button.button, .woocommerce input.button, .woocommerce #respond input#submit.alt, .woocommerce a.button.alt, .woocommerce button.button.alt, .woocommerce input.button.alt,.site-footer .search-form .search-submit,#sidebar .tagcloud a:hover, .site-footer .tagcloud a:hover,.site-info,button, input[type="button"], input[type="submit"],a.more-link,button.search-submit,.prev.page-numbers, .next.page-numbers,.page-numbers.current,nav.woocommerce-MyAccount-navigation ul li,.wp-block-button .wp-block-button__link,.toggle-menu button{
+    background: #ffbd27;
+}
+.woocommerce ul.products li.product .price, .woocommerce div.product p.price, .woocommerce div.product span.price{
+    color: #ffbd27 !important;
+}
+.wp-block-quote:not(.is-large):not(.is-style-large), blockquote,.wp-block-quote:not(.is-large):not(.is-style-large){
+    border-color: #ffbd27;
+}
+
+a:hover,h1, h2, h3, h4, h5, h6,#slider .carousel-caption h2,#Category-section h3 a,#sidebar h3{
+    color: #031424;
+}
+.gb_nav_menu ul ul a:hover,.copyright,.woocommerce #respond input#submit:hover, .woocommerce a.button:hover, .woocommerce button.button:hover, .woocommerce input.button:hover, .woocommerce #respond input#submit.alt:hover, .woocommerce a.button.alt:hover, .woocommerce button.button.alt:hover, .woocommerce input.button.alt:hover,.woocommerce ul.products li.product .onsale, .woocommerce span.onsale,.top_bar{
+    background: #031424;
+}
+#sidebar select,#sidebar h3{
+    border-color: #031424;
+}
+
+#slider .carousel-control-next-icon:hover, #slider .carousel-control-prev-icon:hover{
+    background: #fff;
+    color: #031424;
+}
+#sidebar .tagcloud a:hover, .site-footer .tagcloud a:hover,.top_bar span,.top_bar a,.top_bar #google_language_translator select.goog-te-combo,.top_bar select{
+    color: #fff;
+}
+
+.product-search button {
+    background: url(assets/images/search.png) no-repeat scroll #ffbd27 10px;
+}
+
+.top_bar{
+    border: none;
+}
+.top_bar #google_language_translator select.goog-te-combo{
+    background: transparent;
+}
+
+/* Slider */
+
+#slider{
+    background: #fff3d5;
+}
+
+/* Featured Category */
+
+.box{
+    background: #031424;
+    overflow: hidden;
+    position: relative;
+} 
+.box:before{
+    content: "";
+    height: 150px;
+    width: 150px;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    opacity: 1;
+    transform: translateX(-50%) translateY(-50%) rotateY(-810deg);
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transition: transform 0.3s ease 0s,opacity 0.3s ease 0.1s;
+    z-index: 1;
+}
+.box:hover:before{
+    opacity: 0;
+    transform: translateX(-50%) translateY(-50%) rotateY(0);
+}
+.box img{
+    width: 100%;
+    height: auto;
+    transition: all .5s ease 0.2s;
+}
+.box:hover img{ opacity: 0.5; }
+.box .box-content{
+    color: #fff;
+    text-align: left;
+    opacity: 0;
+    transform: skew(20deg);
+    position: absolute;
+    bottom: 0;
+    left: -50%;
+    z-index: 1;
+    transition: all .4s ease-in-out;
+}
+.box:hover .box-content{
+    opacity: 1;
+    transform: skew(0);
+    left: 0;
+}
+.box .title{
+    background-color: #ffbd27;
+    font-size: 15px;
+    text-transform: uppercase;
+    padding: 15px;
+    margin: 0 10px 10px;
+}
+.box .title a{
+    color: #031424;
+}
+
+/* Default*/
+
+.bypostauthor > .comment-body > .comment-meta > .comment-author .avatar {
+    border: 1px solid #323232;
+    padding: 2px;
+}
+
+/* Accessibility */
+/* Text meant only for screen readers. */
+.screen-reader-text {
+  border: 0;
+  clip: rect(1px, 1px, 1px, 1px);
+  clip-path: inset(50%);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute !important;
+  width: 1px;
+  word-wrap: normal !important;
+  /* Many screen reader and browser combinations announce broken words as they would appear visually. */
+}
+
+.screen-reader-text:focus {
+  background-color: #f1f1f1;
+  border-radius: 3px;
+  box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.6);
+  clip: auto !important;
+  clip-path: none;
+  color: #21759b;
+  display: block;
+  font-size: 14px;
+  font-size: 0.875rem;
+  font-weight: bold;
+  height: auto;
+  left: 5px;
+  line-height: normal;
+  padding: 15px 23px 14px;
+  text-decoration: none;
+  top: 5px;
+  width: auto;
+  z-index: 100000;
+  /* Above WP toolbar. */
+}
+
+/* Do not show the outline on the skip link target. */
+#content[tabindex="-1"]:focus {
+  outline: 0;
+}
+
+
+@media screen and (max-width: 800px){
+    .side_gb_nav {
+        background: #031424;
+    }
+    #slider .carousel-caption {
+        right: 15%;
+    }
+}
+
+@media screen and (max-width: 1100px) and (min-width: 1024px){
+   #slider .carousel-caption {
+        right: 15%;
+    }
+}

@@ -1,0 +1,41 @@
+%_button_style {
+  @include button($button-color-list, $button-size);
+}
+
+.button {
+  &:not(.wc-forward) {
+    @extend %_button_style;
+  }
+
+  .button-icon {
+    margin-right: 10px;
+  }
+}
+
+.wc-forward {
+  &::after {
+    display: inline-block;
+    font-family: $icon__font_family;
+    content: "\f344";
+    vertical-align: middle;
+    margin-left: 0.5407911001em;
+  }
+}
+
+.checkout-button {
+  @extend %_button_style;
+}
+button,
+input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+  @extend %_button_style;
+}
+
+.wp-block-button {
+  &.is-style-squared {
+    .wp-block-button__link {
+      border-radius: 0;
+    }
+  }
+}

@@ -1,0 +1,29 @@
+/*--------------------------------------------------------------
+# style for Resetting css
+--------------------------------------------------------------*/
+.woocommerce .woocommerce-form-login .woocommerce-form-login__rememberme {
+  margin: 10px 0;
+}
+
+.post-edit-link {
+  font-weight: 700;
+  display: inline-flex;
+  color: $color__primary;
+  transition: 0.15s ease-in-out;
+}
+
+.woocommerce {
+  div {
+    &.product {
+
+      p,
+      span {
+        &.price {
+          ins {
+            font-weight: inherit;
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,80 @@
+/**
+ * 7.3.18 - Countdown Section
+ */
+#countdown-section {
+    .more-link {
+        .more-button {
+            margin-top: 0;
+        }
+    }
+
+    .clock > .count-down > span,
+    .clock > .count-down > span > span {
+        display: block;
+    }
+
+    .clock > .count-down {
+        width: 50%;
+        float: left;
+        text-align: center;
+    }
+
+    .clock {
+        max-width: 360px;
+
+        &:after {
+            content: "";
+            display: block;
+            clear: both;
+        }
+    }
+    
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+} 
+
+#countdown-section .clock > .count-down > span > span.countdown-label {
+    margin-top: 2px;
+    text-transform: capitalize;
+}
+
+#countdown-section.content-align-center .entry-content,
+#countdown-section.content-align-center .entry-container {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#countdown-section.content-align-left .entry-content,
+#countdown-section.content-align-left .entry-container {
+    margin-left: 0;
+    margin-right: auto;
+}
+
+#countdown-section.content-align-right .entry-content,
+#countdown-section.content-align-right .entry-container {
+    margin-left: auto;
+    margin-right: 0;
+}
+
+#countdown-section .entry-container {
+    max-width: 521px;
+}
+
+#countdown-section.text-align-left .section-heading-wrapper {
+    text-align: left;
+}
+
+#countdown-section.text-align-right .section-heading-wrapper {
+    text-align: right;
+}
+
+#countdown-section.text-align-left .section-heading-wrapper > .section-subtitle > span {
+    padding-left: 0;
+}
+
+#countdown-section.text-align-right .section-heading-wrapper > .section-subtitle > span {
+    padding-right: 0;
+}
+
+

@@ -1,0 +1,39 @@
+.entry-content {
+  .alignleft {
+    float: left;
+    margin: 0 40px 0 0;
+
+    @media only screen and (max-width: 1360px) {
+      margin: 0 30px 0 0;
+    }
+
+    @media only screen and (max-width: 375px) {
+      margin: 0 27px 0 0;
+    }
+  }
+
+  .alignright {
+    float: right;
+    margin: 0 0 0 40px;
+
+    @media only screen and (max-width: 1360px) {
+      margin: 0 0 0 30px;
+    }
+
+    @media only screen and (max-width: 375px) {
+      margin: 0 0 0 27px;
+    }
+  }
+
+  .aligncenter {
+    clear: both;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  img {
+    &.aligncenter {
+      display: inherit;
+    }
+  }
+}

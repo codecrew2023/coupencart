@@ -1,0 +1,156 @@
+.redq-admin-notice {
+    padding: 0;
+    border: none;
+    box-shadow: 0px 2px 8px 0px #0000000F;
+    border-top: 5px solid #1CD5A1;
+    line-height: 1.5;
+
+    .dashicons {
+        height: auto;
+        width: auto;
+    }
+
+    a{
+        text-decoration: none;
+    }
+}
+
+.wp-core-ui .redq-admin-notice.is-dismissible {
+    padding: {
+        top: rem(45px);
+        left: rem(45px);
+        bottom: rem(45px);
+        right: rem(100px);
+    };
+
+    @media (min-width: 1025px) and (max-width: 1500px) {
+        padding: rem(40px);
+    }
+
+    @include for-tablet {
+        padding: rem(35px);
+    }
+
+    @include for-landscape-phone {
+        padding: rem(30px);
+    }
+
+    @include for-phone {
+        padding: rem(15px);
+    }
+}
+
+.redq-dashboard-notice-head {
+    padding-bottom: rem(15px);
+    margin-bottom: rem(15px);
+    border-bottom: 1px dashed #E5E7EB;
+    
+    &-title {
+        color: $color__primary;
+        font-size: rem(24px);
+        font-weight: 600;
+        margin-top: 0;
+        margin-bottom: rem(3px);
+    }
+
+    &-content {
+        color: #4B5563;
+        font-size: rem(14px);
+        font-weight: 600;
+    }
+}
+
+p.redq-dashboard-notice-head-content {
+    margin: 0;
+    padding: 0;
+}
+
+.redq-admin-notice-grid {
+    display: grid;
+    grid-template-columns: repeat(6, minmax(0, 1fr));
+
+    @media (min-width: 1501px) {
+        grid-gap: rem(56px);
+    }
+
+    @media (min-width: 1025px) and (max-width: 1500px) {
+        grid-gap: rem(30px);
+    }
+    
+    @media (max-width: 1023px) {
+        grid-gap: rem(25px);
+    }
+
+    &-item {
+        grid-column: span 3;
+
+        &-head {
+            display: flex;
+            align-items: center;
+            margin-bottom: rem(3px);
+
+            &-icon {
+                margin-right: rem(10px);
+                font-size: rem(26px);
+            }
+
+            &-title {
+                color: $color__primary;
+                font-size: rem(16px);
+                margin: 0;
+                font-weight: 600;
+            }
+        }
+
+        &-content {
+            > p {
+                margin-top: 0;
+                margin-bottom: rem(17px);
+            }
+
+            .redq-admin-link {
+                color: #60A5FA;
+            }
+        }
+    }
+}
+
+.redq-admin-notice-panel {
+    display: flex;
+    flex-wrap: wrap;
+
+    &-left {
+        @media (min-width: 1025px) {
+            flex: 0 0 calc(100% - rem(260px));
+            max-width: calc(100% - rem(260px));
+        }
+
+        @media (min-width: 1501px) {
+            padding-right: rem(70px);
+        }
+
+        @media (min-width: 1026px) and (max-width: 1500px) {
+            padding-right: rem(40px);
+        }
+
+        @media (max-width: 1024px) {
+            margin-bottom: rem(30px);
+        }
+
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    &-right {
+        @media (min-width: 1025px) {
+            flex: 0 0 rem(260px);
+            max-width: rem(260px);
+        }
+        width: 100%;
+    }
+
+    &-sc {
+        max-width: 100%;
+        box-shadow: 0px 4px 8px rgba(75, 85, 99, 0.08);
+    }
+}

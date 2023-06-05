@@ -1,0 +1,212 @@
+
+body.appearance_page_cartsy-lite-welcome {
+    background-color: $color__white;
+}
+
+.appearance_page_cartsy-lite-welcome {
+    
+    #wpcontent {
+        padding-left: 0;
+    }
+    
+    #setting-error-tgmpa {
+        // display: none;
+    }
+}
+
+.redq-dashboard-wrap {
+    background-color: $color__white;
+}
+
+.redq-dashboard-header {
+    &-top {
+        padding-top: rem(87px);
+        padding-bottom: rem(30px);
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+
+        &-content {
+            > a.redq-dashboard-header-top-content-link {
+                display: flex;
+                align-items: center;
+                background-color: #F3F4F6;
+                border-radius: $radius__main;
+                padding: rem(11px) rem(12px);
+            }
+
+            img {
+                max-width: rem(20px);
+                margin-right: rem(6px);
+            }
+
+            span {
+                color: #111827;
+                font-size: rem(14px);
+                font-weight: 600;
+            }
+
+            .title {
+                margin-right: 4px;
+            }
+        }
+    }
+
+    &-title {
+        display: flex;
+        align-items: center;
+        line-height: 1;
+        margin: 0;
+
+        .title {
+            font-size: rem(36px);
+            font-weight: 600;
+            display: block;
+            margin-right: 3px;
+        }
+
+        .version {
+            font-size: rem(18px);
+            font-weight: 700;
+            background: linear-gradient(100.53deg, #9058C5 0%, #C051A0 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            display: block;
+            align-self: flex-end;
+        }
+
+        > img {
+            margin-right: rem(10px);
+        }
+    }
+    box-shadow: 0 2px 4px 0 rgba($color: #000000, $alpha: .06);
+}
+
+.container {
+    margin: 0 auto;
+    padding: 0 rem(15px);
+
+    @media (min-width: 1440px) {
+        max-width: 1380px;
+        padding: 0 rem(50px);
+    }
+
+    @media (min-width: 992px) {
+        padding: 0 rem(20px);
+    }
+}
+
+.redq-admin-dashboard-tab-wrapper {
+    padding-top: rem(45px);
+    padding-bottom: rem(24px);
+    border-bottom: 0;
+    display: flex;
+    transition: padding .4s ease;
+    flex-wrap: wrap;
+    align-items: center;
+
+    > a {
+        font-size: rem(18px);
+        font-weight: 600;
+        color: $color__primary;
+        padding: 3px;
+
+        &:hover {
+            color: #60A5FA;
+        }
+
+        &.redq-admin-dashboard-tab-active,
+        &:focus {
+            color: #60A5FA;
+        }
+
+        &:not(:last-child) {
+            margin-right: rem(45px);
+        }
+    }
+
+    .redq-admin-button {
+        @media (min-width: 482px) {
+            margin-left: auto;
+        }
+        @media (max-width: 481px) {
+            margin-top: 10px;
+        }
+        padding: rem(16px) rem(22px);
+        line-height: 1;
+
+        &:focus,
+        &:hover {
+            color: $color__white;
+        }
+    }
+}
+
+.redq-admin-dashboard {
+    line-height: 1.5;
+    font-family: $font__main;
+    color: $color__primary;
+    font-size: rem($html-font-size);
+
+    .dashicons {
+        height: auto;
+        width: auto;
+    }
+
+    a {
+        transition: $transition__main;
+        display: inline-block;
+        text-decoration: none;
+    }
+}
+
+@media (min-width: 961px) {
+    .redq-dashboard-header {
+        &.stick {
+            opacity: 0;
+            visibility: hidden;
+            pointer-events: none;
+        }
+    }
+    
+    .redq-dashboard-sticky-header {
+        --left-position: 35px;
+        left: var(--left-position);
+        width: calc(100% - var(--left-position));
+        top: rem(32px);
+        z-index: 1000;
+        background-color: #FFF;
+        position: absolute;
+        opacity: 0;
+        visibility: hidden;
+        pointer-events: none;
+    
+        &.stick {
+            position: fixed;
+            opacity: 1;
+            visibility: visible;
+            pointer-events: auto;
+    
+            .redq-admin-dashboard-tab-wrapper {
+                padding-top: rem(20px);
+                padding-bottom: rem(20px);
+            }
+        }
+    }
+    
+    body {
+        &:not(.folded) {
+            .redq-dashboard-sticky-header {
+                --left-position: 160px;
+                left: var(--left-position);
+                width: calc(100% - var(--left-position));
+            }
+        }
+    }
+}
+
+@media (max-width: 960px) {
+    .redq-dashboard-sticky-header {
+        display: none;
+    }
+}

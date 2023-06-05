@@ -1,0 +1,55 @@
+@import "./blog-common";
+@import "./blog-posts";
+@import "./blog-single-post";
+@import "./blog-post-navigation";
+@import "./fall-back-header";
+
+.sticky {
+  display: block;
+}
+
+.updated:not(.published) {
+  display: none;
+}
+
+.page-links {
+  clear: both;
+  margin: 0 0 1.5em;
+}
+
+.hentry {
+  .edit-link {
+    margin-top: 40px;
+  }
+}
+
+/*--------------------------------------------------------------
+# style for the last element of the page
+--------------------------------------------------------------*/
+.page {
+  .entry-content>*:last-of-type {
+    overflow: hidden;
+  }
+}
+
+/*--------------------------------------------------------------
+# style for archive page
+--------------------------------------------------------------*/
+.archive {
+  .cartsylite-content-area {
+    .page-header {
+      margin-bottom: 60px;
+
+      .page-title {
+        margin: 0;
+      }
+
+      .page-description {
+        p {
+          margin: 15px 0 0;
+          color: var(--colorTextLight, #{$color__text-light});
+        }
+      }
+    }
+  }
+}

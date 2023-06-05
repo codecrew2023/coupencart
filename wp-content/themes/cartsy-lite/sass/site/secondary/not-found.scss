@@ -1,0 +1,17 @@
+.cartsylite-not-found {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  width: 500px;
+  max-width: 100%;
+  margin: 0 auto;
+
+  h2 {
+    margin: 40px 0 0 0;
+  }
+
+  p {
+    margin: 20px 0 0 0;
+  }
+}

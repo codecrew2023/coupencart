@@ -1,0 +1,31 @@
+@import "helium-card";
+
+.no-result-found {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 60px 0;
+
+  @include for-landscape-phone {
+    padding: 20px 0;
+  }
+
+  h2 {
+    margin: 40px 0 0 0;
+
+    @include for-landscape-phone {
+      margin-top: 25px;
+      font-size: 18px;
+    }
+  }
+
+  img {
+    width: 450px;
+    max-width: 100%;
+
+    @include for-landscape-phone {
+      width: 250px;
+    }
+  }
+}

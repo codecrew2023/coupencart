@@ -1,0 +1,90 @@
+.site-header-cart,
+.menu-toggle-wrapper,
+.main-navigation a,
+.site-description,
+.site-header,
+.menu-label,
+#menu-toggle,
+.site-header .wrapper,
+.site-branding,
+.site-branding a,
+.nav-subtitle,
+.nav-title,
+.menu-search-main-toggle:before,
+.site-header-cart-wrapper .my-account .far,
+.site-header-cart .site-cart-contents .fas,
+.dropdown-toggle:after,
+.woocommerce-loop-product__title,
+span.price span.woocommerce-Price-amount,
+.logo-slider-section .entry-title a span {
+    transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -webkit-transition: all 0.5s ease-in-out;
+}
+
+button,
+button[disabled]:hover,
+button[disabled]:focus,
+.button,
+input[type="button"],
+input[type="button"][disabled]:hover,
+input[type="button"][disabled]:focus,
+input[type="reset"],
+input[type="reset"][disabled]:hover,
+input[type="reset"][disabled]:focus,
+input[type="submit"],
+input[type="submit"][disabled]:hover,
+input[type="submit"][disabled]:focus,
+#countdown-section .more-link .more-button:hover,
+#countdown-section .more-link .more-button:focus,
+.special-right .entry-container .more-link {
+    -webkit-transition: background-color 0.2s ease-in-out;
+    -moz-transition: background-color 0.2s ease-in-out;
+    -o-transition: background-color 0.2s ease-in-out;
+    transition: background-color 0.2s ease-in-out;
+}
+
+.portfolio-content-wrapper .entry-container {
+    -webkit-transition: 0.2s opacity ease-in-out;
+    -moz-transition: 0.2s opacity ease-in-out;
+    -o-transition: 0.2s opacity ease-in-out;
+    transition: 0.2s opacity ease-in-out;
+}
+
+.custom-header-media .wp-custom-header-video-button {
+    -webkit-transition: 0.2s background-color ease-in-out,
+                        0.2s color ease-in-out;
+    -moz-transition: 0.2s background-color ease-in-out,
+                     0.2s border-color ease-in-out,
+                     0.2s color ease-in-out;
+    -o-transition: 0.2s background-color ease-in-out,
+                   0.2s color ease-in-out;
+    transition: 0.2s background-color ease-in-out,
+                0.2s color ease-in-out;
+}
+
+input[type="date"],
+input[type="time"],
+input[type="datetime-local"],
+input[type="week"],
+input[type="month"],
+input[type="text"],
+input[type="email"],
+input[type="url"],
+input[type="password"],
+input[type="search"],
+input[type="tel"],
+input[type="number"],
+textarea {
+    transition: 0.2s background-color ease-in-out,
+                0.2s border-color ease-in-out;
+}
+
+.team-content-wrapper .entry-container,
+body.infinite-scroll.infinity-end .archive-posts-wrapper .section-content-wrapper {
+    -webkit-transition: 0.2s padding ease-in-out;
+    -o-transition: 0.2s padding ease-in-out;
+    -moz-transition: 0.2s padding ease-in-out;
+    transition: 0.2s padding ease-in-out;
+}

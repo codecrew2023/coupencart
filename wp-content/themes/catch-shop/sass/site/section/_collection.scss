@@ -1,0 +1,67 @@
+/**
+ * 7.3.19 - Collection Section
+ */
+
+ .collection-wrapper .hentry .hentry-inner {
+    position: relative;
+    min-height: 380px;
+    overflow: hidden;
+}
+
+.collection-wrapper .post-thumbnail {
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -ms-background-size: cover;
+    background-size: cover;
+    margin: 0;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+    -webkit-transition: all 300ms ease-in-out;
+    -moz-transition: all 300ms ease-in-out;
+    transition: all 300ms ease-in-out;
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+}
+
+.collection-wrapper.section-content-wrapper .post-thumbnail {
+    margin-bottom: 0;
+}
+
+.collection-wrapper .entry-container {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: 100%;
+    z-index: 2;
+    padding: 35px;
+    text-align: left;
+    margin-top: 0;
+    max-width: 322px;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+.collection-wrapper .hentry:nth-child(2) .hentry-inner .entry-container {
+    max-width: 388px;
+}
+
+.collection-wrapper .entry-container .entry-title {
+    text-transform: capitalize;
+}
+
+.collection-wrapper .entry-container .view-more {
+    padding: 0;
+    margin-top: 14px;
+    text-transform: capitalize;
+}

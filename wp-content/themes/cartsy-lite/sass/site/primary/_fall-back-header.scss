@@ -1,0 +1,33 @@
+.fall-back-header {
+  margin: 0 0 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  @include for-small-tablet {
+    margin-left: calc(-100vw / 2 + 100% / 2);
+    margin-right: calc(-100vw / 2 + 100% / 2);
+    background-color: $color__background-lighter;
+    min-height: 240px;
+    margin-top: -60px;
+    margin-bottom: 40px;
+  }
+
+  @include for-landscape-phone {
+    margin-top: -20px;
+    margin-left: -20px;
+    margin-bottom: 30px;
+  }
+
+  @include for-phone {
+    min-height: 200px;
+  }
+
+  .entry-title {
+    margin: 0;
+
+    @include for-small-tablet {
+      font-size: 32px;
+    }
+  }
+}

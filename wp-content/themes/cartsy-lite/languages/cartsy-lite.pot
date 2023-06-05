@@ -1,0 +1,1978 @@
+# Copyright (C) 2022 cartsy-lite
+# This file is distributed under the same license as the cartsy-lite package.
+msgid ""
+msgstr ""
+"Project-Id-Version: cartsy-lite\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Content-Transfer-Econdig: 8bit\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"MIME-Version: 1.0\n"
+"Project-Id-Version: cartsy-lite\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: __;_e;_ex:1,2c;_n:1,2;_n_noop:1,2;_nx:1,2,4c;_nx_noop:1,2,3c;_x:1,2c;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#. translators: 1: comment count number, 2: title.
+#: comments.php:43
+msgctxt "comments title"
+msgid "%1$s Comment on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s Comments on &ldquo;%2$s&rdquo;"
+msgstr[0] ""
+msgstr[1] ""
+
+#: comments.php:37
+msgid "One Comment on &ldquo;%1$s&rdquo;"
+msgstr ""
+
+#: comments.php:65
+msgid "Comments are closed."
+msgstr ""
+
+#: content-none.php:14
+msgid "Nothing Found"
+msgstr ""
+
+#: content-none.php:34
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr ""
+
+#: content-none.php:29
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr ""
+
+#: content-none.php:23
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#. translators: %s: Name of current post. Only visible to screen readers
+#: content-single.php:48
+msgid "Continue reading<span class=\"screen-reader-text\"> \"%s\"</span>"
+msgstr ""
+
+#: content-single.php:59, framework/inc/cartsy-lite-template-functions.php:221
+msgid "Pages:"
+msgstr ""
+
+#: content-single.php:74, framework/inc/cartsy-lite-template-functions.php:250, framework/inc/theme-helper-functions.php:355
+msgid "Edit"
+msgstr ""
+
+#: content-single.php:88
+msgctxt "Comma used between tag items."
+msgid ", "
+msgstr ""
+
+#: content-single.php:89
+msgctxt "Comma used between category items."
+msgid ", "
+msgstr ""
+
+#: content-single.php:97
+msgctxt "Used before tag items."
+msgid "Tags: "
+msgstr ""
+
+#: content-single.php:109
+msgctxt "Used before category items."
+msgid "Categories :"
+msgstr ""
+
+#: content-single.php:121
+msgid "Published in"
+msgstr ""
+
+#: content.php:2
+msgid "Read More"
+msgstr ""
+
+#: framework/admin/Notice.php:91
+msgid "Congratulations"
+msgstr ""
+
+#: framework/admin/Notice.php:93
+msgid " is now installed and ready to use."
+msgstr ""
+
+#: framework/admin/Plugins.php:34
+msgid "WooCommerce - excelling eCommerce"
+msgstr ""
+
+#: framework/admin/Plugins.php:39
+msgid "Kirki Customizer Framework"
+msgstr ""
+
+#: framework/admin/Plugins.php:44
+msgid "Contact Form 7"
+msgstr ""
+
+#: framework/admin/Plugins.php:49
+msgid "Booking and Rental System (Woocommerce)"
+msgstr ""
+
+#. translators: %s - Theme name
+#. translators: %s - Theme name
+#: framework/admin/welcome.php:59, framework/admin/welcome.php:61
+msgid "%s Tour"
+msgstr ""
+
+#: framework/admin/welcome.php:173, framework/admin/Welcome/Getting_Started.php:93
+msgid "Get Cartsy Pro"
+msgstr ""
+
+#: framework/admin/welcome.php:274
+msgid "v"
+msgstr ""
+
+#: framework/admin/Welcome/changelog-array.php:9
+msgid "v1.4.8"
+msgstr ""
+
+#: framework/admin/Welcome/changelog-array.php:10
+msgid "August 8 2022"
+msgstr ""
+
+#: framework/admin/Welcome/changelog-array.php:13, framework/admin/Welcome/changelog-array.php:25
+msgid "WordPress Latest Version Compatibility."
+msgstr ""
+
+#: framework/admin/Welcome/changelog-array.php:16
+msgid "Booking and Rental System (Woocommerce) plugin support add."
+msgstr ""
+
+#: framework/admin/Welcome/changelog-array.php:21
+msgid "v1.4.7"
+msgstr ""
+
+#: framework/admin/Welcome/changelog-array.php:22
+msgid "May 10 2022"
+msgstr ""
+
+#: framework/admin/Welcome/changelog-array.php:26
+msgid "WooCommerce Latest Version Compatibility."
+msgstr ""
+
+#: framework/admin/Welcome/changelog-array.php:27
+msgid "Update Starter Content."
+msgstr ""
+
+#: framework/admin/Welcome/changelog-array.php:32
+msgid "v1.4.6"
+msgstr ""
+
+#: framework/admin/Welcome/changelog-array.php:33
+msgid "Mar 4 2022"
+msgstr ""
+
+#: framework/admin/Welcome/changelog-array.php:36
+msgid "Remove accessibility-ready tag."
+msgstr ""
+
+#: framework/admin/Welcome/changelog-array.php:37
+msgid "Starter content logo broken issue."
+msgstr ""
+
+#: framework/admin/Welcome/changelog-array.php:38
+msgid "Header area search panel issue."
+msgstr ""
+
+#: framework/admin/Welcome/changelog-array.php:43
+msgid "v1.4.5"
+msgstr ""
+
+#: framework/admin/Welcome/changelog-array.php:44
+msgid "Feb 22 2022"
+msgstr ""
+
+#: framework/admin/Welcome/changelog-array.php:47
+msgid "php8 compatibility check."
+msgstr ""
+
+#: framework/admin/Welcome/changelog-array.php:52
+msgid "v1.4.4"
+msgstr ""
+
+#: framework/admin/Welcome/changelog-array.php:53, framework/admin/Welcome/changelog-array.php:62
+msgid "Feb 18 2022"
+msgstr ""
+
+#: framework/admin/Welcome/changelog-array.php:56
+msgid "Starter content broken issue."
+msgstr ""
+
+#: framework/admin/Welcome/changelog-array.php:61
+msgid "v1.4.3"
+msgstr ""
+
+#: framework/admin/Welcome/changelog-array.php:65
+msgid "Composer file name issue."
+msgstr ""
+
+#: framework/admin/Welcome/changelog-array.php:70
+msgid "v1.4.2"
+msgstr ""
+
+#: framework/admin/Welcome/changelog-array.php:71
+msgid "Feb 17 2022"
+msgstr ""
+
+#: framework/admin/Welcome/changelog-array.php:74
+msgid "Documentation update."
+msgstr ""
+
+#: framework/admin/Welcome/changelog-array.php:75
+msgid "Language file update."
+msgstr ""
+
+#: framework/admin/Welcome/changelog-array.php:78
+msgid "Homepage Gutenberg blocks support."
+msgstr ""
+
+#: framework/admin/Welcome/changelog-array.php:79
+msgid "Starter content added."
+msgstr ""
+
+#: framework/admin/Welcome/changelog-array.php:80
+msgid "Theme info related admin notice added."
+msgstr ""
+
+#: framework/admin/Welcome/changelog-array.php:81
+msgid "Theme tour guide added in admin area."
+msgstr ""
+
+#: framework/admin/Welcome/changelog-array.php:86
+msgid "v1.4.1"
+msgstr ""
+
+#: framework/admin/Welcome/changelog-array.php:87
+msgid "Feb 09 2022"
+msgstr ""
+
+#: framework/admin/Welcome/changelog-array.php:90
+msgid "Category permalink issue"
+msgstr ""
+
+#: framework/admin/Welcome/changelog-array.php:91
+msgid "Accessibility ready issue fix"
+msgstr ""
+
+#: framework/admin/Welcome/changelog-array.php:92
+msgid "Mini-cart overlapping CSS issue"
+msgstr ""
+
+#: framework/admin/Welcome/changelog-array.php:93
+msgid "Header overlapping in Category sidebar CSS issue"
+msgstr ""
+
+#: framework/admin/Welcome/changelog-array.php:96
+msgid "Product category query optimization for better performance."
+msgstr ""
+
+#: framework/admin/Welcome/changelog-array.php:99
+msgid "Copyright site link customize options added."
+msgstr ""
+
+#: framework/admin/Welcome/changelog-array.php:100
+msgid "Homepage product category customize option added"
+msgstr ""
+
+#: framework/admin/Welcome/changelog-array.php:105
+msgid "v1.4"
+msgstr ""
+
+#: framework/admin/Welcome/changelog-array.php:106
+msgid "Feb 04 2022"
+msgstr ""
+
+#: framework/admin/Welcome/changelog-array.php:109
+msgid "Initial release"
+msgstr ""
+
+#: framework/admin/Welcome/Changelog.php:50, framework/admin/Welcome/Changelog.php:137
+msgid "Changelog"
+msgstr ""
+
+#: framework/admin/Welcome/Changelog.php:56
+msgid "Last updated: "
+msgstr ""
+
+#: framework/admin/Welcome/Changelog.php:80
+msgid "Version "
+msgstr ""
+
+#: framework/admin/Welcome/Changelog.php:86
+msgid "Released on  "
+msgstr ""
+
+#: framework/admin/Welcome/Free_Vs_Premium.php:24
+msgid "Lifetime Usage"
+msgstr ""
+
+#: framework/admin/Welcome/Free_Vs_Premium.php:25
+msgid "Once you download the theme, you are authorised to play with the themes lifetime."
+msgstr ""
+
+#: framework/admin/Welcome/Free_Vs_Premium.php:31
+msgid "lifetime updates"
+msgstr ""
+
+#: framework/admin/Welcome/Free_Vs_Premium.php:32
+msgid "Cartsy theme will be updated regularly with different integrations, demos and features."
+msgstr ""
+
+#: framework/admin/Welcome/Free_Vs_Premium.php:38
+msgid "Tested with latest WooCommerce"
+msgstr ""
+
+#: framework/admin/Welcome/Free_Vs_Premium.php:39
+msgid "Cartsy theme is always updated with the latest version of WooCommerce"
+msgstr ""
+
+#: framework/admin/Welcome/Free_Vs_Premium.php:45
+msgid "Tested with latest WordPress"
+msgstr ""
+
+#: framework/admin/Welcome/Free_Vs_Premium.php:46
+msgid "Cartsy theme is always updated with the latest version of Wordpress."
+msgstr ""
+
+#: framework/admin/Welcome/Free_Vs_Premium.php:52
+msgid "One click installation"
+msgstr ""
+
+#: framework/admin/Welcome/Free_Vs_Premium.php:53
+msgid "Import your demo content, widgets and theme settings with one click. Import, customize and set up our super fast & flexible import tool. It's that easy."
+msgstr ""
+
+#: framework/admin/Welcome/Free_Vs_Premium.php:59
+msgid "RNB plugin included"
+msgstr ""
+
+#: framework/admin/Welcome/Free_Vs_Premium.php:60
+msgid "On Cartsy, we have provided support for one of our best selling rental plugin RnB - WooCommerce Booking & Rental Plugin. With Cartsy and RnB, you can build and sell your rental items."
+msgstr ""
+
+#: framework/admin/Welcome/Free_Vs_Premium.php:66
+msgid "FireMobile plugin included"
+msgstr ""
+
+#: framework/admin/Welcome/Free_Vs_Premium.php:67
+msgid "Allow users to login/register simply with their mobile number by our Firbase Mobile OTP Authentication Plugin. No more password or email required. Keep track of your customer using their mobile number."
+msgstr ""
+
+#: framework/admin/Welcome/Free_Vs_Premium.php:73
+msgid "Algolia integration"
+msgstr ""
+
+#: framework/admin/Welcome/Free_Vs_Premium.php:74
+msgid "Our E-Commerce theme is equipped with product search and filters to find what you want. Feel the magic of search with Algolia with both free & premium model. You can use algolia free for upto 10,000 search requests."
+msgstr ""
+
+#: framework/admin/Welcome/Free_Vs_Premium.php:80
+msgid "Social login"
+msgstr ""
+
+#: framework/admin/Welcome/Free_Vs_Premium.php:81
+msgid "The Cartsy social login feature allows users a hassle free registration/login option to your site using their social network accounts."
+msgstr ""
+
+#: framework/admin/Welcome/Free_Vs_Premium.php:87
+msgid "Ticket based priority support"
+msgstr ""
+
+#: framework/admin/Welcome/Free_Vs_Premium.php:88
+msgid "Customer is our main priority. We can assure you the proper Elite Author support and faster response for our theme."
+msgstr ""
+
+#: framework/admin/Welcome/Free_Vs_Premium.php:94
+msgid "Multiple header & Footer"
+msgstr ""
+
+#: framework/admin/Welcome/Free_Vs_Premium.php:95
+msgid "Play with different cartsy header & footer option. We have implemented multiple headers and footers layout so that you can customize your website based on your requirements."
+msgstr ""
+
+#: framework/admin/Welcome/Free_Vs_Premium.php:101
+msgid "Multiple Layout Options"
+msgstr ""
+
+#: framework/admin/Welcome/Free_Vs_Premium.php:102
+msgid "Cartsy has multiple home page and product single page layouts. User can easily choose home page layout from Cartsy layouts window. For product single page there are options in the Kirki customize panel."
+msgstr ""
+
+#: framework/admin/Welcome/Free_Vs_Premium.php:125
+msgid "Free vs Premium"
+msgstr ""
+
+#: framework/admin/Welcome/Free_Vs_Premium.php:126
+msgid "Free"
+msgstr ""
+
+#: framework/admin/Welcome/Free_Vs_Premium.php:127
+msgid "Premium"
+msgstr ""
+
+#: framework/admin/Welcome/Free_Vs_Premium.php:150
+msgid "More details "
+msgstr ""
+
+#: framework/admin/Welcome/Free_Vs_Premium.php:150
+msgid "docs"
+msgstr ""
+
+#: framework/admin/Welcome/Getting_Started.php:27
+msgid "Upload Logo"
+msgstr ""
+
+#: framework/admin/Welcome/Getting_Started.php:31
+msgid "Set Colors"
+msgstr ""
+
+#: framework/admin/Welcome/Getting_Started.php:35
+msgid "Customize Fonts"
+msgstr ""
+
+#: framework/admin/Welcome/Getting_Started.php:39
+msgid "Layout Options"
+msgstr ""
+
+#: framework/admin/Welcome/Getting_Started.php:43
+msgid "Header Options"
+msgstr ""
+
+#: framework/admin/Welcome/Getting_Started.php:47
+msgid "Blog Layouts"
+msgstr ""
+
+#: framework/admin/Welcome/Getting_Started.php:51
+msgid "Footer Options"
+msgstr ""
+
+#: framework/admin/Welcome/Getting_Started.php:55
+msgid "WooCommerce"
+msgstr ""
+
+#: framework/admin/Welcome/Getting_Started.php:69
+msgid "Go to Cartsy Lite docs"
+msgstr ""
+
+#: framework/admin/Welcome/Getting_Started.php:87
+msgid "Welcome"
+msgstr ""
+
+#: framework/admin/Welcome/Getting_Started.php:92
+msgid "Go to starter site"
+msgstr ""
+
+#: framework/admin/Welcome/Getting_Started.php:114
+msgid "Customize Links"
+msgstr ""
+
+#: framework/admin/Welcome/Getting_Started.php:145
+msgid "Documentation"
+msgstr ""
+
+#: framework/admin/Welcome/Getting_Started.php:148
+msgid "Our rich documentation, FAQ, video tutorials will help you to understand each and every aspects of our theme. We have a proper installation guide and videos so that you can start your making your websites easily. By our change-log option, you will able to track our regular updates."
+msgstr ""
+
+#: framework/admin/Welcome/Getting_Started.php:179
+msgid "Support"
+msgstr ""
+
+#: framework/admin/Welcome/Getting_Started.php:182
+msgid "Customer is our main priority. We can assure you the proper Elite Author support and faster response for our theme. We have a dedicated support team with perfect technical knowledge to provide the correct solutions of your problem as early as possible. "
+msgstr ""
+
+#: framework/admin/Welcome/Getting_Started.php:187
+msgid "Contact Support"
+msgstr ""
+
+#: framework/class-cartsy-lite.php:70
+msgid "Cartsy Lite Main Menu"
+msgstr ""
+
+#: framework/class-cartsy-lite.php:95
+msgctxt "Name of the small font size in the block editor"
+msgid "Small"
+msgstr ""
+
+#: framework/class-cartsy-lite.php:96
+msgctxt "Short name of the small font size in the block editor."
+msgid "S"
+msgstr ""
+
+#: framework/class-cartsy-lite.php:101
+msgctxt "Name of the regular font size in the block editor"
+msgid "Regular"
+msgstr ""
+
+#: framework/class-cartsy-lite.php:102
+msgctxt "Short name of the regular font size in the block editor."
+msgid "M"
+msgstr ""
+
+#: framework/class-cartsy-lite.php:107
+msgctxt "Name of the large font size in the block editor"
+msgid "Large"
+msgstr ""
+
+#: framework/class-cartsy-lite.php:108
+msgctxt "Short name of the large font size in the block editor."
+msgid "L"
+msgstr ""
+
+#: framework/class-cartsy-lite.php:113
+msgctxt "Name of the larger font size in the block editor"
+msgid "Larger"
+msgstr ""
+
+#: framework/class-cartsy-lite.php:114
+msgctxt "Short name of the larger font size in the block editor."
+msgid "XL"
+msgstr ""
+
+#: framework/class-cartsy-lite.php:191
+msgid "Cartsy Lite Sidebar"
+msgstr ""
+
+#: framework/class-cartsy-lite.php:193
+msgid "Add widgets here."
+msgstr ""
+
+#: framework/class-cartsy-lite.php:202
+msgid "Cartsy Lite WooCommerce Sidebar"
+msgstr ""
+
+#: framework/class-cartsy-lite.php:204
+msgid "Add sidebar widgets to WooCommerce archives."
+msgstr ""
+
+#: framework/class-cartsy-lite.php:232, framework/class-cartsy-lite.php:241, framework/class-cartsy-lite.php:259
+msgid "Borders"
+msgstr ""
+
+#: framework/class-cartsy-lite.php:250
+msgid "Frame"
+msgstr ""
+
+#: framework/class-cartsy-lite.php:280, framework/class-cartsy-lite.php:381
+msgid "Cartsy Lite"
+msgstr ""
+
+#: framework/class-cartsy-lite.php:303
+msgid "Large text"
+msgstr ""
+
+#: framework/class-cartsy-lite.php:306
+msgid "A new portfolio default theme for WordPress"
+msgstr ""
+
+#: framework/class-cartsy-lite.php:314
+msgid "Media and text article title"
+msgstr ""
+
+#: framework/class-cartsy-lite.php:317
+msgctxt "Block pattern description"
+msgid "A Media & Text block with a big image on the left and a heading on the right. The heading is followed by a separator and a description paragraph."
+msgstr ""
+
+#: framework/class-cartsy-lite.php:318
+msgid "&#8220;Playing in the Sand&#8221; by Berthe Morisot"
+msgstr ""
+
+#: framework/class-cartsy-lite.php:318
+msgid "Playing in the Sand"
+msgstr ""
+
+#: framework/class-cartsy-lite.php:318
+msgid "Berthe Morisot<br>(French, 1841-1895)"
+msgstr ""
+
+#: framework/class-cartsy-lite.php:385
+msgctxt "Theme starter content"
+msgid "Logo"
+msgstr ""
+
+#: framework/class-cartsy-lite.php:398
+msgctxt "Theme starter content"
+msgid "Blog"
+msgstr ""
+
+#: framework/client/class-cartsy-lite-menu-walker.php:325, framework/client/class-cartsy-lite-menu-walker.php:325
+msgid "Add a menu"
+msgstr ""
+
+#: framework/client/class-cartsy-lite-woocommerce.php:71
+msgid "Placeholder"
+msgstr ""
+
+#: framework/inc/breadcrumb.php:14, framework/settings/HomeSettings.php:36
+msgid "Home"
+msgstr ""
+
+#. translators: %s: Category name.
+#: framework/inc/breadcrumb.php:16
+msgid "Archive by Category \"%s\""
+msgstr ""
+
+#. translators: %s: Taxonomy name.
+#: framework/inc/breadcrumb.php:18
+msgid "Archive for \"%s\""
+msgstr ""
+
+#. translators: %s: Search query params.
+#: framework/inc/breadcrumb.php:20
+msgid "Search Results for \"%s\" Query"
+msgstr ""
+
+#. translators: %s: Tag name.
+#: framework/inc/breadcrumb.php:22
+msgid "Posts Tagged \"%s\""
+msgstr ""
+
+#. translators: %s: Author name.
+#: framework/inc/breadcrumb.php:24
+msgid "Articles Posted by %s"
+msgstr ""
+
+#: framework/inc/breadcrumb.php:25, template-parts/banner/banner-blog.php:107
+msgid "Error 404"
+msgstr ""
+
+#: framework/inc/breadcrumb.php:156
+msgid "Page"
+msgstr ""
+
+#: framework/inc/cartsy-lite-template-functions.php:163, framework/inc/theme-helper-functions.php:221
+msgid "Previous"
+msgstr ""
+
+#: framework/inc/cartsy-lite-template-functions.php:164, framework/inc/theme-helper-functions.php:232
+msgid "Next"
+msgstr ""
+
+#: framework/inc/theme-helper-functions.php:335
+msgid "says:"
+msgstr ""
+
+#: framework/inc/theme-helper-functions.php:349
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: framework/inc/theme-helper-functions.php:854, woocommerce/cart/cart.php:33
+msgid "Cart"
+msgstr ""
+
+#: framework/inc/theme-helper-functions.php:859
+msgid "View your shopping cart"
+msgstr ""
+
+#: framework/kirki/class-kirki-installer-section.php:102
+msgid "Please install the Kirki plugin to take full advantage of this theme's customizer capabilities"
+msgstr ""
+
+#: framework/kirki/class-kirki-installer-section.php:106
+msgid "Install Kirki Toolkit now"
+msgstr ""
+
+#: framework/kirki/class-kirki-installer-section.php:107
+msgid "Install Now"
+msgstr ""
+
+#: framework/kirki/class-kirki-installer-section.php:123
+msgid "You have installed Kirki. Activate it to take advantage of this theme's features in the customizer."
+msgstr ""
+
+#: framework/kirki/class-kirki-installer-section.php:127
+msgid "Activate Kirki Toolkit now"
+msgstr ""
+
+#: framework/kirki/class-kirki-installer-section.php:128
+msgid "Activate Now"
+msgstr ""
+
+#: framework/kirki/class-kirki-installer-section.php:148, framework/kirki/class-kirki-installer-section.php:150
+msgid "Don't show this again"
+msgstr ""
+
+#: framework/kirki/class-kirki-installer-section.php:149
+msgid "Dismiss"
+msgstr ""
+
+#: framework/kirki/class-kirki-installer-section.php:161
+msgid "Are you sure? Dismissing this message will hide the installation recommendation and you will have to manually install and activate the plugin in the future."
+msgstr ""
+
+#: framework/settings/BlogSettings.php:33, template-parts/banner/banner-blog.php:73
+msgid "Blog"
+msgstr ""
+
+#: framework/settings/BlogSettings.php:34
+msgid "Global settings for blog located here"
+msgstr ""
+
+#: framework/settings/BlogSettings.php:50
+msgid "Sidebar Switch"
+msgstr ""
+
+#: framework/settings/BlogSettings.php:51
+msgid "Choose either blog sidebar is On/Off"
+msgstr ""
+
+#: framework/settings/BlogSettings.php:57, framework/settings/BlogSettings.php:94, framework/settings/BlogSettings.php:205, framework/settings/FooterSettings.php:58, framework/settings/GeneralSettings.php:58, framework/settings/GeneralSettings.php:100, framework/settings/GeneralSettings.php:137, framework/settings/GeneralSettings.php:248, framework/settings/HomeSettings.php:204, framework/settings/SocialProfileSettings.php:58, framework/settings/SocialProfileSettings.php:73, framework/settings/SocialProfileSettings.php:117, framework/settings/SocialProfileSettings.php:161, framework/settings/SocialProfileSettings.php:205, framework/settings/SocialProfileSettings.php:249, framework/settings/SocialProfileSettings.php:293, framework/settings/TypographySettings.php:59, framework/settings/WooGeneralSettings.php:60, framework/settings/WooGeneralSettings.php:98, framework/settings/WooGeneralSettings.php:135, framework/settings/WooGeneralSettings.php:246
+msgid "On"
+msgstr ""
+
+#: framework/settings/BlogSettings.php:58, framework/settings/BlogSettings.php:95, framework/settings/BlogSettings.php:206, framework/settings/FooterSettings.php:59, framework/settings/GeneralSettings.php:59, framework/settings/GeneralSettings.php:101, framework/settings/GeneralSettings.php:138, framework/settings/GeneralSettings.php:249, framework/settings/HomeSettings.php:205, framework/settings/SocialProfileSettings.php:59, framework/settings/SocialProfileSettings.php:74, framework/settings/SocialProfileSettings.php:118, framework/settings/SocialProfileSettings.php:162, framework/settings/SocialProfileSettings.php:206, framework/settings/SocialProfileSettings.php:250, framework/settings/SocialProfileSettings.php:294, framework/settings/TypographySettings.php:60, framework/settings/WooGeneralSettings.php:61, framework/settings/WooGeneralSettings.php:99, framework/settings/WooGeneralSettings.php:136, framework/settings/WooGeneralSettings.php:247
+msgid "Off"
+msgstr ""
+
+#: framework/settings/BlogSettings.php:65
+msgid "Blog layout"
+msgstr ""
+
+#: framework/settings/BlogSettings.php:66
+msgid "Choose layout for display on blog"
+msgstr ""
+
+#: framework/settings/BlogSettings.php:72, framework/settings/GeneralSettings.php:115, framework/settings/WooGeneralSettings.php:75, framework/settings/WooGeneralSettings.php:113
+msgid "Right Sidebar"
+msgstr ""
+
+#: framework/settings/BlogSettings.php:73, framework/settings/GeneralSettings.php:116, framework/settings/WooGeneralSettings.php:76, framework/settings/WooGeneralSettings.php:114
+msgid "Left Sidebar"
+msgstr ""
+
+#: framework/settings/BlogSettings.php:87, framework/settings/HomeSettings.php:197
+msgid "Banner Switch"
+msgstr ""
+
+#: framework/settings/BlogSettings.php:88, framework/settings/HomeSettings.php:198
+msgid "Choose either blog page banner is On/Off"
+msgstr ""
+
+#: framework/settings/BlogSettings.php:102, framework/settings/GeneralSettings.php:145, framework/settings/WooGeneralSettings.php:143
+msgid "Banner Type"
+msgstr ""
+
+#: framework/settings/BlogSettings.php:103, framework/settings/GeneralSettings.php:146, framework/settings/WooGeneralSettings.php:144
+msgid "Choose page banner type"
+msgstr ""
+
+#: framework/settings/BlogSettings.php:109, framework/settings/GeneralSettings.php:152, framework/settings/WooGeneralSettings.php:150
+msgid "Image"
+msgstr ""
+
+#: framework/settings/BlogSettings.php:110, framework/settings/GeneralSettings.php:153, framework/settings/WooGeneralSettings.php:151
+msgid "Color"
+msgstr ""
+
+#: framework/settings/BlogSettings.php:124, framework/settings/GeneralSettings.php:167, framework/settings/WooGeneralSettings.php:165
+msgid "Banner Background"
+msgstr ""
+
+#: framework/settings/BlogSettings.php:125
+msgid "Upload blog banner image or set a background color"
+msgstr ""
+
+#: framework/settings/BlogSettings.php:159, framework/settings/GeneralSettings.php:202, framework/settings/WooGeneralSettings.php:200
+msgid "Page banner color"
+msgstr ""
+
+#: framework/settings/BlogSettings.php:160, framework/settings/GeneralSettings.php:203, framework/settings/WooGeneralSettings.php:201
+msgid "Select page banner color"
+msgstr ""
+
+#: framework/settings/BlogSettings.php:181, framework/settings/HomeSettings.php:325
+msgid "Banner Text Color"
+msgstr ""
+
+#: framework/settings/BlogSettings.php:182, framework/settings/HomeSettings.php:326
+msgid "Select blog banner text color"
+msgstr ""
+
+#: framework/settings/BlogSettings.php:198
+msgid "Breadcrumb Switch"
+msgstr ""
+
+#: framework/settings/BlogSettings.php:199
+msgid "Choose either blog breadcrumb section is On/Off"
+msgstr ""
+
+#: framework/settings/ColorSettings.php:33
+msgid "Colors"
+msgstr ""
+
+#: framework/settings/ColorSettings.php:34
+msgid "Global settings for theme colors located here"
+msgstr ""
+
+#: framework/settings/ColorSettings.php:51
+msgid "Primary Color"
+msgstr ""
+
+#: framework/settings/ColorSettings.php:59
+msgid "Primary Color [Hover]"
+msgstr ""
+
+#: framework/settings/ColorSettings.php:67
+msgid "Secondary Color"
+msgstr ""
+
+#: framework/settings/ColorSettings.php:75
+msgid "Dark Text Color"
+msgstr ""
+
+#: framework/settings/ColorSettings.php:83
+msgid "Main Text Color"
+msgstr ""
+
+#: framework/settings/ColorSettings.php:91
+msgid "Light Text Color"
+msgstr ""
+
+#: framework/settings/ColorSettings.php:99
+msgid "Lighter Text Color"
+msgstr ""
+
+#: framework/settings/FooterSettings.php:33
+msgid "Copyright"
+msgstr ""
+
+#: framework/settings/FooterSettings.php:34
+msgid "Global settings for footer located here"
+msgstr ""
+
+#: framework/settings/FooterSettings.php:51
+msgid "Footer Widgets"
+msgstr ""
+
+#: framework/settings/FooterSettings.php:52
+msgid "Choose either On/Off"
+msgstr ""
+
+#: framework/settings/FooterSettings.php:67
+msgid "Copyright Text"
+msgstr ""
+
+#: framework/settings/FooterSettings.php:68
+msgid "enter copyright text to display"
+msgstr ""
+
+#: framework/settings/FooterSettings.php:84
+msgid "Copyright URL"
+msgstr ""
+
+#: framework/settings/FooterSettings.php:85
+msgid "Enter copyright URL to display"
+msgstr ""
+
+#: framework/settings/FooterSettings.php:102
+msgid "Text Color"
+msgstr ""
+
+#: framework/settings/FooterSettings.php:103
+msgid "Choose footer text color"
+msgstr ""
+
+#: framework/settings/FooterSettings.php:118
+msgid "Background Color"
+msgstr ""
+
+#: framework/settings/FooterSettings.php:119
+msgid "Choose footer background color"
+msgstr ""
+
+#: framework/settings/GeneralSettings.php:33
+msgid "General"
+msgstr ""
+
+#: framework/settings/GeneralSettings.php:34
+msgid "General theme settings"
+msgstr ""
+
+#: framework/settings/GeneralSettings.php:51
+msgid "Site loader"
+msgstr ""
+
+#: framework/settings/GeneralSettings.php:52
+msgid "Choose either site loader is On/Off through out the site"
+msgstr ""
+
+#: framework/settings/GeneralSettings.php:66
+msgid "Enable Global Search"
+msgstr ""
+
+#: framework/settings/GeneralSettings.php:67
+msgid "Use Global search for products."
+msgstr ""
+
+#: framework/settings/GeneralSettings.php:72, framework/settings/GeneralSettings.php:85, framework/settings/HomeSettings.php:74, framework/settings/HomeSettings.php:89
+msgid "Enable"
+msgstr ""
+
+#: framework/settings/GeneralSettings.php:73, framework/settings/GeneralSettings.php:86, framework/settings/HomeSettings.php:75, framework/settings/HomeSettings.php:90
+msgid "Disable"
+msgstr ""
+
+#: framework/settings/GeneralSettings.php:80
+msgid "Enable Header Mini Cart"
+msgstr ""
+
+#: framework/settings/GeneralSettings.php:93
+msgid "Page Sidebar"
+msgstr ""
+
+#: framework/settings/GeneralSettings.php:94, framework/settings/WooGeneralSettings.php:54
+msgid "Choose either page sidebar is On/Off"
+msgstr ""
+
+#: framework/settings/GeneralSettings.php:108
+msgid "Page layout"
+msgstr ""
+
+#: framework/settings/GeneralSettings.php:109
+msgid "Choose layout for display on page"
+msgstr ""
+
+#: framework/settings/GeneralSettings.php:130
+msgid "Page Banner"
+msgstr ""
+
+#: framework/settings/GeneralSettings.php:131, framework/settings/WooGeneralSettings.php:129
+msgid "Choose either page banner section is On/Off"
+msgstr ""
+
+#: framework/settings/GeneralSettings.php:168
+msgid "Upload post single banner image or set a background color"
+msgstr ""
+
+#: framework/settings/GeneralSettings.php:224
+msgid "Page banner text color"
+msgstr ""
+
+#: framework/settings/GeneralSettings.php:225, framework/settings/WooGeneralSettings.php:223
+msgid "Select page banner text color"
+msgstr ""
+
+#: framework/settings/GeneralSettings.php:241
+msgid "Page breadcrumb switch"
+msgstr ""
+
+#: framework/settings/GeneralSettings.php:242, framework/settings/WooGeneralSettings.php:240
+msgid "Choose either page breadcrumb section is On/Off"
+msgstr ""
+
+#: framework/settings/HeaderSettings.php:33
+msgid "Header"
+msgstr ""
+
+#: framework/settings/HeaderSettings.php:34
+msgid "Global settings for header located here"
+msgstr ""
+
+#: framework/settings/HeaderSettings.php:51
+msgid "Background Color [initial]"
+msgstr ""
+
+#: framework/settings/HeaderSettings.php:52, framework/settings/HeaderSettings.php:79
+msgid "Choose initial background color"
+msgstr ""
+
+#: framework/settings/HeaderSettings.php:60
+msgid "Header Text Color"
+msgstr ""
+
+#: framework/settings/HeaderSettings.php:61
+msgid "Change header menu, site title and site description color."
+msgstr ""
+
+#: framework/settings/HeaderSettings.php:69
+msgid "Header Text Color [Hover]"
+msgstr ""
+
+#: framework/settings/HeaderSettings.php:70
+msgid "Change header menu and site title hover color."
+msgstr ""
+
+#: framework/settings/HeaderSettings.php:78
+msgid "Background Color [Hover]"
+msgstr ""
+
+#: framework/settings/HomeSettings.php:37
+msgid "Home settings"
+msgstr ""
+
+#: framework/settings/HomeSettings.php:43
+msgid "Banner"
+msgstr ""
+
+#: framework/settings/HomeSettings.php:44
+msgid "Banner settings for home located here"
+msgstr ""
+
+#: framework/settings/HomeSettings.php:58, template-parts/home/products.php:67
+msgid "Products"
+msgstr ""
+
+#: framework/settings/HomeSettings.php:59
+msgid "Products settings for home located here"
+msgstr ""
+
+#: framework/settings/HomeSettings.php:67
+msgid "Show featured product"
+msgstr ""
+
+#: framework/settings/HomeSettings.php:68
+msgid "Choose featured product only"
+msgstr ""
+
+#: framework/settings/HomeSettings.php:82
+msgid "Show on sale product"
+msgstr ""
+
+#: framework/settings/HomeSettings.php:83
+msgid "Choose on sale product only"
+msgstr ""
+
+#: framework/settings/HomeSettings.php:97
+msgid "Show/Hide out of stock product"
+msgstr ""
+
+#: framework/settings/HomeSettings.php:98
+msgid "Choose either out of stock product Yes/No"
+msgstr ""
+
+#: framework/settings/HomeSettings.php:104
+msgid "Hide"
+msgstr ""
+
+#: framework/settings/HomeSettings.php:105
+msgid "Show"
+msgstr ""
+
+#: framework/settings/HomeSettings.php:113
+msgid "Home page other's product control inherit by Customizing ▸ WooCommerce ▸ Product Catalog"
+msgstr ""
+
+#: framework/settings/HomeSettings.php:118
+msgid "Category"
+msgstr ""
+
+#: framework/settings/HomeSettings.php:119
+msgid "Category settings for home located here"
+msgstr ""
+
+#: framework/settings/HomeSettings.php:127
+msgid "Sidebar position"
+msgstr ""
+
+#: framework/settings/HomeSettings.php:128
+msgid "Choose sidebar position only"
+msgstr ""
+
+#: framework/settings/HomeSettings.php:134
+msgid "Left Side"
+msgstr ""
+
+#: framework/settings/HomeSettings.php:135
+msgid "Right Side"
+msgstr ""
+
+#: framework/settings/HomeSettings.php:136
+msgid "Full Width"
+msgstr ""
+
+#: framework/settings/HomeSettings.php:143
+msgid "Orderby"
+msgstr ""
+
+#: framework/settings/HomeSettings.php:149
+msgid "Menu Order"
+msgstr ""
+
+#: framework/settings/HomeSettings.php:150
+msgid "Name"
+msgstr ""
+
+#: framework/settings/HomeSettings.php:151
+msgid "Term ID"
+msgstr ""
+
+#: framework/settings/HomeSettings.php:152
+msgid "Count"
+msgstr ""
+
+#: framework/settings/HomeSettings.php:166
+msgid "Order"
+msgstr ""
+
+#: framework/settings/HomeSettings.php:172
+msgid "ASC"
+msgstr ""
+
+#: framework/settings/HomeSettings.php:173
+msgid "DESC"
+msgstr ""
+
+#: framework/settings/HomeSettings.php:212
+msgid "Banner title"
+msgstr ""
+
+#: framework/settings/HomeSettings.php:213
+msgid "Set home page banner title"
+msgstr ""
+
+#: framework/settings/HomeSettings.php:215, template-parts/home/banner-home.php:7
+msgid "Products Delivered in 90 Minutes"
+msgstr ""
+
+#: framework/settings/HomeSettings.php:229
+msgid "Banner subtitle"
+msgstr ""
+
+#: framework/settings/HomeSettings.php:230
+msgid "Set home page banner subtitle"
+msgstr ""
+
+#: framework/settings/HomeSettings.php:232, template-parts/home/banner-home.php:8
+msgid "Get your products delivered at your doorsteps all day everyday"
+msgstr ""
+
+#: framework/settings/Init.php:39
+msgid "Cartsy Lite theme panel"
+msgstr ""
+
+#: framework/settings/Init.php:40
+msgid "Cartsy Lite theme panel description"
+msgstr ""
+
+#: framework/settings/SocialProfileSettings.php:33
+msgid "Social Profile"
+msgstr ""
+
+#: framework/settings/SocialProfileSettings.php:34
+msgid "Set your social profile links."
+msgstr ""
+
+#: framework/settings/SocialProfileSettings.php:51
+msgid "Display Social Profile"
+msgstr ""
+
+#: framework/settings/SocialProfileSettings.php:52
+msgid "Choose either display social option is On/Off"
+msgstr ""
+
+#: framework/settings/SocialProfileSettings.php:66
+msgid "Facebook"
+msgstr ""
+
+#: framework/settings/SocialProfileSettings.php:67
+msgid "Choose either facebook share option is On/Off"
+msgstr ""
+
+#: framework/settings/SocialProfileSettings.php:88
+msgid "Facebook profile link"
+msgstr ""
+
+#: framework/settings/SocialProfileSettings.php:89
+msgid "Set facebook profile link"
+msgstr ""
+
+#: framework/settings/SocialProfileSettings.php:110
+msgid "Twitter"
+msgstr ""
+
+#: framework/settings/SocialProfileSettings.php:111
+msgid "Choose either twitter share option is On/Off"
+msgstr ""
+
+#: framework/settings/SocialProfileSettings.php:132
+msgid "Twitter profile link"
+msgstr ""
+
+#: framework/settings/SocialProfileSettings.php:133
+msgid "Set twitter profile link"
+msgstr ""
+
+#: framework/settings/SocialProfileSettings.php:154
+msgid "LinkedIn"
+msgstr ""
+
+#: framework/settings/SocialProfileSettings.php:155
+msgid "Choose either linkedin share option is On/Off"
+msgstr ""
+
+#: framework/settings/SocialProfileSettings.php:176
+msgid "LinkedIn profile link"
+msgstr ""
+
+#: framework/settings/SocialProfileSettings.php:177
+msgid "Set linkedin profile link"
+msgstr ""
+
+#: framework/settings/SocialProfileSettings.php:198
+msgid "Instagram"
+msgstr ""
+
+#: framework/settings/SocialProfileSettings.php:199
+msgid "Choose either instagram share option is On/Off"
+msgstr ""
+
+#: framework/settings/SocialProfileSettings.php:220
+msgid "Instagram profile link"
+msgstr ""
+
+#: framework/settings/SocialProfileSettings.php:221
+msgid "Set instagram profile link"
+msgstr ""
+
+#: framework/settings/SocialProfileSettings.php:242
+msgid "Pinterest"
+msgstr ""
+
+#: framework/settings/SocialProfileSettings.php:243
+msgid "Choose either pinterest share option is On/Off"
+msgstr ""
+
+#: framework/settings/SocialProfileSettings.php:264
+msgid "Pinterest profile link"
+msgstr ""
+
+#: framework/settings/SocialProfileSettings.php:265
+msgid "Set pinterest profile link"
+msgstr ""
+
+#: framework/settings/SocialProfileSettings.php:286
+msgid "YouTube"
+msgstr ""
+
+#: framework/settings/SocialProfileSettings.php:287
+msgid "Choose either youtube share option is On/Off"
+msgstr ""
+
+#: framework/settings/SocialProfileSettings.php:308
+msgid "YouTube profile link"
+msgstr ""
+
+#: framework/settings/SocialProfileSettings.php:309
+msgid "Set youtube profile link"
+msgstr ""
+
+#: framework/settings/TypographySettings.php:33
+msgid "Typography"
+msgstr ""
+
+#: framework/settings/TypographySettings.php:34
+msgid "Global settings for typography located here"
+msgstr ""
+
+#: framework/settings/TypographySettings.php:53
+msgid "Display Custom Typography"
+msgstr ""
+
+#: framework/settings/TypographySettings.php:67
+msgid "Heading1"
+msgstr ""
+
+#: framework/settings/TypographySettings.php:92
+msgid "Heading2"
+msgstr ""
+
+#: framework/settings/TypographySettings.php:117
+msgid "Heading3"
+msgstr ""
+
+#: framework/settings/TypographySettings.php:142
+msgid "Heading4"
+msgstr ""
+
+#: framework/settings/TypographySettings.php:167
+msgid "Heading5"
+msgstr ""
+
+#: framework/settings/TypographySettings.php:192
+msgid "Heading6"
+msgstr ""
+
+#: framework/settings/TypographySettings.php:217
+msgid "Body tag typography control"
+msgstr ""
+
+#: framework/settings/TypographySettings.php:241
+msgid "Widget typography control"
+msgstr ""
+
+#: framework/settings/WooGeneralSettings.php:33
+msgid "WooCommerce General"
+msgstr ""
+
+#: framework/settings/WooGeneralSettings.php:34
+msgid "Global settings for WooCommerce located here"
+msgstr ""
+
+#: framework/settings/WooGeneralSettings.php:53
+msgid "WooCommerce Page Sidebar"
+msgstr ""
+
+#: framework/settings/WooGeneralSettings.php:68
+msgid "Woo layout"
+msgstr ""
+
+#: framework/settings/WooGeneralSettings.php:69
+msgid "Choose layout for display on woo pages"
+msgstr ""
+
+#: framework/settings/WooGeneralSettings.php:91
+msgid "Product Single Sidebar"
+msgstr ""
+
+#: framework/settings/WooGeneralSettings.php:92
+msgid "Choose either sidebar is On/Off (Not recommended)"
+msgstr ""
+
+#: framework/settings/WooGeneralSettings.php:106
+msgid "Woo single layout"
+msgstr ""
+
+#: framework/settings/WooGeneralSettings.php:107
+msgid "Choose layout for display on woo single"
+msgstr ""
+
+#: framework/settings/WooGeneralSettings.php:128
+msgid "WooCommerce Page Banner"
+msgstr ""
+
+#: framework/settings/WooGeneralSettings.php:166
+msgid "Upload page banner image or set a background color"
+msgstr ""
+
+#: framework/settings/WooGeneralSettings.php:222
+msgid "WooCommerce Page banner text color"
+msgstr ""
+
+#: framework/settings/WooGeneralSettings.php:239
+msgid "WooCommerce page breadcrumb switch"
+msgstr ""
+
+#: framework/starter-content/about.php:10
+msgctxt "Theme starter content"
+msgid "About"
+msgstr ""
+
+#: framework/starter-content/home.php:10
+msgctxt "Theme starter content"
+msgid "Home"
+msgstr ""
+
+#: framework/tgmpa/class-tgm-plugin-activation.php:338, framework/tgmpa/class-tgm-plugin-activation.php:339
+msgid "Install Plugins"
+msgstr ""
+
+#. translators: %s: plugin name.
+#: framework/tgmpa/class-tgm-plugin-activation.php:341
+msgid "Installing Plugin: %s"
+msgstr ""
+
+#. translators: %s: plugin name.
+#: framework/tgmpa/class-tgm-plugin-activation.php:343
+msgid "Updating Plugin: %s"
+msgstr ""
+
+#: framework/tgmpa/class-tgm-plugin-activation.php:344
+msgid "Something went wrong with the plugin API."
+msgstr ""
+
+#: framework/tgmpa/class-tgm-plugin-activation.php:345
+msgid "This theme requires the following plugin: %1$s."
+msgid_plural "This theme requires the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: framework/tgmpa/class-tgm-plugin-activation.php:351
+msgid "This theme recommends the following plugin: %1$s."
+msgid_plural "This theme recommends the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: framework/tgmpa/class-tgm-plugin-activation.php:357
+msgid "The following plugin needs to be updated to its latest version to ensure maximum compatibility with this theme: %1$s."
+msgid_plural "The following plugins need to be updated to their latest version to ensure maximum compatibility with this theme: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: framework/tgmpa/class-tgm-plugin-activation.php:363
+msgid "There is an update available for: %1$s."
+msgid_plural "There are updates available for the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: framework/tgmpa/class-tgm-plugin-activation.php:369
+msgid "The following required plugin is currently inactive: %1$s."
+msgid_plural "The following required plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: framework/tgmpa/class-tgm-plugin-activation.php:375
+msgid "The following recommended plugin is currently inactive: %1$s."
+msgid_plural "The following recommended plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: framework/tgmpa/class-tgm-plugin-activation.php:381
+msgid "Begin installing plugin"
+msgid_plural "Begin installing plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: framework/tgmpa/class-tgm-plugin-activation.php:386
+msgid "Begin updating plugin"
+msgid_plural "Begin updating plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: framework/tgmpa/class-tgm-plugin-activation.php:391
+msgid "Begin activating plugin"
+msgid_plural "Begin activating plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: framework/tgmpa/class-tgm-plugin-activation.php:396
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+#: framework/tgmpa/class-tgm-plugin-activation.php:397, framework/tgmpa/class-tgm-plugin-activation.php:931, framework/tgmpa/class-tgm-plugin-activation.php:2729, framework/tgmpa/class-tgm-plugin-activation.php:3798
+msgid "Return to the Dashboard"
+msgstr ""
+
+#: framework/tgmpa/class-tgm-plugin-activation.php:398, framework/tgmpa/class-tgm-plugin-activation.php:3369
+msgid "Plugin activated successfully."
+msgstr ""
+
+#: framework/tgmpa/class-tgm-plugin-activation.php:399, framework/tgmpa/class-tgm-plugin-activation.php:3158
+msgid "The following plugin was activated successfully:"
+msgid_plural "The following plugins were activated successfully:"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: plugin name.
+#: framework/tgmpa/class-tgm-plugin-activation.php:401
+msgid "No action taken. Plugin %1$s was already active."
+msgstr ""
+
+#. translators: 1: plugin name.
+#: framework/tgmpa/class-tgm-plugin-activation.php:403
+msgid "Plugin not activated. A higher version of %s is needed for this theme. Please update the plugin."
+msgstr ""
+
+#. translators: 1: dashboard link.
+#: framework/tgmpa/class-tgm-plugin-activation.php:405
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr ""
+
+#: framework/tgmpa/class-tgm-plugin-activation.php:406
+msgid "Dismiss this notice"
+msgstr ""
+
+#: framework/tgmpa/class-tgm-plugin-activation.php:407
+msgid "There are one or more required or recommended plugins to install, update or activate."
+msgstr ""
+
+#: framework/tgmpa/class-tgm-plugin-activation.php:408
+msgid "Please contact the administrator of this site for help."
+msgstr ""
+
+#: framework/tgmpa/class-tgm-plugin-activation.php:624
+msgid "This plugin needs to be updated to be compatible with your theme."
+msgstr ""
+
+#: framework/tgmpa/class-tgm-plugin-activation.php:625
+msgid "Update Required"
+msgstr ""
+
+#: framework/tgmpa/class-tgm-plugin-activation.php:1044
+msgid "The remote plugin package consists of more than one file, but the files are not packaged in a folder."
+msgstr ""
+
+#: framework/tgmpa/class-tgm-plugin-activation.php:1044, framework/tgmpa/class-tgm-plugin-activation.php:1041
+msgid "Please contact the plugin provider and ask them to package their plugin according to the WordPress guidelines."
+msgstr ""
+
+#: framework/tgmpa/class-tgm-plugin-activation.php:1041
+msgid "The remote plugin package does not contain a folder with the desired slug and renaming did not work."
+msgstr ""
+
+#: framework/tgmpa/class-tgm-plugin-activation.php:1237, framework/tgmpa/class-tgm-plugin-activation.php:3154
+msgctxt "plugin A *and* plugin B"
+msgid "and"
+msgstr ""
+
+#. translators: %s: version number
+#: framework/tgmpa/class-tgm-plugin-activation.php:2155
+msgid "TGMPA v%s"
+msgstr ""
+
+#: framework/tgmpa/class-tgm-plugin-activation.php:2456
+msgid "Required"
+msgstr ""
+
+#: framework/tgmpa/class-tgm-plugin-activation.php:2459
+msgid "Recommended"
+msgstr ""
+
+#: framework/tgmpa/class-tgm-plugin-activation.php:2477
+msgid "WordPress Repository"
+msgstr ""
+
+#: framework/tgmpa/class-tgm-plugin-activation.php:2480
+msgid "External Source"
+msgstr ""
+
+#: framework/tgmpa/class-tgm-plugin-activation.php:2483
+msgid "Pre-Packaged"
+msgstr ""
+
+#: framework/tgmpa/class-tgm-plugin-activation.php:2502
+msgid "Not Installed"
+msgstr ""
+
+#: framework/tgmpa/class-tgm-plugin-activation.php:2508
+msgid "Active"
+msgstr ""
+
+#: framework/tgmpa/class-tgm-plugin-activation.php:2506
+msgid "Installed But Not Activated"
+msgstr ""
+
+#: framework/tgmpa/class-tgm-plugin-activation.php:2518
+msgid "Update recommended"
+msgstr ""
+
+#: framework/tgmpa/class-tgm-plugin-activation.php:2516
+msgid "Requires Update"
+msgstr ""
+
+#: framework/tgmpa/class-tgm-plugin-activation.php:2514
+msgid "Required Update not Available"
+msgstr ""
+
+#. translators: 1: install status, 2: update status
+#: framework/tgmpa/class-tgm-plugin-activation.php:2527
+msgctxt "Install/Update Status"
+msgid "%1$s, %2$s"
+msgstr ""
+
+#. translators: 1: number of plugins.
+#: framework/tgmpa/class-tgm-plugin-activation.php:2576
+msgctxt "plugins"
+msgid "All <span class=\"count\">(%s)</span>"
+msgid_plural "All <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: number of plugins.
+#: framework/tgmpa/class-tgm-plugin-activation.php:2580
+msgid "To Install <span class=\"count\">(%s)</span>"
+msgid_plural "To Install <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: number of plugins.
+#: framework/tgmpa/class-tgm-plugin-activation.php:2584
+msgid "Update Available <span class=\"count\">(%s)</span>"
+msgid_plural "Update Available <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: number of plugins.
+#: framework/tgmpa/class-tgm-plugin-activation.php:2588
+msgid "To Activate <span class=\"count\">(%s)</span>"
+msgid_plural "To Activate <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: framework/tgmpa/class-tgm-plugin-activation.php:2677
+msgctxt "as in: \"version nr unknown\""
+msgid "unknown"
+msgstr ""
+
+#: framework/tgmpa/class-tgm-plugin-activation.php:2685
+msgid "Installed version:"
+msgstr ""
+
+#: framework/tgmpa/class-tgm-plugin-activation.php:2693
+msgid "Minimum required version:"
+msgstr ""
+
+#: framework/tgmpa/class-tgm-plugin-activation.php:2705
+msgid "Available version:"
+msgstr ""
+
+#: framework/tgmpa/class-tgm-plugin-activation.php:2729
+msgid "No plugins to install, update or activate."
+msgstr ""
+
+#: framework/tgmpa/class-tgm-plugin-activation.php:2744
+msgid "Plugin"
+msgstr ""
+
+#: framework/tgmpa/class-tgm-plugin-activation.php:2745
+msgid "Source"
+msgstr ""
+
+#: framework/tgmpa/class-tgm-plugin-activation.php:2746
+msgid "Type"
+msgstr ""
+
+#: framework/tgmpa/class-tgm-plugin-activation.php:2750
+msgid "Version"
+msgstr ""
+
+#: framework/tgmpa/class-tgm-plugin-activation.php:2751
+msgid "Status"
+msgstr ""
+
+#. translators: %2$s: plugin name in screen reader markup
+#: framework/tgmpa/class-tgm-plugin-activation.php:2807
+msgid "Update %2$s"
+msgstr ""
+
+#. translators: %2$s: plugin name in screen reader markup
+#: framework/tgmpa/class-tgm-plugin-activation.php:2813
+msgid "Activate %2$s"
+msgstr ""
+
+#: framework/tgmpa/class-tgm-plugin-activation.php:2802
+msgid "Install %2$s"
+msgstr ""
+
+#: framework/tgmpa/class-tgm-plugin-activation.php:2886
+msgid "Upgrade message from the plugin author:"
+msgstr ""
+
+#: framework/tgmpa/class-tgm-plugin-activation.php:2922
+msgid "Install"
+msgstr ""
+
+#: framework/tgmpa/class-tgm-plugin-activation.php:2928
+msgid "Update"
+msgstr ""
+
+#: framework/tgmpa/class-tgm-plugin-activation.php:2931
+msgid "Activate"
+msgstr ""
+
+#: framework/tgmpa/class-tgm-plugin-activation.php:2964
+msgid "No plugins were selected to be updated. No action taken."
+msgstr ""
+
+#: framework/tgmpa/class-tgm-plugin-activation.php:2962
+msgid "No plugins were selected to be installed. No action taken."
+msgstr ""
+
+#: framework/tgmpa/class-tgm-plugin-activation.php:3007
+msgid "No plugins are available to be updated at this time."
+msgstr ""
+
+#: framework/tgmpa/class-tgm-plugin-activation.php:3005
+msgid "No plugins are available to be installed at this time."
+msgstr ""
+
+#: framework/tgmpa/class-tgm-plugin-activation.php:3114
+msgid "No plugins were selected to be activated. No action taken."
+msgstr ""
+
+#: framework/tgmpa/class-tgm-plugin-activation.php:3140
+msgid "No plugins are available to be activated at this time."
+msgstr ""
+
+#: framework/tgmpa/class-tgm-plugin-activation.php:3368
+msgid "Plugin activation failed."
+msgstr ""
+
+#. translators: 1: plugin name, 2: error message.
+#: framework/tgmpa/class-tgm-plugin-activation.php:3716
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr ""
+
+#. translators: 1: plugin name.
+#: framework/tgmpa/class-tgm-plugin-activation.php:3718
+msgid "The installation of %1$s failed."
+msgstr ""
+
+#: framework/tgmpa/class-tgm-plugin-activation.php:3730
+msgid "The installation process is starting. This process may take a while on some hosts, so please be patient."
+msgstr ""
+
+#. translators: 1: plugin name.
+#: framework/tgmpa/class-tgm-plugin-activation.php:3732
+msgid "%1$s installed successfully."
+msgstr ""
+
+#: framework/tgmpa/class-tgm-plugin-activation.php:3732, framework/tgmpa/class-tgm-plugin-activation.php:3724
+msgid "Show Details"
+msgstr ""
+
+#: framework/tgmpa/class-tgm-plugin-activation.php:3732, framework/tgmpa/class-tgm-plugin-activation.php:3724
+msgid "Hide Details"
+msgstr ""
+
+#: framework/tgmpa/class-tgm-plugin-activation.php:3733
+msgid "All installations have been completed."
+msgstr ""
+
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+#: framework/tgmpa/class-tgm-plugin-activation.php:3735
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: framework/tgmpa/class-tgm-plugin-activation.php:3722
+msgid "The installation and activation process is starting. This process may take a while on some hosts, so please be patient."
+msgstr ""
+
+#: framework/tgmpa/class-tgm-plugin-activation.php:3724
+msgid "%1$s installed and activated successfully."
+msgstr ""
+
+#: framework/tgmpa/class-tgm-plugin-activation.php:3725
+msgid "All installations and activations have been completed."
+msgstr ""
+
+#: framework/tgmpa/class-tgm-plugin-activation.php:3727
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: framework/tgmpa/class-tgm-plugin-activation.php:3713
+msgid "Updating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: template-fullwidth.php:5
+msgid "Full width"
+msgstr ""
+
+#: template-homepage.php:7
+msgid "Homepage"
+msgstr ""
+
+#: template-homepage.php:33
+msgid "Category Button"
+msgstr ""
+
+#: template-homepage.php:34, template-parts/home/sidebar.php:37, template-parts/home/sidebar.php:53
+msgid "Categories"
+msgstr ""
+
+#: template-parts/banner/banner-blog.php:152
+msgid "Search query : "
+msgstr ""
+
+#: template-parts/banner/banner-blog.php:142, template-parts/banner/banner-blog.php:101, template-parts/banner/banner-blog.php:82
+msgid "%1$s %2$s"
+msgstr ""
+
+#: template-parts/banner/banner-blog.php:143
+msgid "Explore: "
+msgstr ""
+
+#: template-parts/banner/banner-blog.php:144
+msgid "Blog Archives"
+msgstr ""
+
+#: template-parts/banner/banner-blog.php:134
+msgctxt "yearly archives date format"
+msgid "Y"
+msgstr ""
+
+#: template-parts/banner/banner-blog.php:125
+msgctxt "monthly archives date format"
+msgid "F Y"
+msgstr ""
+
+#: template-parts/banner/banner-blog.php:118, template-parts/banner/banner-blog.php:90
+msgid " %1$s %2$s"
+msgstr ""
+
+#: template-parts/banner/banner-blog.php:118
+msgid "Daily archives: "
+msgstr ""
+
+#: template-parts/banner/banner-blog.php:101
+msgid "Author posts: "
+msgstr ""
+
+#: template-parts/banner/banner-blog.php:90
+msgid "Tag: "
+msgstr ""
+
+#: template-parts/banner/banner-blog.php:82
+msgid "Category: "
+msgstr ""
+
+#: template-parts/banner/banner.php:73
+msgid "Search for: "
+msgstr ""
+
+#: template-parts/global/skip-to-link.php:1
+msgid "Skip to navigation"
+msgstr ""
+
+#: template-parts/global/skip-to-link.php:2
+msgid "Skip to content"
+msgstr ""
+
+#: template-parts/header/header-menu.php:56
+msgid "Logout"
+msgstr ""
+
+#: template-parts/header/header-search.php:12
+msgid "Search"
+msgstr ""
+
+#: template-parts/header/my-account.php:6, template-parts/header/my-account.php:7
+msgid "My Account"
+msgstr ""
+
+#: template-parts/home/sidebar.php:44
+msgid "Category not found."
+msgstr ""
+
+#: template-parts/product-grid/grid-helium.php:71
+msgid "Product Image"
+msgstr ""
+
+#: template-parts/product-grid/grid-helium.php:74
+msgid "Sale"
+msgstr ""
+
+#: template-parts/product-grid/grid-helium.php:120
+msgid "OUT OF STOCK"
+msgstr ""
+
+#: template-parts/product-grid/grid-helium.php:112
+msgid "Select Options"
+msgstr ""
+
+#: template-parts/product-grid/grid-helium.php:102
+msgid "ADD"
+msgstr ""
+
+#: template-starterpage.php:5
+msgid "Starter Page Template"
+msgstr ""
+
+#: woocommerce/cart/cart.php:43, woocommerce/cart/cart.php:91
+msgid "Product"
+msgstr ""
+
+#: woocommerce/cart/cart.php:44, woocommerce/cart/cart.php:111
+msgid "Price"
+msgstr ""
+
+#: woocommerce/cart/cart.php:45, woocommerce/cart/cart.php:117
+msgid "Quantity"
+msgstr ""
+
+#: woocommerce/cart/cart.php:46, woocommerce/cart/cart.php:139
+msgid "Subtotal"
+msgstr ""
+
+#: woocommerce/cart/cart.php:70
+msgid "Remove this item"
+msgstr ""
+
+#: woocommerce/cart/cart.php:106
+msgid "Available on backorder"
+msgstr ""
+
+#: woocommerce/cart/cart.php:157
+msgid "Coupon:"
+msgstr ""
+
+#: woocommerce/cart/cart.php:157, woocommerce/checkout/form-coupon.php:35
+msgid "Coupon code"
+msgstr ""
+
+#: woocommerce/cart/cart.php:157, woocommerce/cart/cart.php:157, woocommerce/checkout/form-coupon.php:39, woocommerce/checkout/form-coupon.php:39
+msgid "Apply coupon"
+msgstr ""
+
+#: woocommerce/cart/cart.php:162, woocommerce/cart/cart.php:162
+msgid "Update cart"
+msgstr ""
+
+#: woocommerce/cart/cross-sells.php:25
+msgid "You may be interested in&hellip;"
+msgstr ""
+
+#: woocommerce/checkout/form-checkout.php:27
+msgid "You must be logged in to checkout."
+msgstr ""
+
+#: woocommerce/checkout/form-checkout.php:59
+msgid "Your order"
+msgstr ""
+
+#: woocommerce/checkout/form-coupon.php:27
+msgid "Have a coupon?"
+msgstr ""
+
+#: woocommerce/checkout/form-coupon.php:27
+msgid "Click here to enter your code"
+msgstr ""
+
+#: woocommerce/checkout/form-coupon.php:32
+msgid "If you have a coupon code, please apply it below."
+msgstr ""
+
+#: woocommerce/myaccount/form-login.php:34
+msgid "Login"
+msgstr ""
+
+#: woocommerce/myaccount/form-login.php:41
+msgid "Username or email address"
+msgstr ""
+
+#: woocommerce/myaccount/form-login.php:46, woocommerce/myaccount/form-login.php:99
+msgid "Password"
+msgstr ""
+
+#: woocommerce/myaccount/form-login.php:54
+msgid "Remember me"
+msgstr ""
+
+#: woocommerce/myaccount/form-login.php:57, woocommerce/myaccount/form-login.php:57
+msgid "Log in"
+msgstr ""
+
+#: woocommerce/myaccount/form-login.php:60
+msgid "Lost your password?"
+msgstr ""
+
+#: woocommerce/myaccount/form-login.php:74, woocommerce/myaccount/form-login.php:113, woocommerce/myaccount/form-login.php:113
+msgid "Register"
+msgstr ""
+
+#: woocommerce/myaccount/form-login.php:83
+msgid "Username"
+msgstr ""
+
+#: woocommerce/myaccount/form-login.php:91
+msgid "Email address"
+msgstr ""
+
+#: woocommerce/myaccount/form-login.php:105
+msgid "A password will be sent to your email address."
+msgstr ""
+
+#: woocommerce/single-product/related.php:28
+msgid "Related products"
+msgstr ""
+
+#: woocommerce/single-product/up-sells.php:27
+msgid "You may also like&hellip;"
+msgstr ""

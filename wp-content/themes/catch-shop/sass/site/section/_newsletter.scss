@@ -1,0 +1,166 @@
+/**
+ * 7.3.8 - Newsletter
+ */
+
+#footer-newsletter .footer-newsletter {
+
+    .section-heading-wrapper {
+        max-width: 420px;
+        text-align: center;
+        padding: 0 0 28px;
+    }
+}
+
+#footer-newsletter .wrapper {
+    .section-description {
+        font-size: 20px;
+        font-size: 1.25rem;
+        font-weight: 400;
+        letter-spacing: 0;
+        margin-bottom: 0;
+        text-transform: none;
+    }
+}
+
+#footer-newsletter .ew-newsletter .section-description.subtitle-above {
+    margin-bottom: 14px;
+}
+
+#footer-newsletter .widget {
+    margin-bottom: 0;
+    background-position: center center;
+}
+
+.widget-area:not(.sidebar) .ew-newsletter .section-heading-wrapper {
+    padding: 0;
+    text-align: left;
+}
+
+#footer-newsletter .hentry.ew-newsletter-wrap.newsletter-action.custom {
+    input[type="text"] {
+        margin-bottom: 15px;
+    }
+    
+    input[type="text"] ~ input[type="submit"] {
+        position: relative;
+        left: 0;
+        margin-top: 0;
+        padding: 12px 25px;
+        right: auto;
+        top: 0;
+    }
+}
+
+#footer-newsletter {
+    .wrapper {
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+    .ewnewsletter {
+        .widget-wrap {
+            overflow: hidden;
+            max-width: 1400px;
+            margin: 0 auto;
+        }
+        .hentry {
+            form {
+                input {
+                    @include media(mobile) {
+                        margin-top: 0;
+                    }
+                }
+
+                input[type="submit"] {
+                    margin-bottom: 0;
+                    margin-left: 0;
+                    margin-top: 0;
+                    margin-right: auto;
+                    position: relative;
+                    right: auto;
+                    top: auto;
+                    width: auto;
+                }
+            }
+        }
+    }
+}
+
+#footer-newsletter .ewnewsletter .hentry form > input[type="text"] ~ input[type="email"] + input[type="submit"] {
+    margin-left: 0;
+    position: relative;
+}
+
+.footer-newsletter .has-ew-newsletter-image .ew-newsletter-content-container {
+    max-width: 522px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#footer-newsletter .ewnewsletter .hentry form {
+    max-width: 354px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+
+    input {
+        width: 100%;
+    }
+}
+
+#footer-newsletter .ewnewsletter .hentry form input#subbox1,
+#footer-newsletter .ewnewsletter .hentry form input#subbox2,
+#footer-newsletter .ewnewsletter .hentry form > input[type="text"] ~ input[type="email"],
+#footer-newsletter .ewnewsletter .hentry form input[type="text"] > input[type="text"] ~ input#subbox {
+    margin-bottom: 28px;
+}
+
+#footer-newsletter .ewnewsletter .hentry form input {
+    margin-bottom: 28px;
+    text-align: center;
+}
+
+.footer-newsletter .has-ew-newsletter-image .ew-newsletter-content-container {
+    text-align: center;
+    padding: 35px;
+}
+
+.footer-newsletter .has-ew-newsletter-image .ew-newsletter-content-container .before-text {
+    margin-bottom: 35px;
+    font-size: 20px;
+    font-size: 1.25rem;
+}
+
+.footer-newsletter .has-ew-newsletter-image .ew-newsletter-content-container,
+.footer-newsletter .ewnewsletter .widget-inner {
+    padding: 98px 30px;
+}
+
+.footer-newsletter .ewnewsletter.has-ew-newsletter-image .widget-inner {
+    padding: 0;
+}
+
+#footer-newsletter .ew-newsletter .section-description.subtitle-above p {
+    position: relative;
+}
+
+#footer-newsletter .ew-newsletter .section-description.subtitle-above p:before,
+#footer-newsletter .ew-newsletter .section-description.subtitle-above p:after {
+    content: "";
+    width: 30px;
+    border-top: 1px solid;
+    position: absolute;
+    height: 1px;
+    top: calc(50% - 1px);
+}
+
+#footer-newsletter .ew-newsletter .section-description.subtitle-above p:before {
+    right: calc(50% + 74px);
+}
+
+#footer-newsletter .ew-newsletter .section-description.subtitle-above p:after {
+    left: calc(50% + 74px);
+}
+
+#footer-newsletter .ew-newsletter-content-container {
+    overflow: hidden;
+}

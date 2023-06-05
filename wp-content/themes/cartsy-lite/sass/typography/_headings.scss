@@ -1,0 +1,75 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  clear: both;
+  margin: 0 0 1em 0;
+}
+
+h1 {
+  font-family: var(--h1FontFamily, #{$font__heading});
+  font-size: var(--h1FontSize, #{$font__size-h1});
+  font-weight: var(--h1FontWeight, 700);
+  font-style: var(--h1FontStyle, "regular");
+  line-height: var(--h1LineHeight, $font__line-height-heading);
+  letter-spacing: var(--h1LetterSpacing, 0);
+  color: var(--h1Color, #{$color__primary});
+  text-transform: var(--h1TextTransform, none);
+}
+
+h2 {
+  font-family: var(--h2FontFamily, #{$font__heading});
+  font-size: var(--h2FontSize, #{$font__size-h2});
+  font-weight: var(--h2FontWeight, 700);
+  font-style: var(--h2FontStyle, "regular");
+  line-height: var(--h2LineHeight, $font__line-height-heading);
+  letter-spacing: var(--h2LetterSpacing, 0);
+  color: var(--h2Color, #{$color__primary});
+  text-transform: var(--h2TextTransform, none);
+}
+
+h3 {
+  font-family: var(--h3FontFamily, #{$font__heading});
+  font-size: var(--h3FontSize, #{$font__size-h3});
+  font-weight: var(--h3FontWeight, 700);
+  font-style: var(--h3FontStyle, "regular");
+  line-height: var(--h3LineHeight, $font__line-height-heading);
+  letter-spacing: var(--h3LetterSpacing, 0);
+  color: var(--h3Color, #{$color__primary});
+  text-transform: var(--h3TextTransform, none);
+}
+
+h4 {
+  font-family: var(--h4FontFamily, #{$font__heading});
+  font-size: var(--h4FontSize, #{$font__size-h4});
+  font-weight: var(--h4FontWeight, 700);
+  font-style: var(--h4FontStyle, "regular");
+  line-height: var(--h4LineHeight, $font__line-height-heading);
+  letter-spacing: var(--h4LetterSpacing, 0);
+  color: var(--h4Color, #{$color__primary});
+  text-transform: var(--h4TextTransform, none);
+}
+
+h5 {
+  font-family: var(--h5FontFamily, #{$font__heading});
+  font-size: var(--h5FontSize, #{$font__size-h5});
+  font-weight: var(--h5FontWeight, 700);
+  font-style: var(--h5FontStyle, "regular");
+  line-height: var(--h5LineHeight, $font__line-height-heading);
+  letter-spacing: var(--h5LetterSpacing, 0);
+  color: var(--h5Color, #{$color__primary});
+  text-transform: var(--h5TextTransform, none);
+}
+
+h6 {
+  font-family: var(--h6FontFamily, #{$font__heading});
+  font-size: var(--h6FontSize, #{$font__size-h6});
+  font-weight: var(--h6FontWeight, 700);
+  font-style: var(--h6FontStyle, "regular");
+  line-height: var(--h6LineHeight, $font__line-height-heading);
+  letter-spacing: var(--h6LetterSpacing, 0);
+  color: var(--h6Color, #{$color__primary});
+  text-transform: var(--h6TextTransform, none);
+}

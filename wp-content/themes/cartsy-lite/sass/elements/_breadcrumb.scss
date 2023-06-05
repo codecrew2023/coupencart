@@ -1,0 +1,22 @@
+.cartsylite-breadcrumb {
+  color: var(--colorTextLight, $color__text-light);
+  font-size: 14px;
+
+  a {
+    color: var(--colorTextLight, $color__text-light);
+    &:hover {
+      color: var(--colorTextMain, $color__text-main);
+    }
+    &:visited {
+      color: var(--colorTextLight, $color__text-light);
+      &:hover {
+        color: var(--colorTextMain, $color__text-main);
+      }
+    }
+  }
+
+  .current {
+    font-weight: 600;
+    color: var(--colorTextMain, $color__text-main);
+  }
+}

@@ -1,0 +1,206 @@
+$log_colors: (
+    'fix': #22C55E,
+    'perf': #FACC15,
+    'feat': #EF4444
+);
+
+.redq-admin-dashboard-log {
+    display: flex;
+    flex-wrap: wrap;
+
+    &-left {
+        width: 100%;
+        @media (min-width: 1025px) {
+            flex: 0 0 calc(100% - rem(300px));
+            max-width: calc(100% - rem(300px));
+            padding-right: rem(145px);
+        }
+        @media (max-width: 1024px) {
+            order: 2;
+        }
+        box-sizing: border-box;
+    }
+
+    &-right {
+        width: 100%;
+        @media (min-width: 1025px) {
+            flex: 0 0 rem(300px);
+            max-width: rem(300px);
+        }
+        @media (max-width: 1024px) {
+            order: 1;
+            margin-bottom: rem(30px);
+        }
+    }
+
+    &-sidebar {
+        background-color: $color__white;
+        box-shadow: 0px 2px 8px 0px #0000000F;
+        border-radius: rem(8px);
+        padding: rem(20px);
+    }
+}
+
+.redq-admin-dashboard-log-header {
+    padding-bottom: rem(26px);
+    border-bottom: 1px solid #E5E7EB;
+    margin-bottom: rem(19px);
+
+    &-title {
+        font-size: rem(36px);
+        @include for-phone {
+            font-size: rem(24px);
+        }
+        font-weight: 600;
+        color: #111827;
+        margin: 0;
+        margin-bottom: 5px;
+    }
+
+    &-content {
+        margin: 0;
+        font-size: rem(14px);
+        font-weight: 600;
+        color: #4B5563;
+    }
+}
+
+.redq-dashboard-changelog {
+    &-wrap {
+        &:not(:last-child) {
+            border-bottom: 1px dashed #E5E7EB;
+            padding-bottom: rem(20px);
+            margin-bottom: rem(20px);
+        }
+    }
+
+    &-title {
+        margin: 0;
+        margin-bottom: rem(5px);
+        font-size: rem(24px);
+        @include for-phone {
+            font-size: rem(18px);
+        }
+        font-weight: 600;
+        color: #111827;
+    }
+
+    &-release-date {
+        font-size: rem(14px);
+        font-weight: 600;
+        color: #4B5563;
+        margin: 0;
+    }
+
+    &-items {
+        margin: 0;
+        margin-top: rem(12px);
+
+        > li {
+            margin-bottom: 0;
+            font-size: rem(14px);
+            color: #4B5563;
+        }
+
+        .redq-dashboard-changelog-item {
+            &-title {
+                display: flex;
+                align-items: center;
+                margin-bottom: rem(6px);
+
+                &-icon {
+                    margin-right: rem(9px);
+                    display: inline-block;
+                }
+
+                &-content {
+                    > span {
+                        text-transform: uppercase;
+                        display: inline-block;
+                        margin-right: rem(8px);
+                    }
+                }
+            }
+
+            @each $name, $color in $log_colors {
+                &-#{$name} {
+                    .redq-dashboard-changelog-key {
+                        color: $color;
+                    }
+                }
+            }
+        }
+    }
+}
+
+input.redq-admin-dashboard-input {
+    border-radius: rem(8px);
+    background-color: $color__white;
+    border: 1px solid #E5E7EB;
+    width: 100%;
+    display: inline-block;
+    padding: rem(9px) rem(20px);
+    min-height: auto;
+    margin: 0;
+}
+
+.redq-admin-dashboard-form-input-group {
+    position: relative;
+
+    input.redq-admin-dashboard-input {
+        padding-left: rem(55px);
+    }
+
+    .redq-admin-dashboard-input-icon {
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: rem(50px);
+        height: 100%;
+        display: flex;
+
+        &::before {
+            margin: auto;
+        }
+    }
+}
+
+.redq-admin-dashboard-log-sidebar-title {
+    margin: 0;
+    color: $color__primary;
+    font-size: rem(18px);
+    font-weight: 600;
+}
+
+.redq-admin-dashboard-lists {
+    margin: 0;
+    margin-top: 15px;
+    > li {
+        margin: 0;
+        
+        &:not(:last-child) {
+            margin-bottom: 4px;
+        }
+
+        &.active {
+            > a {
+                color: #60A5FA;
+            }
+        }
+
+        > a {
+            padding: rem(4px) 0;
+            line-height: 1;
+            font-size: rem(14px);
+            color: #4B5563;
+            transition: color $transition__main;
+            display: block;
+
+            &:hover,
+            &:focus,
+            &:active {
+                color: #60A5FA;
+            }
+        }
+    }
+}

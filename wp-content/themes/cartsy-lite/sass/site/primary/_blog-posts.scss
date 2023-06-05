@@ -1,0 +1,357 @@
+/*--------------------------------------------------------------
+# Blog and Archive page posts style
+--------------------------------------------------------------*/
+body:not(.single):not(.page) {
+
+  article.post,
+  article.page,
+  article.product {
+    margin-bottom: 60px;
+
+    @media only screen and (max-width: 1360px) {
+      margin-bottom: 60px;
+    }
+
+    @media only screen and (max-width: 1200px) {
+      margin-bottom: 50px;
+    }
+
+    @media only screen and (max-width: 767px) {
+      margin-bottom: 40px;
+    }
+
+    &:last-of-type {
+      margin-bottom: 0;
+    }
+
+    /*--------------------------------------------------------------
+    # style for post media
+    --------------------------------------------------------------*/
+    .entry-media {
+      display: grid;
+      position: relative;
+      margin: 0 0 25px;
+      &:hover {
+        img {
+          opacity: .95;
+        }
+      }
+      img {
+        display: block;
+        transition: $transition__main;
+        border-radius: $radius__main;
+      }
+    }
+
+    /*--------------------------------------------------------------
+    # style for post header
+    --------------------------------------------------------------*/
+    .entry-header {
+      margin: 0 0 15px;
+
+      .entry-meta {
+        a {
+          color: var(--colorTextLight, #{$color__text-light});
+          transition: color 0.3s ease;
+
+          &:hover {
+            color: var(--colorPrimary, #{$color__primary});
+            text-decoration: underline;
+          }
+        }
+      }
+
+      .entry-title {
+        margin: 15px 0 0;
+
+        @media only screen and (max-width: 480px) {
+          margin: 12px 0 0;
+        }
+      }
+    }
+
+    /*--------------------------------------------------------------
+    # style for post content
+    --------------------------------------------------------------*/
+    .entry-content {
+      color: var(--colorTextLight, #{$color__text-light});
+
+      p {
+        &:not(.has-text-color) {
+          color: var(--colorTextLight, #{$color__text-light});
+        }
+
+        &.wp-block-cover-text {
+          color: $color__white;
+
+          strong {
+            color: $color__white;
+          }
+        }
+      }
+
+      .has-text-color {
+        p {
+          color: inherit;
+          line-height: inherit;
+        }
+      }
+    }
+
+    /*--------------------------------------------------------------
+    # style for sticky post
+    --------------------------------------------------------------*/
+    &.sticky {
+      border: 1px solid var(--colorPrimary, #{$color__primary});
+      padding: 35px 30px;
+      border-radius: 6px;
+      box-shadow: 0 3px 6px rgba(0, 0, 0, 0.08);
+    }
+
+    /*--------------------------------------------------------------
+    # style for [quote, link, chat, status] post
+    --------------------------------------------------------------*/
+    &.format-quote,
+    &.format-link,
+    &.format-chat,
+    &.format-status {
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-color: $color__background-dark;
+      min-height: 244px;
+      border-radius: 6px;
+      padding: 60px 60px 58px;
+      display: flex;
+      align-items: center;
+      overflow: hidden;
+      position: relative;
+
+      @media only screen and (max-width: 480px) {
+        min-height: 150px;
+        padding: 40px 30px 38px;
+      }
+
+      &::after {
+        content: "";
+        display: block;
+        width: 100%;
+        height: 100%;
+        background: linear-gradient(rgba(0, 0, 0, 0.85), transparent 80%);
+        position: absolute;
+        top: 0;
+        left: 0;
+
+        @media only screen and (max-width: 480px) {
+          background: linear-gradient(rgba(0, 0, 0, 0.85), transparent);
+        }
+      }
+
+      h2 {
+        margin: 0;
+        z-index: 1;
+
+        @media only screen and (max-width: 480px) {
+          font-size: 22px;
+        }
+
+        color: $color__white;
+        transition: $transition__main;
+      }
+      &:hover {
+        h2 {
+          text-decoration: underline;
+        }
+      }
+
+      i {
+        font-size: 30px;
+        position: absolute;
+        z-index: 1;
+        top: 23px;
+        right: 30px;
+        height: auto;
+        width: auto;
+        line-height: 1;
+        color: var(--colorPrimary, #{$color__primary});
+
+        @media only screen and (max-width: 480px) {
+          font-size: 24px;
+          top: 20px;
+          right: 22px;
+        }
+      }
+
+      &.cartsylite_no_post_thumb {
+        i {
+          color: $color__white;
+        }
+      }
+    }
+    .cartsylite_blog_post_link {
+      position: absolute;
+      top: 0;
+      left: 0;
+      height: 100%;
+      width: 100%;
+      z-index: 10;
+    }
+    /*--------------------------------------------------------------
+    # style for gallery post
+    --------------------------------------------------------------*/
+    &.format-gallery {
+      // .cartsylite-post-gallery {
+      //   .swiper-container {
+      //     border-radius: 6px;
+      //     width: calc(100% - 2px);
+      //     background-color: $color__background-dark;
+      //   }
+
+      //   .swiper-slide {
+      //     .cartsylite-post-gallery-item {
+      //       min-height: 180px;
+      //       display: flex;
+      //       align-items: center;
+      //       justify-content: center;
+
+      //       img {
+      //         max-height: 100%;
+      //       }
+      //     }
+      //   }
+      // }
+
+      .cartsylite-post-gallery-prev,
+      .cartsylite-post-gallery-next {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+        width: 48px;
+        height: 48px;
+        border-radius: 50%;
+        color: var(--colorTextLight, #{$color__text-light});
+        font-size: 20px;
+        background-color: $color__white;
+        box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
+        position: absolute;
+        top: calc(50% - 48px / 2);
+        z-index: 1;
+        transition: background-color 0.3s ease;
+
+        @media only screen and (max-width: 480px) {
+          width: 40px;
+          height: 40px;
+        }
+
+        &:hover {
+          color: $color__white;
+          background-color: var(--colorPrimary, #{$color__primary});
+        }
+
+        &:focus {
+          outline: 0;
+        }
+      }
+
+      .cartsylite-post-gallery-prev {
+        left: -24px;
+
+        @media only screen and (max-width: 767px) {
+          left: 24px;
+        }
+
+        @media only screen and (max-width: 480px) {
+          left: 20px;
+        }
+      }
+
+      .cartsylite-post-gallery-next {
+        right: -24px;
+
+        @media only screen and (max-width: 480px) {
+          right: 20px;
+        }
+      }
+    }
+
+    /*--------------------------------------------------------------
+    # style for aside post
+    --------------------------------------------------------------*/
+    &.format-aside {
+      &.has-post-thumbnail {
+        display: flex;
+        align-items: center;
+
+        @media only screen and (min-width: 992px) and (max-width: 1200px) {
+          flex-direction: column;
+          align-items: flex-start;
+        }
+
+        @media only screen and (max-width: 480px) {
+          flex-direction: column;
+          align-items: flex-start;
+        }
+
+        .entry-media {
+          width: 465px;
+          flex-shrink: 0;
+          margin-right: 30px;
+
+          @media only screen and (min-width: 992px) and (max-width: 1200px) {
+            width: 100%;
+          }
+
+          @media only screen and (max-width: 991px) {
+            width: 320px;
+          }
+
+          @media only screen and (max-width: 480px) {
+            width: 100%;
+            flex-shrink: 1;
+            margin-right: 0;
+          }
+        }
+
+        .entry-header {
+          margin-top: 0;
+        }
+      }
+    }
+
+    /*--------------------------------------------------------------
+    # style for [audio, video] post
+    --------------------------------------------------------------*/
+    &.format-audio,
+    &.format-video {
+      .entry-media {
+        .entry-meta {
+          margin-bottom: 25px;
+        }
+      }
+    }
+  }
+}
+
+body.search-results {
+  .cartsylite-site-main {
+    article {
+      margin-bottom: 60px;
+
+      @media only screen and (max-width: 1360px) {
+        margin-bottom: 60px;
+      }
+
+      @media only screen and (max-width: 1200px) {
+        margin-bottom: 50px;
+      }
+
+      @media only screen and (max-width: 767px) {
+        margin-bottom: 40px;
+      }
+
+      &:last-of-type {
+        margin-bottom: 0;
+      }
+    }
+  }
+}

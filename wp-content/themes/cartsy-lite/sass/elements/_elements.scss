@@ -1,0 +1,106 @@
+*,
+*:before,
+*:after {
+  /* Inherit box-sizing to make it easier to change the property for components that leverage other behavior; see https://css-tricks.com/inheriting-box-sizing-probably-slightly-better-best-practice/ */
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  background: $color__background-body;
+  font-weight: var(--bodyFontWeight, 400);
+  font-style: var(--bodyFontStyle, "regular");
+  letter-spacing: var(--bodyLetterSpacing, 0);
+  text-transform: var(--bodyTextTransform, "none");
+  /* Fallback for when there is no custom background color defined. */
+}
+
+hr {
+  background-color: $color__background-hr;
+  border: 0;
+  height: 1px;
+  margin-bottom: 1.5em;
+}
+
+@import "lists";
+
+img {
+  height: auto;
+  /* Make sure images are scaled correctly. */
+  max-width: 100%;
+  /* Adhere to container width. */
+}
+
+figure {
+  margin: 1em 0;
+  /* Extra wide images within figure tags don't overflow the content area. */
+}
+
+/*--------------------------------------------------------------
+# style for fitvid
+--------------------------------------------------------------*/
+.fluid-width-video-wrapper {
+  border-radius: 6px;
+  overflow: hidden;
+}
+
+/*--------------------------------------------------------------
+# style for sound cloud iframe
+--------------------------------------------------------------*/
+iframe[src*="https://w.soundcloud.com"] {
+  width: 100%;
+  height: auto;
+}
+
+/*--------------------------------------------------------------
+# style for select
+--------------------------------------------------------------*/
+select {
+  max-width: 100%;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  cursor: pointer;
+  background-color: $color__white;
+  background-repeat: no-repeat;
+  background-position: center right 13px;
+  background-size: 16px;
+  transition: border-color 0.2s ease;
+  border: 1px solid var(--colorPrimary, $color__primary);
+  border-radius: 6px;
+  padding: 13px;
+  
+  &:not([multiple="multiple"]) {
+    padding-right: 30px;
+    background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGlkPSJDYXBhXzEiIHg9IjBweCIgeT0iMHB4IiB3aWR0aD0iNTEyIiBoZWlnaHQ9IjUxMiIgdmlld0JveD0iMCAwIDQ1MS44NDcgNDUxLjg0NyIgc3R5bGU9ImVuYWJsZS1iYWNrZ3JvdW5kOm5ldyAwIDAgNDUxLjg0NyA0NTEuODQ3OyIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSI+PGc+PGc+Cgk8cGF0aCBkPSJNMjI1LjkyMywzNTQuNzA2Yy04LjA5OCwwLTE2LjE5NS0zLjA5Mi0yMi4zNjktOS4yNjNMOS4yNywxNTEuMTU3Yy0xMi4zNTktMTIuMzU5LTEyLjM1OS0zMi4zOTcsMC00NC43NTEgICBjMTIuMzU0LTEyLjM1NCwzMi4zODgtMTIuMzU0LDQ0Ljc0OCwwbDE3MS45MDUsMTcxLjkxNWwxNzEuOTA2LTE3MS45MDljMTIuMzU5LTEyLjM1NCwzMi4zOTEtMTIuMzU0LDQ0Ljc0NCwwICAgYzEyLjM2NSwxMi4zNTQsMTIuMzY1LDMyLjM5MiwwLDQ0Ljc1MUwyNDguMjkyLDM0NS40NDlDMjQyLjExNSwzNTEuNjIxLDIzNC4wMTgsMzU0LjcwNiwyMjUuOTIzLDM1NC43MDZ6IiBkYXRhLW9yaWdpbmFsPSIjMDAwMDAwIiBjbGFzcz0iYWN0aXZlLXBhdGgiIHN0eWxlPSJmaWxsOiM0ODQ4NDgiIGRhdGEtb2xkX2NvbG9yPSIjMDAwMDAwIj48L3BhdGg+CjwvZz48L2c+IDwvc3ZnPg==);
+  }
+
+  // &:focus {
+  //   outline: none;
+  // }
+
+  &:hover {
+    border-color: var(--colorSecondary, #{$color__secondary});
+    box-shadow: 0 3px 6px $color__widget-shadow;
+  }
+}
+
+/*--------------------------------------------------------------
+## Tables
+--------------------------------------------------------------*/
+@import "tables";
+
+/*--------------------------------------------------------------
+## Social Profile
+--------------------------------------------------------------*/
+@import "social-profile";
+
+/*--------------------------------------------------------------
+## Button
+--------------------------------------------------------------*/
+@import "button";
+
+/*--------------------------------------------------------------
+## BreadCrumb
+--------------------------------------------------------------*/
+@import "breadcrumb";

@@ -1,0 +1,611 @@
+/*
+Theme Name: Catch Shop Dark
+Description: Used to style the TinyMCE editor.
+*/
+
+/*--------------------------------------------------------------
+# Colors
+--------------------------------------------------------------*/
+
+body {
+  background-color: #000;
+}
+
+code,
+.mce-content-body code,
+kbd,
+.mce-content-body kbd {
+  background-color: transparent;
+  color: #b2b2b2;
+  padding: 0.125em 0.25em;
+}
+pre,
+.mce-content-body pre {
+  color: #b2b2b2;
+}
+
+caption,
+.wp-block-calendar tbody td,
+.wp-block-calendar th,
+.mce-item-table caption,
+th,
+.mce-item-table th,
+td,
+.mce-item-table td {
+  border-style: solid;
+  border-top: 1px solid #ebebeb;
+  border-right: 1px solid #ebebeb;
+}
+
+select {
+  border: 1px solid #e6e6e6;
+}
+
+.gallery-caption {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  max-height: 100%;
+  overflow: auto;
+  padding: 14px;
+  color: #fff;
+  text-align: center;
+  font-size: 15px;
+  font-size: 0.9375rem;
+  background: linear-gradient(
+    0deg,
+    rgba(0, 0, 0, 0.7) 0,
+    rgba(0, 0, 0, 0.3) 60%,
+    transparent
+  );
+}
+
+.mejs-container {
+  background: #fff;
+}
+
+.mejs-embed,
+.mejs-embed body {
+  background: #fff;
+}
+
+.mejs-button > button:focus {
+  outline: 1px dotted #999;
+}
+
+.mejs-time {
+  box-sizing: content-box;
+  color: #333;
+}
+
+.mejs-time-current,
+.mejs-time-handle-content {
+  background: #01e0af;
+}
+
+.mejs-horizontal-volume-current {
+  background: hsla(0, 0%, 100%, 0.8);
+  height: 100%;
+  top: 0;
+  width: 100%;
+}
+
+.mejs-captions-layer {
+  bottom: 0;
+  color: #fff;
+}
+
+.mejs-captions-layer a {
+  color: #fff;
+}
+
+.mejs-container,
+.mejs-container .mejs-controls,
+.mejs-embed,
+.mejs-embed body {
+  background: #222;
+}
+
+.mejs-controls .mejs-horizontal-volume-slider .mejs-horizontal-volume-current,
+.mejs-controls .mejs-time-rail .mejs-time-loaded {
+  background: #fff;
+}
+
+.mejs-controls .mejs-time-rail .mejs-time-current {
+  background: #0073aa;
+}
+
+.mejs-controls .mejs-horizontal-volume-slider .mejs-horizontal-volume-total,
+.mejs-controls .mejs-time-rail .mejs-time-total {
+  background: rgba(255, 255, 255, 0.33);
+}
+
+.media-embed-details .setting .remove-setting,
+.media-embed-details .setting p {
+  color: #a00;
+  font-size: 10px;
+  text-transform: uppercase;
+}
+
+.media-embed-details .setting a:hover {
+  color: #ffbb4a;
+}
+
+.wp-playlist {
+  border: 1px solid #ccc;
+}
+
+.wp-playlist-light {
+  background: #fff;
+  color: #000;
+}
+
+.wp-playlist-dark {
+  color: #fff;
+  background: #232323;
+}
+
+.wp-playlist-item .wp-playlist-caption {
+  color: #000;
+}
+
+.wp-playlist-item {
+  border-bottom: 1px solid #ccc;
+}
+
+.wp-playlist-dark .wp-playlist-caption {
+  color: #ddd;
+}
+
+.wp-playlist-playing {
+  font-weight: normal;
+  background: #f7f7f7;
+}
+
+.wp-playlist-light .wp-playlist-playing {
+  background: #fff;
+  color: #000;
+}
+
+.wp-playlist-dark .wp-playlist-playing {
+  background: #000;
+  color: #fff;
+}
+
+.mejs-container .mejs-controls .mejs-time-rail .mejs-time-float-corner {
+  border-top-color: #ddd;
+}
+
+.mejs-container .mejs-controls .mejs-time-rail .mejs-time-total,
+.mejs-container .mejs-controls .mejs-time-rail .mejs-time-loaded,
+.mejs-container .mejs-controls .mejs-time-rail .mejs-time-float {
+  background-color: #fff;
+}
+
+.mejs-container .mejs-controls .mejs-time-rail .mejs-time-current {
+  background-color: #01e0af;
+}
+
+.mejs-container
+  .mejs-controls
+  .mejs-horizontal-volume-slider
+  .mejs-horizontal-volume-total {
+  background: #fff;
+}
+
+.mejs-container
+  .mejs-controls
+  .mejs-horizontal-volume-slider
+  .mejs-horizontal-volume-current {
+  background: #01e0af;
+}
+
+.mejs-container button {
+  color: #03065d;
+}
+
+.wp-playlist-dark .mejs-container button {
+  color: #fff;
+}
+
+.wp-video-shortcode.mejs-container .mejs-controls {
+  background: #222;
+  top: auto;
+}
+
+body .wp-playlist-dark .wp-playlist-item {
+  border-color: #313131;
+  padding: 0.75em;
+}
+
+body .wp-playlist.wp-playlist-dark .wp-playlist-caption {
+  color: #ddd;
+}
+
+body .wp-playlist-tracks .wp-playlist-item:hover a,
+body .wp-playlist-tracks .wp-playlist-item:focus a,
+body .wp-playlist-tracks .wp-playlist-item:hover .wp-playlist-item-title,
+body .wp-playlist-tracks .wp-playlist-item:focus .wp-playlist-item-title {
+  color: #00e8b6;
+}
+
+.mejs-container .mejs-volume-button.mejs-unmute button:before {
+  content: "\f026";
+}
+
+.mejs-container .mejs-fullscreen-button button:before {
+  content: "\f0b2";
+}
+
+/**
+   * 15.0 - Colors
+   */
+
+/* Body Background Color */
+
+/* Secondary Background Color */
+input[type="date"],
+input[type="time"],
+input[type="datetime-local"],
+input[type="week"],
+input[type="month"],
+input[type="text"],
+input[type="email"],
+input[type="url"],
+input[type="password"],
+input[type="search"],
+input[type="tel"],
+input[type="number"],
+textarea,
+body .wp-playlist {
+  background-color: #fff;
+}
+
+/* Secondary Background Color */
+hr,
+.wp-block-calendar thead,
+pre,
+select,
+body .wp-playlist-item:hover,
+body .wp-playlist-item:focus,
+.mejs-container,
+.wp-audio-shortcode.mejs-container .mejs-controls,
+.wp-playlist {
+  background-color: #151515;
+}
+
+.mejs-container .mejs-controls .mejs-time-rail .mejs-time-float-corner {
+  border-color: #222;
+}
+
+/* Main Text Color */
+body,
+input,
+select,
+textarea,
+input[type="date"],
+input[type="time"],
+input[type="datetime-local"],
+input[type="week"],
+input[type="month"],
+input[type="text"],
+input[type="email"],
+input[type="url"],
+input[type="password"],
+input[type="search"],
+input[type="tel"],
+input[type="number"],
+body .wp-playlist,
+.wp-playlist-light .wp-playlist {
+  color: #b2b2b2;
+}
+
+/* Headline Text Color */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.drop-cap::first-letter,
+.page-links > .page-links-title {
+  color: #ffffff;
+}
+
+input[type="date"]:focus,
+input[type="time"]:focus,
+input[type="datetime-local"]:focus,
+input[type="week"]:focus,
+input[type="month"]:focus,
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="url"]:focus,
+input[type="password"]:focus,
+input[type="search"]:focus,
+input[type="tel"]:focus,
+input[type="number"]:focus,
+textarea:focus {
+  border-color: #000000;
+}
+
+.more-link,
+.button,
+.wp-block-button__link {
+  background-color: #222;
+  color: #fff;
+  cursor: pointer;
+}
+
+.button:hover,
+.button:focus,
+.more-link:hover,
+.more-link:focus,
+.wp-block-button__link:hover,
+.wp-block-button__link:focus {
+  background-color: #ef3636;
+  color: #fff;
+}
+
+/* Link Color */
+a,
+input[type="date"]:focus,
+input[type="time"]:focus,
+input[type="datetime-local"]:focus,
+input[type="week"]:focus,
+input[type="month"]:focus,
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="url"]:focus,
+input[type="password"]:focus,
+input[type="search"]:focus,
+input[type="tel"]:focus,
+input[type="number"]:focus,
+textarea:focus,
+::marker,
+body .wp-playlist-item:hover,
+body .wp-playlist-item:focus,
+body .wp-playlist-item:hover .wp-playlist-item-artist,
+body .wp-playlist-item:focus .wp-playlist-item-artist,
+body .wp-playlist-item:hover .wp-playlist-caption,
+body .wp-playlist-item:focus .wp-playlist-caption,
+.mejs-container button,
+.mejs-container .mejs-controls .mejs-time {
+  color: #fa7268;
+}
+
+/* Link Hover Color */
+a:focus,
+a:hover,
+.mejs-container button:hover,
+.mejs-container button:focus {
+  color: #000;
+  text-decoration: none;
+}
+
+mark,
+ins,
+.catch-shop-mejs-container.mejs-container
+  .mejs-controls
+  .mejs-time-rail
+  .mejs-time-current,
+.catch-shop-mejs-container.mejs-container
+  .mejs-controls
+  .mejs-volume-button
+  .mejs-volume-current,
+.catch-shop-mejs-container.mejs-container
+  .mejs-controls
+  .mejs-volume-button
+  .mejs-volume-handle,
+.catch-shop-mejs-container.mejs-container
+  .mejs-controls
+  .mejs-horizontal-volume-slider
+  .mejs-horizontal-volume-current {
+  background-color: #111;
+}
+
+/* Secondary Link Color */
+
+cite,
+.wp-block-pullquote .wp-block-pullquote__citation,
+body .wp-playlist .wp-playlist-caption {
+  color: #999;
+}
+
+/* Border Color */
+select,
+fieldset,
+input[type="date"],
+input[type="time"],
+input[type="datetime-local"],
+input[type="week"],
+input[type="month"],
+input[type="text"],
+input[type="email"],
+input[type="url"],
+input[type="password"],
+input[type="search"],
+input[type="tel"],
+input[type="number"],
+textarea,
+table,
+.mce-item-table,
+caption,
+.mce-item-table caption,
+th,
+.mce-item-table th,
+td,
+.mce-item-table td {
+  border-color: #282828;
+}
+
+/* Button Text Color */
+mark,
+ins,
+.page-links a,
+.page-links a:hover,
+.page-links a:focus,
+.button,
+input[type="button"],
+input[type="button"][disabled]:hover,
+input[type="button"][disabled]:focus,
+input[type="reset"],
+input[type="reset"][disabled]:hover,
+input[type="reset"][disabled]:focus,
+input[type="submit"],
+input[type="submit"][disabled]:hover,
+input[type="submit"][disabled]:focus,
+button:hover,
+button:focus,
+.button:hover,
+.button:focus,
+input[type="button"]:hover,
+input[type="button"]:focus,
+input[type="reset"]:hover,
+input[type="reset"]:focus,
+input[type="submit"]:hover,
+input[type="submit"]:focus {
+  color: #fff;
+}
+/* Button Background Color */
+.page-links a,
+.button,
+input[type="button"],
+input[type="button"][disabled]:hover,
+input[type="button"][disabled]:focus,
+input[type="reset"],
+input[type="reset"][disabled]:hover,
+input[type="reset"][disabled]:focus,
+input[type="submit"],
+input[type="submit"][disabled]:hover,
+input[type="submit"][disabled]:focus {
+  background-color: #222;
+}
+
+/* Button Hover Background Color */
+.page-links a:hover,
+.page-links a:focus,
+.button:hover,
+.button:focus,
+input[type="button"]:hover,
+input[type="button"]:focus,
+input[type="reset"]:hover,
+input[type="reset"]:focus,
+input[type="submit"]:hover,
+input[type="submit"]:focus {
+  background-color: #ef3636;
+}
+
+/* Quote Color */
+blockquote {
+  color: #ffffff;
+}
+
+/* Playlist Dark */
+body .wp-playlist.wp-playlist-dark,
+.mejs-container .mejs-controls .mejs-time-rail .mejs-time-total {
+  background-color: #000;
+}
+
+.wp-playlist-dark .mejs-container,
+.wp-playlist-dark .wp-playlist-current-item,
+.wp-playlist-dark .mejs-container .mejs-controls,
+body .wp-playlist-dark .wp-playlist-item:hover,
+body .wp-playlist-dark .wp-playlist-item:focus {
+  background-color: #222;
+}
+
+body .wp-playlist.wp-playlist-dark .wp-playlist-playing,
+body .wp-playlist.wp-playlist-dark .wp-playlist-playing .wp-playlist-caption,
+body .wp-playlist-dark .wp-playlist-item:hover .wp-playlist-caption,
+body .wp-playlist-dark .wp-playlist-item:focus .wp-playlist-caption,
+body .wp-playlist-dark .wp-playlist-item:hover .wp-playlist-item-artist,
+body .wp-playlist-dark .wp-playlist-item:focus .wp-playlist-item-artist,
+body .wp-playlist-dark .wp-playlist-item:hover,
+body .wp-playlist-dark .wp-playlist-item:focus {
+  color: #fff;
+}
+
+.wp-playlist-dark .mejs-container .mejs-controls .mejs-time {
+  color: #fff;
+}
+
+body .wp-playlist-dark .wp-playlist-current-item .wp-playlist-item-meta,
+.wp-playlist-tracks .wp-playlist-item.wp-playlist-playing,
+.wp-playlist-item-meta.wp-playlist-item-title,
+.wp-playlist-tracks .wp-playlist-item.wp-playlist-playing .wp-playlist-caption {
+  color: #fff;
+}
+
+body .wp-playlist {
+  background-color: #fff;
+}
+
+body .wp-playlist-item:nth-child(2n) {
+  background-color: #131218;
+}
+
+body .wp-playlist-item:nth-child(2n + 1) {
+  background-color: #000;
+}
+
+body .wp-playlist-item:hover,
+body .wp-playlist-item:focus {
+  background-color: #333;
+  color: #fff;
+}
+
+body .wp-playlist-item:hover,
+body .wp-playlist-item:focus,
+body .wp-playlist-item:nth-child(2n + 1):hover,
+body .wp-playlist-item:nth-child(2n + 1):focus {
+  background-color: #222;
+}
+
+body .wp-playlist-caption .wp-playlist-item-title,
+body .wp-playlist-caption .wp-playlist-item-album {
+  display: inline;
+}
+
+.mejs-container .mejs-controls .mejs-time-rail .mejs-time-loaded,
+.mejs-container .mejs-controls .mejs-time-rail .mejs-time-float,
+.mejs-container
+  .mejs-controls
+  .mejs-horizontal-volume-slider
+  .mejs-horizontal-volume-total {
+  background-color: #333;
+}
+
+body .mejs-time,
+.catch-shop-mejs-container.mejs-container .mejs-controls .mejs-time,
+.mejs-container .mejs-controls .mejs-playpause-button.mejs-button button,
+body .wp-playlist-current-item .wp-playlist-item-meta,
+body .wp-playlist .wp-playlist-playing,
+body .wp-playlist .wp-playlist-playing .wp-playlist-caption {
+  color: #03065d;
+}
+
+.mejs-container .mejs-controls .mejs-playpause-button.mejs-button button:hover,
+.mejs-container .mejs-controls .mejs-playpause-button.mejs-button button:focus,
+.wp-playlist-tracks .wp-playlist-item.wp-playlist-playing:hover,
+.wp-playlist-tracks .wp-playlist-item.wp-playlist-playing:focus,
+.wp-playlist-tracks
+  .wp-playlist-item.wp-playlist-playing
+  .wp-playlist-caption:hover,
+.wp-playlist-tracks
+  .wp-playlist-item.wp-playlist-playing
+  .wp-playlist-caption:focus,
+.wp-playlist-tracks .wp-playlist-item:hover,
+.wp-playlist-tracks .wp-playlist-item:focus {
+  color: #01e0af;
+}
+
+.wp-block-calendar table th {
+  background-color: transparent;
+}
+
+ins {
+  background-color: #252525;
+  color: #fff;
+}
+
+/** this is test cmment */

@@ -1,0 +1,24 @@
+.cartsylite-404 {
+  width: 620px;
+  margin: 0 auto;
+  max-width: 100%;
+  padding: 110px 20px;
+  text-align: center;
+
+  img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto 55px auto;
+  }
+
+  h1 {
+    text-align: center;
+    line-height: $font__line-height-body;
+    margin-bottom: 30px;
+  }
+
+  p {
+    margin: 0 0 60px 0;
+  }
+}

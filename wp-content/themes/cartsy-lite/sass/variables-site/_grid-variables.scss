@@ -1,0 +1,30 @@
+$xs-max: 575px !default;
+$sm-max: 768px !default;
+$md-max: 1025px !default;
+$lg-max: 1200px !default;
+$xl-max: 1400px !default;
+$xxl-max: 1700px !default;
+
+$container-xxl: 1360px;
+$container-xl: 1280px;
+$container-lg: 1170px;
+$container-md: 920px;
+$container-sm: 730px;
+
+// Breakpoints
+$breakpoint-xs-up: "(min-width: #{$xs-max})";
+$breakpoint-sm-up: "(min-width: #{$sm-max})";
+$breakpoint-md-up: "(min-width: #{$md-max})";
+$breakpoint-lg-up: "(min-width: #{$lg-max})";
+$breakpoint-xl-up: "(min-width: #{$xl-max})";
+$breakpoint-xxl-up: "(min-width: #{$xxl-max})";
+
+$breakpoint-ups: (
+  $breakpoint-xs-up,
+  $breakpoint-sm-up,
+  $breakpoint-md-up,
+  $breakpoint-lg-up,
+  $breakpoint-xl-up,
+  $breakpoint-xxl-up
+);
+$breakpoint-up-prefixes: ("xs", "sm", "md", "lg", "xl", "xxl");

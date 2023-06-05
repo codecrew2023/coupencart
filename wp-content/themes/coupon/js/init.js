@@ -1,0 +1,9 @@
+jQuery(document).ready(function($){
+    $('.main-menu').slicknav({
+    label:init_vars.label
+ });
+    $('.kt-coupon-links').click(function(){
+       $('a.kt-coupon-url',this).hide();
+       $('.kt-coupon-code',this).show(); 
+    });
+});

@@ -1,0 +1,161 @@
+.woocommerce {
+  button {
+    &.button {
+      font-weight: 400;
+    }
+  }
+}
+
+//Product Single Style
+.single-product {
+  @import "product-single/layout-default";
+}
+
+.pswp {
+  z-index: 9912;
+}
+
+section.upsells {
+  &~section.related {
+    margin-top: 90px;
+  }
+
+  &~section.recently-viewed {
+    margin-top: 90px;
+  }
+}
+
+section.recently-viewed {
+  &~section.upsells {
+    margin-top: 90px;
+  }
+
+  &~section.related {
+    margin-top: 90px;
+  }
+}
+
+section.related {
+  &~section.recently-viewed {
+    margin-top: 90px;
+  }
+}
+
+%_stars_active_state {
+  color: var(--colorPrimary, #{$color__primary});
+  opacity: 1;
+  content: "\f155";
+}
+
+p.stars {
+  a {
+    position: relative;
+    height: 1em;
+    width: 1em;
+    text-indent: -999em;
+    overflow: hidden;
+    display: inline-block;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 22px;
+
+    &::before {
+      display: block;
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 1em;
+      height: 1em;
+      line-height: 1;
+      font-family: $icon__font_family;
+      content: "\f154";
+      text-indent: 0;
+      color: var(--colorPrimary, #{$color__primary});
+      opacity: 0.25;
+      transition: $transition__main;
+    }
+
+    &:hover {
+      &:before {
+        opacity: 1;
+      }
+    }
+  }
+
+  &.selected {
+    a {
+      &.active {
+        &::before {
+          @extend %_stars_active_state;
+        }
+
+        ~a {
+          &::before {
+            color: var(--colorPrimary, #{$color__primary});
+            opacity: 0.25;
+            content: "\f154";
+          }
+        }
+      }
+
+      &:not(.active) {
+        &::before {
+          @extend %_stars_active_state;
+        }
+      }
+    }
+  }
+}
+
+%_star_rating {
+  top: 0;
+  left: 0;
+  position: absolute;
+  font-size: 1.1rem;
+}
+
+.woocommerce-product-rating {
+  display: flex;
+  align-items: center;
+  margin-bottom: 25px;
+
+  .woocommerce-review-link {
+    margin-left: 5px;
+    font-size: 15px;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
+
+.star-rating {
+  overflow: hidden;
+  position: relative;
+  font-family: $icon__font_family;
+  line-height: 1;
+  width: 90px;
+  height: 18px;
+  display: block;
+
+  span {
+    overflow: hidden;
+    top: 0;
+    left: 0;
+    position: absolute;
+    font-size: 0;
+    height: 100%;
+    color: var(--colorPrimary, #{$color__primary});
+
+    &::before {
+      color: var(--colorPrimary, #{$color__primary});
+      @extend %_star_rating;
+      content: "\f155 \f155 \f155 \f155 \f155";
+    }
+  }
+
+  &::before {
+    @extend %_star_rating;
+    content: "\f154 \f154 \f154 \f154 \f154";
+  }
+}

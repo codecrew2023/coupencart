@@ -1,0 +1,94 @@
+/**
+ * 7.3.4 - Footer
+ */
+
+#colophon .widget-column {
+    float: left;
+    position: relative;
+    width: 100%;
+    z-index: 2;
+}
+
+#site-generator {
+    clear: both;
+    max-width: 1500px;
+    margin: 0 auto;
+    padding: 21px 30px;
+    position: relative;
+}
+
+nav#site-footer-navigation {
+    text-align: center;
+}
+
+aside.widget-area + div#site-generator:before {
+    border-top-width: 1px;
+    border-top-style: solid;
+    content: "";
+    left: 30px;
+    position: absolute;
+    top: 0;
+    width: calc(100% - 60px);
+}
+
+#colophon {
+    background-repeat: no-repeat;
+    background-position: bottom left;
+}
+
+body #colophon .above-footer {
+    clear: both;
+    width: 100%;
+
+    section {
+        margin-bottom: 0;
+    }
+}
+
+.footer-logo {
+    width: 100%;
+    text-align: center;
+}
+
+.footer-contact {
+    display: flex;
+    justify-content: center;
+    max-width: 667px;
+    margin: 0 auto;
+
+    p {
+        margin-bottom: 0;
+        margin-right: 15px;
+
+        &:last-child {
+            margin-right: 0;
+        }
+    }
+}
+
+.footer-contact {
+    margin-top: 28px;
+}
+
+.site-info {
+    text-transform: capitalize;
+    text-align: center;
+}
+
+.site-info a {
+    text-decoration: none;
+}
+
+.site-info a:hover,
+.site-info a:focus {
+    text-decoration: underline;
+}
+
+.site-footer .widget .wp-block-group h1,
+.site-footer .widget .wp-block-group h2,
+.site-footer .widget .wp-block-group h3,
+.site-footer .widget .wp-block-group h4,
+.site-footer .widget .wp-block-group h5,
+.site-footer .widget .wp-block-group h6 {
+    border-bottom: 0;
+}

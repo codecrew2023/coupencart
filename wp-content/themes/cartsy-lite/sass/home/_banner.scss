@@ -1,0 +1,73 @@
+.cartsylite-home-banner {
+    min-height: var(--desktop-min-height,450px);
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    padding: 80px 50px;
+    z-index: 2;
+    border-radius: var(--borderRadius,6px);
+    text-align: center;
+    &.color {
+        background-color: var(--cartsyliteBannerBGColor, #323232);
+        color: var(--cartsyliteBannerTextColor, #FFF);
+        .cartsylite-banner-description,
+        .cartsylite-banner-title {
+            color: inherit;
+        }
+    }
+    @include for-desktop {
+        min-height: var(--laptop-min-height, 380px);
+    }
+    @include for-landscape-phone {
+        min-height: var(--tab-min-height, 300px);
+    }
+    @include for-phone {
+        min-height: var(--mobile-min-height, 200px);
+        padding: 50px 30px;
+    }
+}
+.cartsylite-banner-content {
+    position: relative;
+    z-index: 2;
+}
+.cartsylite-site-content {
+    padding: 0;
+}
+.cartsylite-banner-description {
+    margin-bottom: 0;
+    color: var(--cartsyliteBannerTextColor, #5A5A5A);
+    line-height: 1.87;
+    @include for-phone {
+        font-size: 14px;
+    }
+}
+.cartsylite-banner-title {
+    margin-bottom: 15px;
+    color: var(--cartsyliteBannerTextColor, #212121);
+    @include for-desktop {
+        font-size: 30px;
+        margin-bottom: 12px;
+    }
+    @include for-landscape-phone {
+        font-size: 24px;
+        margin-bottom: 10px;
+    }
+}
+.cartsylite-home-page-thumb-area {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: 1;
+    border-radius: inherit;
+    background-color: $color__white;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+.page-template-template-homepage {
+    background-color: #f9f9f9;
+}

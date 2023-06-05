@@ -1,0 +1,223 @@
+%_menu_drop_down_hover {
+  opacity: 1;
+  visibility: visible;
+}
+
+%_menu_item_text_color {
+  color: var(--cartsyliteLocalMenuTextColor, #212121);
+}
+
+%_menu_item_hover_color {
+  color: var(--cartsyliteLocalMenuTextHoverColor, #3a3a3a);
+}
+
+%_menu_item_hover_bg_color {
+  background-color: var(--cartsyliteLocalMenuTextHoverBgColor, #f3f3f3);
+  @extend %_menu_item_hover_color;
+}
+
+/*--------------------------------------------------------------
+## Menus
+--------------------------------------------------------------*/
+@import "menus";
+
+/*--------------------------------------------------------------
+## Horizontal Navigation
+--------------------------------------------------------------*/
+@import "horizontal-navigation";
+
+/*--------------------------------------------------------------
+  # Cartsylite default menu area style
+--------------------------------------------------------------*/
+
+.cartsylite-menu-right-col {
+  margin-left: auto;
+  display: flex;
+  align-items: center;
+  @include for-desktop {
+    font-size: 15px;
+  }
+  @include for-small-desktop {
+    font-size: 20px;
+  }
+  @extend %_menu_item_text_color;
+  .cartsylite-join-us-btn {
+    @include for-tablet {
+      &-title {
+        display: none;
+      }
+      > svg {
+        display: none;
+      }
+    }
+  }
+}
+body.logged-in {
+  .cartsylite-menu-right-col {
+    .cartsylite-join-us-btn {
+      @include for-tablet {
+        > svg {
+          display: block;
+        }
+      }
+    }
+  }
+}
+.cartsylite-join-us-btn {
+  text-decoration: none;
+  font-size: 1em;
+  white-space: nowrap;
+  line-height: 1;
+  @extend %_menu_item_text_color;
+  &:visited {
+    @extend %_menu_item_text_color;
+  }
+  &:hover,
+  &:focus {
+    @extend %_menu_item_hover_color;
+  }
+  @media (min-width: 1025px) {
+    svg {
+      display: none;
+    }
+  }
+  &-title {
+    @include for-tablet {
+      display: none;
+    }
+  }
+}
+.cartsylite-header-search-button {
+  border: none;
+  background-color: transparent;
+  margin-right: 30px;
+  padding: 5px;
+  cursor: pointer;
+  font-size: 1em;
+  color: inherit;
+  transition: $transition__main;
+  border-radius: 0;
+  &:hover {
+    @extend %_menu_item_hover_color;
+  }
+  &:focus,
+  &:hover {
+    background-color: transparent;
+    @extend %_menu_item_hover_color;
+  }
+  @media (min-width: 1281px) {
+    font-size: 20px;
+  }
+  @include for-landscape-phone {
+    margin-right: 15px;
+    padding: 0;
+  }
+  > svg {
+    display: block;
+  }
+}
+.cartsylite-header-search-form {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  height: 60px;
+  width: 100%;
+  z-index: 20;
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+  transition: $transition__main;
+  &.show-mobile-search {
+    opacity: 1;
+    visibility: visible;
+    pointer-events: auto;
+  }
+  .site-search {
+    height: 100%;
+    position: relative;
+  }
+  .woocommerce-product-search,
+  .widget_product_search {
+    height: 100%;
+  }
+  .woocommerce-product-search {
+    display: flex;
+    align-items: center;
+    position: relative;
+    input {
+      height: 100%;
+      background-color: #f9f9f9;
+      border-radius: 0;
+      border-width: 0;
+      transition: background-color 0.2s ease;
+      padding-left: 70px;
+      &:focus {
+        background-color: #f6f7f6;
+        box-shadow: none;
+      }
+    }
+    button {
+      &[type="submit"] {
+        @extend %_search_button;
+        left: 0;
+        right: auto;
+        padding: 30px;
+      }
+    }
+  }
+}
+.cartsylite-menu-area {
+  display: flex;
+  align-items: center;
+  @include for-tablet {
+    min-height: 80px;
+  }
+}
+.cartsylite-site-header {
+  box-sizing: border-box;
+  .site-branding {
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 0;
+    justify-content: center;
+    padding: 10px 0;
+    @include for-tablet {
+      margin: 0 20px;
+    }
+  }
+  .site-title {
+    @extend %_menu_item_text_color;
+    font-size: 24px;
+    font-weight: 700;
+    margin: 0;
+    > a {
+      color: inherit;
+      display: block;
+      text-decoration: none;
+      &:hover {
+        @extend %_menu_item_hover_color;
+      }
+    }
+    @include for-desktop {
+      font-size: 18px;
+    }
+  }
+  .site-description {
+    margin: 0;
+    @extend %_menu_item_text_color;
+    @include for-desktop {
+      font-size: 14px;
+    }
+    @include for-tablet {
+      display: none;
+    }
+  }
+}
+.custom-logo {
+  max-width: 180px;
+  max-height: 80px;
+  display: block;
+  @media (max-width: 1500px) {
+    max-height: 66px;
+  }
+}

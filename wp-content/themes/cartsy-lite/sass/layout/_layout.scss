@@ -1,0 +1,120 @@
+a {
+    text-decoration: none;
+    color: var(--colorTextMain, #212121);
+  
+    &:visited {
+      color: var(--colorTextMain, #212121);
+    }
+  
+    &:hover,
+    &:focus,
+    &:active {
+      color: var(--colorPrimaryHover, #3a3a3a);
+    }
+  
+    &:focus {
+      outline: thin dotted;
+    }
+  
+    &:hover,
+    &:active {
+      outline: 0;
+    }
+  }
+  
+  .cartsylite-content-area {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+  
+    @media (min-width: 578px) {
+      max-width: 540px;
+    }
+  
+    @media (min-width: 768px) {
+      max-width: 720px;
+    }
+  
+    @media (min-width: 992px) {
+      max-width: 960px;
+    }
+  
+    @media (min-width: 1300px) {
+      max-width: 1220px;
+    }
+  
+    @media (min-width: 1500px) {
+      max-width: 1420px;
+    }
+  
+    &.cartsylite-with-sidebar {
+      .cartsylite-widget-area {
+        margin-top: 40px;
+      }
+  
+      @media (min-width: 1025px) {
+        display: flex;
+        grid-column-gap: 30px;
+  
+        .cartsylite-site-main {
+          max-width: 73%;
+          flex-shrink: 0;
+          width: 100%;
+        }
+  
+        .cartsylite-widget-area {
+          margin-top: 0px;
+          width: 100%;
+          max-width: 26%;
+          width: calc(26% - 16px);
+        }
+  
+        &.cartsylite-left-sidebar {
+          .cartsylite-site-main {
+            order: 2;
+          }
+  
+          .cartsylite-widget-area {
+            order: 1;
+          }
+        }
+        &.cartsylite-right-sidebar {
+          .cartsylite-site-main {
+            order: 1;
+          }
+  
+          .cartsylite-widget-area {
+            order: 2;
+          }
+        }
+      }
+    }
+  }
+  
+  .cartsylite-site-content {
+    padding: {
+      top: 50px;
+      bottom: 50px;
+    }
+  }
+  
+  div#page {
+    min-height: 100vh;
+    overflow: hidden;
+  }
+  .woocommerce-account {
+    &.cartsylite-logout-mode {
+      .cartsylite-content-area {
+        .cartsylite-site-main {
+          max-width: 100%;
+        }
+      }
+    }
+  }
+  
+  .dashicons {
+    height: auto;
+    width: auto;
+  }

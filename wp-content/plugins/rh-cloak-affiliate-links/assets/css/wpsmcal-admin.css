@@ -1,0 +1,32 @@
+/*  */
+.clearfix:before, .clearfix:after { content: ""; display: table; }
+.clearfix:after { clear: both; }
+
+/*  */
+table{width: 100%; border-spacing: 0px;}
+table td {padding: 8px 0;}
+table.wpsmcal-group-titles td {border-bottom: 1px solid grey; font-weight: bolder; padding-top: 6px;}
+table.wpsmcal-group-inputs tr:nth-child(2n) td {border-bottom: 1px solid #bbb; padding-top: 0;}
+
+#domains_list, #afftags_list {max-width: 190px;}
+
+/*  */
+.tabs-menu{}
+.tabs-menu li{list-style:none !important; cursor:pointer; float: left;transition: all 0.3s; padding: 8px 14px;border: 1px solid transparent;border-bottom: 1px solid #ccc;}
+.tabs-menu li.current {border: 1px #ccc solid;border-bottom: 1px solid transparent;}
+.tabs .tabs-item {display: none;}
+
+/*  */
+p.notice.notice-warning {padding: 10px;}
+ul.wpsmcal-notice {padding: 10px 0;}
+ul.wpsmcal-notice li {padding: 5px 10px;}
+ul.wpsmcal-notice li:nth-child(odd) {background-color: whitesmoke;}
+
+.wpsmcal-ie-box .wpsmcal-ie-box-footer{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.wpsmcal-ie-box .wpsmcal-ie-note{
+    margin-left: 10px;
+}

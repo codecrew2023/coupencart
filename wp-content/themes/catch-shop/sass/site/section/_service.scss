@@ -1,0 +1,26 @@
+/**
+ * 7.3.11 - Services
+ */
+
+#service-section {
+    position: relative;
+    width: 100%;
+
+    .post-thumbnail {
+        margin-bottom: 18px;
+    }
+
+    .hentry-inner {
+        border: 1px solid;
+        padding: 35px;
+        .entry-title {
+            font-size: 20px;
+            font-size: 1.25rem;
+            text-transform: uppercase;
+            line-height: 1.75;
+        }
+    }
+    .section-content-wrapper .entry-summary {
+        margin-top: 7px;
+    }
+}

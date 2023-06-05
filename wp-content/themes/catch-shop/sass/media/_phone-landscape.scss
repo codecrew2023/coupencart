@@ -1,0 +1,14 @@
+/**
+ * 8.2.1 - >= 640px / 40em
+ */
+
+ @include media(phone_landscape) {
+    .entry-content blockquote.alignleft,
+    .entry-content blockquote.alignright {
+        width: 49.73684210526316%;
+    }
+
+    #countdown-section .entry-content {
+        max-width: 521px;
+    }
+ }

@@ -1,0 +1,22 @@
+/**
+ * 7.3.3 - Featured Content
+ */
+
+.featured-content-wrapper a {
+    text-decoration: none;
+}
+
+.featured-content-section .section-content-wrapper .post-thumbnail {
+    margin-bottom: 0;
+    width: 100%;
+}
+
+body .flashy-container .flashy-content {
+    background: transparent;
+}
+
+.single-item .featured-video-content-wrapper .hentry:first-child {
+    margin-left: auto;
+    margin-right: auto;
+    float: none;
+}

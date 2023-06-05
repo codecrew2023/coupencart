@@ -1,0 +1,58 @@
+ul.cartsylite-social-profiles {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+
+  &.color-light {
+    .cartsylite-social-profile-item {
+      a {
+        color: var(--colorTextLight, #{$color__text-light});
+
+        &:hover {
+          color: var(--colorPrimaryHover, #{$color__primary__hover});
+        }
+      }
+    }
+  }
+
+  &.color-main {
+    .cartsylite-social-profile-item {
+      a {
+        color: var(--colorTextMain, #{$color__text-main});
+
+        &:hover {
+          color: var(--colorPrimaryHover, #{$color__primary__hover});
+        }
+      }
+    }
+  }
+
+  .cartsylite-social-profile-item {
+    margin: 0 25px 0 0;
+
+    &:last-child {
+      margin-right: 0;
+    }
+
+    a {
+      display: block;
+      margin: 0;
+      font-size: $font__size-icon;
+      color: var(--colorTextDark, #{$color__text-black});
+      text-decoration: none;
+      line-height: $font__line-height-normal;
+      transition: $transition__main;
+
+      &:hover {
+        color: var(--colorPrimaryHover, #{$color__primary__hover});
+      }
+
+      i {
+        display: block;
+      }
+    }
+  }
+}

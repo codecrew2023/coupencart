@@ -1,0 +1,2 @@
+<a class="skip-link screen-reader-text" href="#site-navigation"><?php esc_html_e('Skip to navigation', 'cartsy-lite'); ?></a>
+<a class="skip-link screen-reader-text" href="#content"><?php esc_html_e('Skip to content', 'cartsy-lite'); ?></a>

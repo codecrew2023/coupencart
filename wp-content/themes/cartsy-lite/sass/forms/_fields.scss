@@ -1,0 +1,79 @@
+input[type="text"],
+input[type="email"],
+input[type="url"],
+input[type="password"],
+input[type="search"],
+input[type="number"],
+input[type="tel"],
+input[type="range"],
+input[type="date"],
+input[type="month"],
+input[type="week"],
+input[type="time"],
+input[type="datetime"],
+input[type="datetime-local"],
+input[type="color"],
+textarea {
+  @extend %_input_filed;
+
+  &::placeholder {
+    color: var(--colorTextLight, #{$color__text-light});
+  }
+
+  &:focus {
+    outline: 0;
+    color: var(--colorTextMain, #{$color__text-main});
+    border-color: solid var(--colorTextMain, #{$color__text-main});
+    box-shadow: 0 3px 6px $color__widget-shadow;
+  }
+}
+
+select {
+  border: 1px solid var(--colorTextMain, #{$color__text-main});
+  border-radius: 6px;
+
+  &:hover {
+    border: 1px solid var(--colorTextMain, #{$color__text-main});
+  }
+}
+
+textarea {
+  width: 100%;
+  padding: 16px 20px;
+  min-height: 230px;
+}
+
+label {
+  font-weight: 600;
+  display: inline-block;
+  margin-bottom: 5px;
+}
+
+.required {
+  color: lighten($color: red, $amount: 5);
+}
+
+.woocommerce-invalid {
+  input[type="text"],
+  input[type="email"],
+  input[type="url"],
+  input[type="password"],
+  input[type="search"],
+  input[type="number"],
+  input[type="tel"],
+  input[type="range"],
+  input[type="date"],
+  input[type="month"],
+  input[type="week"],
+  input[type="time"],
+  input[type="datetime"],
+  input[type="datetime-local"],
+  input[type="color"],
+  textarea {
+    border-color: lighten($color: red, $amount: 5);
+  }
+}
+
+.wpcf7-form-control-wrap {
+  display: inline-block;
+}

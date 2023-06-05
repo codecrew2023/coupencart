@@ -1,0 +1,61 @@
+// Media query for smaller than 1700px device
+@mixin for-large-desktop {
+  @media (max-width: 1700px) {
+    @content;
+  }
+}
+
+// Media query for smaller than 1440px device
+@mixin for-medium-desktop {
+  @media (max-width: 1440px) {
+    @content;
+  }
+}
+
+// Media query for smaller than 1280px device
+@mixin for-desktop {
+  @media (max-width: 1280px) {
+    @content;
+  }
+}
+
+@mixin for-desktop-to-tablet {
+  @media (min-width: 1025px) and (max-width: 1299px) {
+    @content;
+  }
+}
+
+// Media query for smaller than 1199px device
+@mixin for-small-desktop {
+  @media (max-width: 1199px) {
+    @content;
+  }
+}
+
+// Media query for smaller than 992px device
+@mixin for-tablet {
+  @media (max-width: 1024px) {
+    @content;
+  }
+}
+
+// Media query for smaller than 992px device
+@mixin for-small-tablet {
+  @media (max-width: 990px) {
+    @content;
+  }
+}
+
+// Media query for smaller than 767px device
+@mixin for-landscape-phone {
+  @media (max-width: 767px) {
+    @content;
+  }
+}
+
+// Media query for smaller than 576px device
+@mixin for-phone {
+  @media (max-width: 575px) {
+    @content;
+  }
+}

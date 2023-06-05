@@ -1,0 +1,102 @@
+/*-------------------------------------------------------  
+ ***Grid System***
+ This isn't 12 Column grid system.
+ - Add Column Classes into the container (eg: grid-cols-5 ["5" means 5 column])
+ - Responsive Class: "grid-cols-*-4" (* = Breakpoint. eg: grid-cols-md-4)
+ - Breakpoints: ["xs", "sm", "md", "lg", "xl", "xxl"]
+ - Grid Gap
+   - For row and column gap use "gap-{n}" (n = 5, 10, 15, 20, 25, or 30).
+   - For column gap use "column-gap-{n}" (n = 5, 10, 15, 20, 25, or 30).
+   - For row gap use "row-gap-{n}" (n = 5, 10, 15, 20, 25, or 30).
+   - Responsive Class: "gap-*-6", "column-gap-*-30", "row-gap-sm-15" (* = Breakpoint. eg:"gap-xl-6", "column-gap-xxl-30", "row-gap-sm-15" )
+ - Grid Column Start / End
+   - Use "col-span-{n}" into grid items. (eg: col-span-3)
+   - Responsive Class: "col-span-*-2" (* = Breakpoint. eg: col-span-md-2)
+-------------------------------------------------------*/
+
+[class*="grid-cols-"] {
+  display: grid;
+}
+
+@each $gutter in $grid__cols_gutter {
+  .gap-#{$gutter} {
+    grid-gap: $gutter + px;
+    gap: $gutter + px;
+  }
+  .row-gap-#{$gutter} {
+    row-gap: $gutter + px;
+  }
+  .column-gap-#{$gutter} {
+    column-gap: $gutter + px;
+  }
+}
+
+@mixin grid-gap($thisPrefix) {
+  @each $gutter in $grid__cols_gutter {
+    .gap-#{$thisPrefix}-#{$gutter} {
+      grid-gap: $gutter + px;
+      gap: $gutter + px;
+    }
+    .row-gap-#{$thisPrefix}-#{$gutter} {
+      row-gap: $gutter + px;
+    }
+    .column-gap-#{$thisPrefix}-#{$gutter} {
+      column-gap: $gutter + px;
+    }
+  }
+}
+
+@for $i from 1 through 10 {
+  .grid-cols-#{$i} {
+    grid-template-columns: repeat($i, minmax(0, 1fr));
+  }
+  .col-span-#{$i} {
+    grid-column: span $i/span $i;
+  }
+}
+
+@mixin grid-cols($thisPrefix) {
+  @for $i from 1 through 10 {
+    .grid-cols-#{$thisPrefix}-#{$i} {
+      grid-template-columns: repeat($i, minmax(0, 1fr));
+    }
+    .col-span-#{$thisPrefix}-#{$i} {
+      grid-column: span $i/span $i;
+    }
+  }
+}
+
+@for $i from 1 through length($breakpoint-up-prefixes) {
+  $thisPrefix: nth($breakpoint-up-prefixes, $i);
+  @if $thisPrefix == "xs" {
+    @media #{$breakpoint-xs-up} {
+      @include grid-cols($thisPrefix);
+      @include grid-gap($thisPrefix);
+    }
+  } @else if $thisPrefix == "sm" {
+    @media #{$breakpoint-sm-up} {
+      @include grid-cols($thisPrefix);
+      @include grid-gap($thisPrefix);
+    }
+  } @else if $thisPrefix == "md" {
+    @media #{$breakpoint-md-up} {
+      @include grid-cols($thisPrefix);
+      @include grid-gap($thisPrefix);
+    }
+  } @else if $thisPrefix == "lg" {
+    @media #{$breakpoint-lg-up} {
+      @include grid-cols($thisPrefix);
+      @include grid-gap($thisPrefix);
+    }
+  } @else if $thisPrefix == "xl" {
+    @media #{$breakpoint-xl-up} {
+      @include grid-cols($thisPrefix);
+      @include grid-gap($thisPrefix);
+    }
+  } @else if $thisPrefix == "xxl" {
+    @media #{$breakpoint-xxl-up} {
+      @include grid-cols($thisPrefix);
+      @include grid-gap($thisPrefix);
+    }
+  }
+}

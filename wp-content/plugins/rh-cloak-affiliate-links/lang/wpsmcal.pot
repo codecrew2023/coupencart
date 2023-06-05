@@ -1,0 +1,351 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: RH Cloak Affiliate Links\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-10-26 13:20+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.2.0; wp-4.9.8"
+
+#: rh-cloak-affiliate-links.php:65
+#, php-format
+msgid "Sorry, but RH Cloak Affiliate Links plugin works only with %s theme."
+msgstr ""
+
+#: includes/class-wpsmcal-cloaking.php:48
+msgid "Cloaking settings"
+msgstr ""
+
+#: includes/class-wpsmcal-cloaking.php:63
+msgid ""
+"If you enabled/disabled \"Active cloaking\" option, please, go to WordPress "
+"Settings and resave Permalinks."
+msgstr ""
+
+#: includes/class-wpsmcal-cloaking.php:64
+msgid "Dismiss this notice."
+msgstr ""
+
+#: includes/class-wpsmcal-cloaking.php:76
+msgid "Active cloaking"
+msgstr ""
+
+#: includes/class-wpsmcal-cloaking.php:83
+msgid "Status Code"
+msgstr ""
+
+#: includes/class-wpsmcal-cloaking.php:90
+msgid "Add to Robots.txt"
+msgstr ""
+
+#: includes/class-wpsmcal-cloaking.php:97
+msgid "Add Post slug"
+msgstr ""
+
+#: includes/class-wpsmcal-cloaking.php:104
+msgid "Exclude domains"
+msgstr ""
+
+#: includes/class-wpsmcal-cloaking.php:117
+#: includes/class-wpsmcal-cloaking.php:141
+#: includes/class-wpsmcal-cloaking.php:152
+#: includes/class-wpsmcal-rewrite.php:111
+#: includes/class-wpsmcal-rewrite.php:173
+#: includes/class-wpsmcal-rewrite.php:197
+#: includes/class-wpsmcal-statistic.php:84
+msgid "Yes"
+msgstr ""
+
+#: includes/class-wpsmcal-cloaking.php:118
+#: includes/class-wpsmcal-cloaking.php:142
+#: includes/class-wpsmcal-cloaking.php:153
+#: includes/class-wpsmcal-rewrite.php:112
+#: includes/class-wpsmcal-rewrite.php:174
+#: includes/class-wpsmcal-rewrite.php:198
+#: includes/class-wpsmcal-statistic.php:85
+msgid "No"
+msgstr ""
+
+#: includes/class-wpsmcal-cloaking.php:128
+msgid "301 (Moved Permanently)"
+msgstr ""
+
+#: includes/class-wpsmcal-cloaking.php:129
+msgid "302 (Found/Temporary Redirect)"
+msgstr ""
+
+#: includes/class-wpsmcal-cloaking.php:130
+msgid "307 (Temporary Redirect)"
+msgstr ""
+
+#: includes/class-wpsmcal-cloaking.php:132
+msgid "Server HTTP response when redirecting links."
+msgstr ""
+
+#: includes/class-wpsmcal-cloaking.php:143
+msgid ""
+"Add the path configured in Permalinks Settings to your robots.txt file to "
+"prevent any search engines from attempting to view or index it."
+msgstr ""
+
+#: includes/class-wpsmcal-cloaking.php:154
+msgid "Add Post slug to the end of the redirect link."
+msgstr ""
+
+#: includes/class-wpsmcal-cloaking.php:164
+msgid ""
+"Place each domain name in the new line which the plugin should not cloak."
+msgstr ""
+
+#: includes/class-wpsmcal-cloaking.php:174
+msgid "Settings"
+msgstr ""
+
+#: includes/class-wpsmcal-rewrite.php:43
+msgid "Rewrite settings"
+msgstr ""
+
+#: includes/class-wpsmcal-rewrite.php:79
+msgid ""
+"The function rewrites user Affiliate URLs in the Post content and in the "
+"theme buttons."
+msgstr ""
+
+#: includes/class-wpsmcal-rewrite.php:80
+msgid "NOTE!"
+msgstr ""
+
+#: includes/class-wpsmcal-rewrite.php:81
+msgid ""
+"If you have coded link for rewriting, please, decode it previously. It can "
+"have wrong symbols and can not be rewrited."
+msgstr ""
+
+#: includes/class-wpsmcal-rewrite.php:91
+msgid "Active rewriting"
+msgstr ""
+
+#: includes/class-wpsmcal-rewrite.php:98
+msgid "Affiliate parametrs"
+msgstr ""
+
+#: includes/class-wpsmcal-rewrite.php:136
+#: includes/class-wpsmcal-rewrite.php:140
+msgid "Affiliate domain"
+msgstr ""
+
+#: includes/class-wpsmcal-rewrite.php:149
+#: includes/class-wpsmcal-rewrite.php:153
+msgid "Aff. ID or Network URL"
+msgstr ""
+
+#: includes/class-wpsmcal-rewrite.php:160
+msgid "Tag parameter or empty"
+msgstr ""
+
+#: includes/class-wpsmcal-rewrite.php:161
+msgid "Feasibility"
+msgstr ""
+
+#: includes/class-wpsmcal-rewrite.php:162
+msgid "Set as deeplink"
+msgstr ""
+
+#: includes/class-wpsmcal-rewrite.php:184
+msgid ""
+"Choose user roles whose links will be rewritten. No chosen roles mean the "
+"rewriting for all roles."
+msgstr ""
+
+#: includes/class-wpsmcal-rewrite.php:214
+msgid "Add More"
+msgstr ""
+
+#: includes/class-wpsmcal-rewrite.php:216
+msgid ""
+"- To rewrite or add your affiliate tag to affiliate link. Example: \"www."
+"amazon.com\" | \"myafftag-02\" | \"tag=\" | 50% | No"
+msgstr ""
+
+#: includes/class-wpsmcal-rewrite.php:217
+msgid ""
+"- To set direct remote links as deeplinks. Example: \"www.gearbest.com\" | "
+"\"http://www.shareasale.com/r.cfm?u=7151&urllink=\" | \"\" | 100% | Yes"
+msgstr ""
+
+#: includes/class-wpsmcal-rewrite.php:218
+msgid ""
+"- To delete any link group just clean up \"Affiliate domain\" field and Save "
+"Changes."
+msgstr ""
+
+#: includes/class-wpsmcal-rewrite.php:219
+msgid ""
+"Also, you can choose user roles whose links will be rewritten. No chosen "
+"roles mean the rewriting works for all roles."
+msgstr ""
+
+#: includes/class-wpsmcal-rewrite.php:231
+msgid "Rewrite links"
+msgstr ""
+
+#: includes/class-wpsmcal-rewrite.php:244
+msgid "RH Rewrite Affiliate Links Settings"
+msgstr ""
+
+#: includes/class-wpsmcal-statistic.php:43
+msgid "Statistics settings"
+msgstr ""
+
+#: includes/class-wpsmcal-statistic.php:54
+msgid "The function collects statistics on clicks of cloaking links"
+msgstr ""
+
+#: includes/class-wpsmcal-statistic.php:64
+msgid "Active statictics"
+msgstr ""
+
+#: includes/class-wpsmcal-statistic.php:71
+msgid "Statistics paged"
+msgstr ""
+
+#: includes/class-wpsmcal-statistic.php:94
+msgid "Set statistics pagination."
+msgstr ""
+
+#: includes/class-wpsmcal-statistic.php:103
+msgid "Post Statistics"
+msgstr ""
+
+#: includes/class-wpsmcal-statistic.php:104
+msgid "User Statistics"
+msgstr ""
+
+#: includes/class-wpsmcal-statistic.php:162
+#: includes/class-wpsmcal-statistic.php:206
+msgid "RH Cloak Affiliate Links Statistics"
+msgstr ""
+
+#: includes/class-wpsmcal-statistic.php:164
+msgid "Post name"
+msgstr ""
+
+#: includes/class-wpsmcal-statistic.php:165
+#: includes/class-wpsmcal-statistic.php:210
+msgid "Affiliate link"
+msgstr ""
+
+#: includes/class-wpsmcal-statistic.php:166
+#: includes/class-wpsmcal-statistic.php:299
+msgid "Users"
+msgstr ""
+
+#: includes/class-wpsmcal-statistic.php:167
+#: includes/class-wpsmcal-statistic.php:211
+msgid "Total Clicked"
+msgstr ""
+
+#: includes/class-wpsmcal-statistic.php:195
+#: includes/class-wpsmcal-statistic.php:239
+msgid "Previous"
+msgstr ""
+
+#: includes/class-wpsmcal-statistic.php:197
+#: includes/class-wpsmcal-statistic.php:241
+msgid "Next"
+msgstr ""
+
+#: includes/class-wpsmcal-statistic.php:208
+msgid "User name"
+msgstr ""
+
+#: includes/class-wpsmcal-statistic.php:209
+msgid "Clicked date"
+msgstr ""
+
+#: includes/class-wpsmcal-statistic.php:294
+#: includes/class-wpsmcal-statistic.php:364
+msgid "Show all"
+msgstr ""
+
+#: includes/class-wpsmcal-statistic.php:299
+msgid "User Names"
+msgstr ""
+
+#: includes/class-wpsmcal-statistic.php:299
+msgid "User E-mails"
+msgstr ""
+
+#: includes/class-wpsmcal-statistic.php:334
+msgid "Dealstore button"
+msgstr ""
+
+#: includes/class-wpsmcal-statistic.php:369
+msgid "Posts"
+msgstr ""
+
+#: includes/class-wpsmcal-statistic.php:369
+msgid "Post Names"
+msgstr ""
+
+#: includes/class-wpsmcal-statistic.php:369
+msgid "Affiliate URLs"
+msgstr ""
+
+#. Name of the plugin
+#: includes/class-wpsmcal.php:156
+msgid "RH Cloak Affiliate Links"
+msgstr ""
+
+#: includes/class-wpsmcal.php:156
+msgid "RH Cloak Links"
+msgstr ""
+
+#: includes/class-wpsmcal.php:165
+msgid "RH Cloak Affiliate Links Settings"
+msgstr ""
+
+#: includes/class-wpsmcal.php:190
+msgid "Affiliate link base"
+msgstr ""
+
+#: includes/class-wpsmcal.php:200
+msgctxt "slug"
+msgid "go"
+msgstr ""
+
+#: includes/class-wpsmcal.php:300
+msgid "Users list"
+msgstr ""
+
+#: includes/class-wpsmcal.php:301
+msgid "Posts list"
+msgstr ""
+
+#: includes/class-wpsmcal.php:302
+msgid "loading..."
+msgstr ""
+
+#. Description of the plugin
+msgid "Cloak and Rewrite your Rehub Post Offer external & affiliate links."
+msgstr ""
+
+#. URI of the plugin
+msgid "https://1.envato.market/mvRyq"
+msgstr ""
+
+#. Author of the plugin
+msgid "Wpsoul"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://wpsoul.com/"
+msgstr ""

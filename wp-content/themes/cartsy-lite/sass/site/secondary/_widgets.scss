@@ -1,0 +1,602 @@
+@use "sass:math";
+
+.widget {
+  border: 1px solid $color__border-light;
+  border-radius: 6px;
+  padding: 30px;
+  margin: 0 0 30px;
+
+  @include for-desktop-to-tablet {
+    padding: 15px;
+  }
+
+  box-shadow: 0 3px 6px $color__widget-shadow;
+
+  /*--------------------------------------------------------------
+    # style for widget title
+    --------------------------------------------------------------*/
+  h2,
+  .widget-title,
+  .wp-block-search__label {
+    font-size: var(--widgetFontSize, #{$font__size-widget});
+    font-weight: var(--widgetFontWeight, 600);
+    font-style: var(--widgetFontStyle, "regular");
+    line-height: var(--widgetLineHeight, $font__line-height-heading);
+    letter-spacing: var(--widgetLetterSpacing, 0);
+    color: var(--colorPrimary, $color__primary);
+    text-transform: var(--widgetTextTransform, none);
+    font-family: var(--widgetFontFamily, #{$font__main});
+    margin-bottom: 18px;
+    margin-top: -7px;
+
+    @media only screen and (max-width: 991px) {
+      margin-bottom: 25px;
+    }
+
+    @media only screen and (max-width: 480px) {
+      margin-bottom: 20px;
+    }
+
+    @include for-desktop-to-tablet {
+      font-size: 16px;
+      margin-bottom: 15px;
+    }
+  }
+
+  /*--------------------------------------------------------------
+    # style for select
+    --------------------------------------------------------------*/
+  select {
+    width: 100%;
+  }
+
+  /*--------------------------------------------------------------
+    # style for ul
+    --------------------------------------------------------------*/
+  ul {
+    margin: 25px 0 28px 5px;
+    padding: 0;
+
+    li {
+      padding: 0 0 0 20px;
+      margin: 18px 0;
+      list-style: none;
+      color: var(--colorTextLight, #{$color__text-light});
+      position: relative;
+      line-height: 1.312;
+
+      @media (max-width: 1500px) {
+        padding-left: 10px;
+      }
+
+      &::before {
+        content: "";
+        width: 10px;
+        height: 1px;
+        display: block;
+        border-radius: 50%;
+        position: absolute;
+        top: 13px;
+        bottom: auto;
+        left: -1px;
+        background-color: var(--colorPrimary, #{$color__primary});
+      }
+
+      a {
+        color: var(--colorTextMain, #{$color__text-main});
+
+        &:hover {
+          color: var(--colorTextLight, #{$color__text-light});
+          text-decoration: underline;
+        }
+      }
+
+      &:last-of-type {
+        margin: 0 0 0;
+      }
+
+      ul {
+        margin: 15px 0 18px 0px;
+      }
+
+      ul li ul li ul li ul li ul li ul li ul {
+        margin-left: 0;
+      }
+    }
+  }
+
+  >ul,
+  .menu-testing-menu-container>ul {
+    margin-top: 0;
+    margin-left: 0;
+    margin-bottom: 0;
+  }
+
+  /*--------------------------------------------------------------
+    # style for search widget
+    --------------------------------------------------------------*/
+  &.widget_search {
+    .search-form {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      position: relative;
+
+      >label {
+        flex: auto;
+        margin-bottom: 0;
+      }
+
+      .search-field {
+        height: 48px;
+        width: 100%;
+        padding: 15px 17px;
+        padding-right: 40px;
+
+        &:focus {
+          outline: none;
+        }
+      }
+
+      input[type="submit"],
+      .search-submit {
+        @extend %_search_button;
+      }
+    }
+  }
+
+  /*--------------------------------------------------------------
+    # style for widget_categories
+    --------------------------------------------------------------*/
+  &.widget_categories {
+    li {
+      color: var(--colorTextLight, #{$color__text-light});
+      display: grid;
+      align-items: center;
+      grid-template-columns: 1fr auto;
+
+      .children {
+        margin-bottom: 0;
+
+        li {
+          margin-top: 0;
+        }
+      }
+    }
+  }
+
+  /*--------------------------------------------------------------
+    # style for widget_archive
+    --------------------------------------------------------------*/
+  &.widget_archive {
+    li {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      color: var(--colorTextLight, #{$color__text-light});
+    }
+  }
+
+  /*--------------------------------------------------------------
+    # style for calendar widget
+    --------------------------------------------------------------*/
+  &.widget_calendar {
+    .calendar_wrap {
+      position: relative;
+    }
+
+    table {
+      margin: 0;
+
+      caption {
+        padding-top: 0;
+      }
+    }
+  }
+
+  /*--------------------------------------------------------------
+    # style for Recent comments widget
+    --------------------------------------------------------------*/
+  &.widget_recent_comments {
+    ul {
+      li {
+        color: var(--colorTextLighter, #{$color__text-lighter});
+
+        span {
+          color: var(--colorTextMain, #{$color__text-main});
+        }
+
+        a {
+          color: var(--colorTextMain, #{$color__text-main});
+          transition: color 0.3s ease;
+
+          &:hover {
+            color: var(--colorPrimary, #{$color__primary});
+            text-decoration: underline;
+          }
+        }
+      }
+    }
+  }
+
+  /*--------------------------------------------------------------
+    # style for rss widget
+    --------------------------------------------------------------*/
+  &.widget_rss {
+    .rsswidget {
+      color: var(--colorPrimary, #{$color__primary});
+      font-weight: 600;
+
+      &:hover {
+        color: var(--colorPrimaryHover, #{$color__primary__hover});
+      }
+    }
+
+    .rss-date {
+      margin-left: 10px;
+      font-size: 13px;
+      color: var(--colorTextLight, #{$color__text-light});
+    }
+
+    .rssSummary {
+      color: var(--colorTextLight, #{$color__text-light});
+      margin: 15px 0;
+      line-height: $font__line-height-body;
+    }
+
+    cite {
+      font-size: 13px;
+    }
+  }
+
+  /*--------------------------------------------------------------
+    # style for text widget
+    --------------------------------------------------------------*/
+  &.widget_text {
+    .textwidget {
+
+      >p,
+      >div {
+        color: var(--colorPrimary, #{$color__primary});
+        margin: 0 0 25px;
+
+        &:last-of-type {
+          margin-bottom: 0;
+        }
+      }
+
+      >p {
+        font-size: 15px;
+
+        &:first-of-type {
+          strong {
+            margin-top: 0;
+          }
+
+          img+br+strong {
+            margin-bottom: 0;
+          }
+        }
+      }
+
+      strong {
+        display: inline-block;
+        color: var(--colorPrimary, #{$color__primary});
+        margin: 15px 0 7px;
+      }
+
+      .wp-caption {
+        p:empty {
+          display: none;
+        }
+      }
+    }
+  }
+
+  /*--------------------------------------------------------------
+    # style for gallery widget
+    --------------------------------------------------------------*/
+  &.widget_media_gallery {
+    >.gallery {
+      margin: 0;
+
+      .gallery-item {
+        margin: 0;
+        padding-left: 4px;
+
+        &:nth-child(3n + 1) {
+          padding-left: 0;
+        }
+      }
+    }
+  }
+
+  /*--------------------------------------------------------------
+    # style for tag cloud widget
+    --------------------------------------------------------------*/
+  &.widget_tag_cloud {
+    a {
+      transition: color 0.3s ease;
+
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+
+  .wp-block-latest-comments {
+    padding-left: 17px;
+
+    .wp-block-latest-comments__comment {
+      list-style: inherit;
+      line-height: 1.312;
+      color: var(--colorCommentText, #{$color__comment-text});
+
+      a {
+        &:hover {
+          color: var(--colorTextLight, #{$color__text-light});
+          text-decoration: underline;
+        }
+      }
+    }
+  }
+
+  &.widget_media_image {
+    img {
+      border-radius: $radius__main;
+    }
+  }
+
+  &.widget_media_gallery {
+    .gallery-item {
+      a {
+        margin-bottom: 4px;
+        display: block;
+        height: 80px;
+
+        img {
+          border-radius: $radius__main;
+          height: 100%;
+          object-fit: cover;
+          display: block;
+        }
+      }
+    }
+  }
+}
+
+.media-modal-content {
+
+  .button-primary[disabled],
+  .button-primary:disabled,
+  .button-primary-disabled,
+  .button-primary.disabled {
+    color: #66c6e4 !important;
+    background: #008ec2 !important;
+    border-color: #008ec2 !important;
+    box-shadow: none !important;
+    text-shadow: none !important;
+    cursor: default;
+  }
+
+  .button-primary {
+    background: #007cba;
+    border-color: #007cba;
+    color: #fff;
+    text-decoration: none;
+    text-shadow: none;
+    // height: 32px;
+  }
+
+  .media-router .media-menu-item {
+    color: #444;
+  }
+}
+
+.media-modal-close {
+
+  &:hover,
+  &:active {
+    background: transparent;
+    border: 0;
+  }
+}
+
+.wp-calendar-nav {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 0px;
+  height: 30px;
+
+  span {
+    a {
+      font-size: 0px;
+      background-image: url("data:image/svg+xml,%3Csvg stroke='currentColor' fill='currentColor' stroke-width='0' viewBox='0 0 16 16' height='1em' width='1em' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath fill-rule='evenodd' d='M15 8a.5.5 0 0 0-.5-.5H2.707l3.147-3.146a.5.5 0 1 0-.708-.708l-4 4a.5.5 0 0 0 0 .708l4 4a.5.5 0 0 0 .708-.708L2.707 8.5H14.5A.5.5 0 0 0 15 8z'%3E%3C/path%3E%3C/svg%3E");
+      padding: 12px 17px;
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: 22px;
+      display: block;
+    }
+
+    &.wp-calendar-nav-next {
+      a {
+        transform: rotate(180deg);
+      }
+    }
+  }
+}
+
+.wp-block-calendar {
+  position: relative;
+}
+
+/*--------------------------------------------------------------
+    # style for search widget
+    --------------------------------------------------------------*/
+form.wp-block-search {
+  .wp-block-search__button {
+    background: var(--colorPrimary, $color__primary);
+    color: #fff;
+    border-color: var(--colorPrimary, $color__primary);
+    border-radius: 6px;
+
+    padding: {
+      top: 10px;
+      bottom: 10px;
+    }
+
+    cursor: pointer;
+    transition: $transition__main;
+
+    &:hover {
+      background: var(--colorPrimaryHover, $color__primary__hover);
+    }
+
+    >svg {
+      fill: currentColor;
+    }
+  }
+
+  &.wp-block-search__text-button {
+    .wp-block-search__button {
+      padding: 14px 20px;
+    }
+  }
+
+  .wp-block-search__input {
+    padding: {
+      top: 14px;
+      bottom: 14px;
+    }
+  }
+
+  &.wp-block-search__button-inside {
+
+    .wp-block-search__button,
+    .wp-block-search__input {
+      padding: {
+        top: 9px;
+        bottom: 9px;
+      }
+    }
+
+    &.wp-block-search__icon-button {
+      .wp-block-search__button {
+        padding: {
+          top: 6px;
+          bottom: 6px;
+        }
+      }
+    }
+
+    .wp-block-search__inside-wrapper {
+      border-radius: $radius__main;
+    }
+  }
+}
+
+.wp-calendar-table {
+
+  tbody,
+  thead {
+    tr {
+
+      td,
+      th {
+        text-align: center;
+        padding: 0.2rem;
+      }
+    }
+  }
+
+  thead {
+    th {
+      background: #f8f8f8;
+    }
+  }
+}
+
+.woocommerce-mini-cart {
+  padding-left: 0;
+  margin: 0;
+  list-style: none;
+
+  .mini_cart_item {
+    position: relative;
+
+    .remove_from_cart_button {
+      color: $color__white;
+    }
+
+    >a:not(.remove_from_cart_button) {
+      font-size: 16px;
+      font-weight: 600;
+    }
+
+    &:hover {
+      .remove_from_cart_button {
+        transform: scale(1);
+        color: $color__white;
+        text-decoration: none;
+      }
+    }
+  }
+
+  .remove_from_cart_button {
+    position: absolute;
+    right: 0;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    background-color: var(--colorPrimary, $color__primary);
+    line-height: 19px;
+    text-align: center;
+    transform: scale(0);
+    transition: $transition__main;
+    top: 2px;
+  }
+}
+
+.woocommerce-mini-cart__total {
+  background-color: #f7f6f6;
+  padding: 16px;
+  line-height: 1;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  // https://sass-lang.com/d/slash-div
+  // border-radius: ($radius__main / 2);
+  border-radius: math.div($radius--main, 2);
+}
+
+.woocommerce-mini-cart__buttons {
+  margin: 0;
+  gap: 20px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+
+  .button {
+    text-align: center;
+    background-color: #f3f3f3;
+    border-radius: $radius__main;
+    font-size: 14px;
+    display: block;
+    padding: 7px 20px;
+  }
+
+  .checkout {
+    color: #fff;
+    background-color: var(--colorPrimary, $color__primary);
+    border-color: var(--colorPrimary, $color__primary);
+
+    &:hover {
+      background-color: var(--colorPrimaryHover, #{$color__primary__hover});
+    }
+  }
+}

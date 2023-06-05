@@ -1,0 +1,252 @@
+/**
+ * 7.2.1 - Widgets
+ */
+
+.widget-area:not(.sidebar) .widget .widget-title,
+.site-footer .widget .wp-block-group h2 {
+    font-weight: 600;
+    line-height: 1.4;
+    position: relative;
+    text-transform: uppercase;
+    border: 0;
+    padding: 0;
+}
+
+.widget .hentry {
+    float: left;
+    width: 100%;
+}
+
+.widget a {
+    text-decoration: none;
+}
+
+.widget .widget-title:empty {
+    margin-bottom: 0;
+}
+
+.widget_recent_entries li a {
+    font-weight: 600;
+}
+
+.widget ul,
+.widget ol {
+    list-style: none;
+    margin-left: 0;
+}
+
+.widget-area li {
+    line-height: 1.5;
+
+}
+
+.widget-area li:before {
+    display: block;
+    float: left;
+}
+
+.widget-area .menu-footer-menu-container li {
+    line-height: 1.6;
+}
+
+/* Categories widget */
+.widget_categories ul,
+.widget_archive ul {
+    text-align: right;
+}
+
+.widget_categories li,
+.widget_archive li {
+    display: block;
+    height: 1%;
+    overflow: hidden;
+}
+
+.widget_categories ul a,
+.widget_archive ul a {
+    float: left;
+}
+
+/* Calendar widget */
+.widget.widget_calendar table {
+    margin: 0;
+}
+
+.widget_calendar td,
+.widget_calendar th {
+    line-height: 3;
+    padding: 0;
+    text-align: center;
+}
+
+.widget_calendar caption {
+    font-weight: 600;
+}
+
+.widget_calendar tbody a {
+    display: block;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+/* Recent Posts widget */
+.widget-area .gallery {
+    margin: 0;
+}
+
+.widget_recent_entries .post-date {
+    display: block;
+    font-size: 13px;
+    font-size: 0.8125rem;
+    line-height: 1.615384615;
+    margin-bottom: 0.538461538em;
+}
+
+.widget_recent_entries li:last-child .post-date {
+    margin-bottom: 0;
+}
+
+.ewfeaturedpostpageimage .left .featured-image,
+.ewfeaturedpostpageimage .right .featured-image {
+    width: 21.875%;
+}
+
+.ewfeaturedpostpageimage .left .entry-container,
+.ewfeaturedpostpageimage .right .entry-container {
+    width: 78.125%;
+}
+
+.ewfeaturedpostpageimage .left .entry-container {
+    padding-left: 28px;
+}
+
+.ew-featured-post .entry-header .entry-meta > span {
+    padding: 0;
+}
+
+.ew-featured-post .entry-header .entry-meta > span:before {
+    content: none;
+}
+
+/* RSS widget */
+.widget_rss .rsswidget img {
+    margin-top: -0.375em;
+}
+
+.widget_rss .rss-date,
+.widget_rss cite {
+    display: block;
+    font-size: 13px;
+    font-size: 0.8125rem;
+    font-style: normal;
+    line-height: 1.615384615;
+    margin-bottom: 0.538461538em;
+}
+
+.widget_rss .rssSummary:last-child {
+    margin-bottom: 2.1538461538em;
+}
+
+.widget_rss li:last-child :last-child {
+    margin-bottom: 0;
+}
+
+/* Tag Cloud widget */
+.tagcloud a,
+.widget-area .essential-widgets .tagcloud a,
+.widget-area .essential-widgets .tagcloud.rounded-corners a {
+    display: inline-block;
+    line-height: 1;
+    margin: 0 0.5em 0.625em 0;
+    padding: 0.3125em 0.875em 0.375em;
+}
+
+.tagcloud a:hover,
+.tagcloud a:focus {
+    outline: 0;
+}
+
+#featured-grid-content .grid-box:hover .caption>.vcenter {
+    -webkit-transform: translateY(-50%) scale(1);
+    -ms-transform: translateY(-50%) scale(1);
+    transform: translateY(-50%) scale(1);
+}
+
+#footer-instagram .widget {
+    margin: 0;
+    padding: 0;
+}
+
+#footer-instagram .widget-title {
+    margin: 42px auto 35px;
+    text-align: center;
+    letter-spacing: 0;
+    text-transform: uppercase;
+}
+
+.widget-area .catch-instagram-feed-gallery-widget-wrapper .button {
+    border: none;
+}
+
+#footer-instagram .catch-instagram-feed-gallery-widget-wrapper .default .item,
+#footer-instagram .catch-instagram-feed-gallery-widget-wrapper.default .item {
+    margin: 0;
+}
+
+#footer-instagram .catch-instagram-feed-gallery-widget-wrapper .default .item,
+#footer-instagram .catch-instagram-feed-gallery-widget-wrapper.default .item {
+    width: 16.666%;
+}
+
+#footer-instagram .catch-instagram-feed-gallery-widget-wrapper .default .item:nth-child(3n+1),
+#footer-instagram .catch-instagram-feed-gallery-widget-wrapper.default .item:nth-child(3n+1) {
+    clear: none;
+}
+
+#footer-instagram .catch-instagram-feed-gallery-widget-wrapper .default .item:nth-child(6n+1),
+#footer-instagram .catch-instagram-feed-gallery-widget-wrapper.default .item:nth-child(6n+1) {
+    clear: both;
+}
+
+#footer-instagram .catch-instagram-feed-gallery-widget-wrapper .default .instagram-button,
+#footer-instagram .catch-instagram-feed-gallery-widget-wrapper.default .instagram-button {
+    display: none;
+}
+
+#footer-instagram .catch-instagram-feed-gallery-widget-wrapper .button {
+    margin-top: 28px;
+}
+
+.widget-area .date-label {
+    display: none;
+}
+
+.widget .social-navigation li {
+    a {
+        height: auto;
+        line-height: initial;
+        margin: 0;
+        padding: 5px 8px;
+        width: auto;
+    }
+    
+    &:first-child a {
+        padding-left: 0;
+    }
+}
+
+.custom-html-widget p {
+    margin-bottom: 14px;
+
+    &:last-child {
+        margin-bottom: 0;
+    }
+}
+
+#footer-payment-supported-image {
+    margin-bottom: 14px;
+}
+
+.widget .wp-block-latest-comments__comment-meta {
+    margin-bottom: 0;
+}

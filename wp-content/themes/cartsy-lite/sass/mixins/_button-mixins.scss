@@ -1,0 +1,35 @@
+@mixin button($button-color: $color__primary, $button-size: "") {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  color: $color__white;
+  border: 0;
+  box-shadow: none;
+  cursor: pointer;
+  font-weight: 400;
+  border-radius: $radius__main;
+  padding: 18px 40px;
+  font-size: 14px;
+  line-height: 1;
+  height: auto;
+  transition: $transition__main;
+  background-color: var(--colorPrimary, #{$color__primary});
+  text-decoration: none;
+
+  @include for-phone {
+    padding: 12px 20px;
+  }
+
+  &:hover,
+  &:focus,
+  &:active,
+  &:visited {
+    background: var(--colorPrimaryHover, #{$color__primary__hover});
+    color: $color__white;
+  }
+
+  &:disabled {
+    opacity: 0.2;
+    cursor: not-allowed;
+  }
+}

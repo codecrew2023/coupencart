@@ -1,0 +1,121 @@
+/**
+ * 7.3.21 - Special Section
+ */
+
+ .special-right .entry-container {
+    width: 100%;
+    max-width: 430px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding: 35px;
+}
+
+.special-right .section-title {
+    text-transform: capitalize;
+}
+
+.special-right .entry-container .more-link {
+    border-radius: 6px;
+    border: 2px solid;
+}
+
+.special-right .subtitle {
+    margin-top: 21px;
+}
+
+.special-right .price {
+    margin-top: 13px;
+    line-height: 1.46;
+}
+
+.special-right .section-content-wrapper .entry-content {
+    margin-top: 15px;
+}
+
+.special-right .hentry-inner {
+    position: relative;
+    overflow: hidden;
+    min-height: 487px;
+}
+
+.special-right .post-thumbnail-background {
+    bottom: 0;
+    left: 0;
+    padding-bottom: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: -1;
+}
+
+.special-left .entry-container,
+.special-left .post-thumbnail {
+    max-width: 320px;
+}
+
+.special-left.content-align-center .entry-container,
+.special-left.content-align-center .post-thumbnail {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.special-left.content-align-left .entry-container,
+.special-left.content-align-left .post-thumbnail {
+    margin-left: 0;
+    margin-right: auto;
+}
+
+.special-left.content-align-right .entry-container,
+.special-left.content-align-right .post-thumbnail {
+    margin-left: auto;
+    margin-right: 0;
+}
+
+.special-left .entry-container .price {
+    margin-top: 7px;
+    line-height: 1.46;
+}
+
+.special-left .product {
+    margin: 0 auto 35px;
+}
+
+.special-right.content-align-right .entry-container {
+    right: 0;
+    left: auto;
+}
+
+.special-right.content-align-center .entry-container {
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
+}
+
+.special-section .text-align-center .section-heading-wrapper {
+    text-align: center;
+}
+
+.special-section .product {
+    margin-bottom: 35px;
+}
+
+.section-content-wrapper.one-column-layout .special-left,
+.section-content-wrapper.one-column-layout .special-right {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#special-right {
+    position: relative;
+}
+
+#special-right .cover-link:before {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    content: "";
+}

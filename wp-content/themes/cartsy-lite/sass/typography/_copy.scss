@@ -1,0 +1,63 @@
+p {
+  word-break: break-word;
+  line-height: $font__line-height-body;
+  margin-bottom: 1.5em;
+}
+
+dfn,
+cite,
+em,
+i {
+  font-style: italic;
+}
+
+blockquote {
+  margin: 0 1.5em;
+}
+
+address {
+  margin: 0 0 1.5em;
+}
+
+pre {
+  border-radius: 6px;
+  background-color: $color__background-light;
+  font-family: $font__pre;
+  @include font-size(0.9375);
+  line-height: $font__line-height-pre;
+  margin-bottom: 1.6em;
+  max-width: 100%;
+  overflow: auto;
+  padding: 1.6em;
+}
+
+code,
+kbd,
+tt,
+var {
+  font-family: $font__code;
+  @include font-size(0.9375);
+}
+
+abbr,
+acronym {
+  border-bottom: 1px dotted $color__border;
+  cursor: help;
+}
+
+mark,
+ins {
+  text-decoration: none;
+  color: var(--colorTextMain, #{$color__text-main});
+  border: 1px solid rgba(177, 193, 45, 0.53);
+  border-radius: $radius__main;
+  padding: 1px 5px;
+}
+
+big {
+  font-size: 125%;
+}
+
+a {
+  transition: color 0.2s ease-out;
+}

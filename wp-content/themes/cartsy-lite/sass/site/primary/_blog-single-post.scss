@@ -1,0 +1,98 @@
+/*--------------------------------------------------------------
+# Blog single post style
+--------------------------------------------------------------*/
+.single-post {
+  .entry-media {
+    margin-bottom: 25px;
+
+    img {
+      border-radius: 6px;
+    }
+  }
+
+  .entry-header {
+    margin-top: 0;
+  }
+
+  &.single-format-quote {
+    .entry-header {
+      margin-bottom: 60px;
+
+      @media only screen and (max-width: 480px) {
+        margin-bottom: 30px;
+      }
+    }
+  }
+
+  .entry-content {
+    margin-bottom: 50px;
+
+    @media only screen and (max-width: 480px) {
+      margin-bottom: 60px;
+    }
+
+    .twitter-tweet {
+      margin-left: 0;
+    }
+
+    .has-large-font-size {
+      @media only screen and (max-width: 1360px) {
+        font-size: 28px;
+      }
+
+      @media only screen and (max-width: 480px) {
+        font-size: 20px;
+      }
+    }
+  }
+
+  /*--------------------------------------------------------------
+  # style for post meta [tags & categories]
+  --------------------------------------------------------------*/
+  .entry-post-tags,
+  .entry-post-categories {
+    margin: 15px 0;
+
+    .tag-title,
+    .cat-title {
+      font-weight: 700;
+    }
+
+    .tag-items,
+    .cat-items {
+      color: var(--colorPrimary, #{$color__primary});
+    }
+
+    a {
+      display: inline-flex;
+      margin: 2px 0 2px 5px;
+      color: var(--colorPrimary, #{$color__primary});
+      text-transform: capitalize;
+
+      @media only screen and (max-width: 480px) {
+        margin: 5px 0 5px 10px;
+      }
+
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+
+  /*--------------------------------------------------------------
+  # style for page-links
+  --------------------------------------------------------------*/
+  .page-links {
+    .post-page-numbers {
+      margin-left: 10px;
+    }
+  }
+
+  /*--------------------------------------------------------------
+  # style for select
+  --------------------------------------------------------------*/
+  select {
+    max-width: 268px;
+    width: 100%;
+  }
+}

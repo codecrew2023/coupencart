@@ -1,0 +1,93 @@
+/**
+ * 7.3.22 - Featured Video
+ */
+
+ .featured-video-content-wrapper .excerpt-video-left .hentry-inner {
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-flow: row nowrap;
+    flex-flow: row nowrap;
+    position: relative;
+    width: 100%;
+}
+
+.featured-video-content-wrapper .excerpt-video-left .post-thumbnail {
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 1 30%;
+    -moz-box-flex: 0;
+    -ms-flex: 0 1 30%;
+    flex: 0 1 30%;
+    margin: 0;
+    // z-index: -1;
+}
+
+.featured-video-content-wrapper .excerpt-video-left .entry-container {
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 1 70%;
+    -moz-box-flex: 0;
+    -ms-flex: 0 1 70%;
+    flex: 0 1 70%;
+    margin: 0;
+    padding-left: 28px;
+}
+
+.featured-video-content-wrapper .excerpt-video-left .entry-container .entry-title {
+    font-size: 20px;
+    font-size: 1.25rem;
+}
+
+.featured-video-content-wrapper .hentry.featured .entry-container {
+    margin-top: 14px;
+}
+
+#featured-video-section {
+    .post-thumbnail {
+        margin-bottom: 0;
+    }    
+    
+    .lightbox-enabled iframe {
+       pointer-events:none;
+    }
+}
+
+#featured-video-section a.mixed {
+    display: block;
+}
+
+.featured-video-content-wrapper .entry-meta {
+    font-size: 16px;
+    font-size: 1rem;
+}
+
+.featured-video-content-wrapper .entry-header .entry-meta {
+    line-height: 1.25;
+    margin-top: 7px;
+    margin-bottom: 0;
+}
+
+.featured-video-content-wrapper .hentry.featured {
+    float: none;
+ }
+
+ .featured-video-content-wrapper .excerpt-video-left {
+     margin-bottom: 0;
+ }
+
+ .featured-video-content-wrapper .excerpt-video-left .hentry-inner {
+     margin-bottom: 21px;
+     padding-bottom: 21px;
+ }
+
+ .featured-video-content-wrapper .excerpt-video-left:last-child .hentry-inner {
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+ .featured-video-content-wrapper .excerpt-video-left .hentry-inner {
+     border-bottom: 1px solid;
+ }
+
+ .featured-video-content-wrapper .excerpt-video-left:last-child .hentry-inner {
+     border-bottom: none;
+ }

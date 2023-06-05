@@ -1,0 +1,99 @@
+.cartsylite-site-footer {
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+  border: 1px solid $color__border-lighter;
+  color: var(--localFooterTextColor,
+    var(--footerTextColor, #{$color__text-main}));
+  background-color: var(--localFooterBgColor,
+    var(--footerBgColor, #{$color__white}));
+
+  * {
+    color: inherit !important;
+  }
+}
+
+.footer-widget-area {
+  padding: 80px 75px;
+}
+
+.site-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 25px 75px;
+
+  @include for-landscape-phone {
+    flex-direction: column;
+  }
+
+  @include for-medium-desktop {
+    padding: 25px 50px;
+  }
+
+  @include for-desktop {
+    padding: 25px 40px;
+  }
+
+  @include for-tablet {
+    padding: 25px 25px;
+  }
+
+  @include for-phone {
+    padding: 25px 15px;
+  }
+
+  .copyright {
+    padding-right: 20px;
+
+    @include for-landscape-phone {
+      text-align: center;
+      padding-right: 0;
+      margin-bottom: 20px;
+    }
+
+    @include for-phone {
+      padding-left: 8px;
+      padding-right: 8px;
+    }
+  }
+}
+
+.cartsylite-copyright-social-area {
+  padding-left: 20px;
+  flex-shrink: 0;
+
+  @include for-landscape-phone {
+    padding-left: 0;
+  }
+}
+
+.cartsylite-social-profiles {
+  .cartsylite-social-profile-item {
+    a {
+      color: var(--localFooterTextColor,
+        var(--footerTextColor, #{$color__text-main}));
+    }
+  }
+}
+
+.cartsylite-footer-newsletter-form {
+  input[type="email"] {
+    border-color: var(--localFooterTextColor, var(--footerTextColor, #{$color__text-main}));
+    background-color: transparent;
+
+    &::placeholder {
+      color: var(--localFooterTextColor, var(--footerTextColor, #{$color__text-main}));
+    }
+  }
+}
+
+.copyright-url {
+  // text-decoration: underline;
+  font-weight: 600;
+  // text-underline-position: under;
+  &:hover {
+    text-decoration: underline;
+    opacity: .8;
+  }
+}
